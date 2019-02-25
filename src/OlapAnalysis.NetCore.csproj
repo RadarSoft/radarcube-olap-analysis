@@ -9,7 +9,7 @@
     <Authors>Radar-Soft</Authors>
     <Company>Radar-Soft</Company>
     <Copyright>Copyright © 2019 Radar-Soft</Copyright>
-    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/RadarSoft/radarcube-olap-analysis/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/RadarSoft/radarcube-olap-analysis</PackageProjectUrl>
     <PackageIconUrl>https://www.radar-soft.com/favicon-32x32.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/RadarSoft/radarcube-olap-analysis</RepositoryUrl>
@@ -239,9 +239,10 @@ Embeds into an ASP.NET Core MVC project to provide a rich-functional OLAP client
     <Folder Include="CellSet\Relational\" />
     <Folder Include="Controls\Cube\Relational\" />
     <Folder Include="Engine\Relational\" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\radarcube-xmlaclient\src\XmlaClient.NetCore.csproj" />
+    <ProjectReference Include="..\..\xmla-client\src\XmlaClient.NetCore.csproj" />
   </ItemGroup>
 </Project>
