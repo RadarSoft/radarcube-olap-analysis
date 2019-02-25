@@ -1,0 +1,247 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>RadarSoft.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>RadarSoft.RadarCube.OlapAnalysis</AssemblyName>
+    <RootNamespace>RadarSoft.RadarCube</RootNamespace>
+    <Authors>Radar-Soft</Authors>
+    <Company>Radar-Soft</Company>
+    <Copyright>Copyright © 2019 Radar-Soft</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/RadarSoft/radarcube-olap-analysis</PackageProjectUrl>
+    <PackageIconUrl>https://www.radar-soft.com/favicon-32x32.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/RadarSoft/radarcube-olap-analysis</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>netcore olap radarcube radarsoft</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Description>OLAP component for Analytics applications on ASP.NET Core MVC framework.
+Embeds into an ASP.NET Core MVC project to provide a rich-functional OLAP client for ad-hoc analysis of multidimensional data through a browser.</Description>
+    <Version>1.0.0-alpha</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp1.1\RadarSoft.RadarCube.OlapAnalysis.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="images\**" />
+    <EmbeddedResource Remove="images\**" />
+    <None Remove="images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\Member_add.gif" />
+    <EmbeddedResource Include="images\Member_delete.gif" />
+    <EmbeddedResource Include="images\Member_edit.gif" />
+    <EmbeddedResource Include="images\Menu.gif" />
+    <EmbeddedResource Include="images\Menu_ScrollDown.gif" />
+    <EmbeddedResource Include="images\Menu_ScrollUp.gif" />
+    <EmbeddedResource Include="images\minus.png" />
+    <EmbeddedResource Include="images\minus.png.gif" />
+    <EmbeddedResource Include="images\NamedSets.gif" />
+    <EmbeddedResource Include="images\NewGroup.gif" />
+    <EmbeddedResource Include="images\noTrends.png" />
+    <EmbeddedResource Include="images\percentAreas.png" />
+    <EmbeddedResource Include="images\percentBars.png" />
+    <EmbeddedResource Include="images\percentLines.png" />
+    <EmbeddedResource Include="images\pies.png" />
+    <EmbeddedResource Include="images\piesMenu.png" />
+    <EmbeddedResource Include="images\PivotArea.gif" />
+    <EmbeddedResource Include="images\PivotAreaPressed.gif" />
+    <EmbeddedResource Include="images\PivotColor.gif" />
+    <EmbeddedResource Include="images\PivotColumn.gif" />
+    <EmbeddedResource Include="images\PivotDetails.gif" />
+    <EmbeddedResource Include="images\PivotForeColor.gif" />
+    <EmbeddedResource Include="images\PivotPage.gif" />
+    <EmbeddedResource Include="images\PivotRow.gif" />
+    <EmbeddedResource Include="images\PivotShape.gif" />
+    <EmbeddedResource Include="images\PivotSize.gif" />
+    <EmbeddedResource Include="images\PivotTree.gif" />
+    <EmbeddedResource Include="images\plus.png" />
+    <EmbeddedResource Include="images\plus.png.gif" />
+    <EmbeddedResource Include="images\points.png" />
+    <EmbeddedResource Include="images\pointsMenu.png" />
+    <EmbeddedResource Include="images\polylines.png" />
+    <EmbeddedResource Include="images\quadTrends.png" />
+    <EmbeddedResource Include="images\RadarGrid.gif" />
+    <EmbeddedResource Include="images\razvernut_blue.png" />
+    <EmbeddedResource Include="images\razvernut_blue.png.gif" />
+    <EmbeddedResource Include="images\razvernut_grey.png" />
+    <EmbeddedResource Include="images\razvernut_grey.png.gif" />
+    <EmbeddedResource Include="images\RenameGroup.gif" />
+    <EmbeddedResource Include="images\resize.gif" />
+    <EmbeddedResource Include="images\resizePressed.gif" />
+    <EmbeddedResource Include="images\Save.gif" />
+    <EmbeddedResource Include="images\scale_reset.gif" />
+    <EmbeddedResource Include="images\Separator.gif" />
+    <EmbeddedResource Include="images\show_underlying.png" />
+    <EmbeddedResource Include="images\stepLines.png" />
+    <EmbeddedResource Include="images\svernut_blue.png" />
+    <EmbeddedResource Include="images\svernut_blue.png.gif" />
+    <EmbeddedResource Include="images\svernut_grey.png" />
+    <EmbeddedResource Include="images\svernut_grey.png.gif" />
+    <EmbeddedResource Include="images\table.gif" />
+    <EmbeddedResource Include="images\tablePressed.gif" />
+    <EmbeddedResource Include="images\Toolbg.gif" />
+    <EmbeddedResource Include="images\ToolLeft.gif" />
+    <EmbeddedResource Include="images\ToolMDXQuery.gif" />
+    <EmbeddedResource Include="images\ToolRight.gif" />
+    <EmbeddedResource Include="images\ToolSeparator.gif" />
+    <EmbeddedResource Include="images\TreeView_Default_Collapse.gif" />
+    <EmbeddedResource Include="images\TreeView_Default_Expand.gif" />
+    <EmbeddedResource Include="images\TreeView_Default_NoExpand.gif" />
+    <EmbeddedResource Include="images\TreeView_XP_Explorer_ParentNode.gif" />
+    <EmbeddedResource Include="images\trendsMenu.png" />
+    <EmbeddedResource Include="images\unlocked.gif" />
+    <EmbeddedResource Include="images\zoom_in.gif" />
+    <EmbeddedResource Include="images\zoom_out.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\AjaxLoader.gif" />
+    <EmbeddedResource Include="images\AllAreas.gif" />
+    <EmbeddedResource Include="images\AllAreasPressed.gif" />
+    <EmbeddedResource Include="images\areas.png" />
+    <EmbeddedResource Include="images\areasMenu.png" />
+    <EmbeddedResource Include="images\bars.gif" />
+    <EmbeddedResource Include="images\bars.png" />
+    <EmbeddedResource Include="images\barsMenu.png" />
+    <EmbeddedResource Include="images\barsPressed.gif" />
+    <EmbeddedResource Include="images\Calculated_add.gif" />
+    <EmbeddedResource Include="images\Calculated_delete.gif" />
+    <EmbeddedResource Include="images\Calculated_edit.gif" />
+    <EmbeddedResource Include="images\chart_redmond.gif" />
+    <EmbeddedResource Include="images\chart_smoothness.gif" />
+    <EmbeddedResource Include="images\chart_start.gif" />
+    <EmbeddedResource Include="images\chart_sunny.gif" />
+    <EmbeddedResource Include="images\chart_uidarkness.gif" />
+    <EmbeddedResource Include="images\chart_uilightness.gif" />
+    <EmbeddedResource Include="images\ClearGroup.gif" />
+    <EmbeddedResource Include="images\clearlayout.gif" />
+    <EmbeddedResource Include="images\Collapse.gif" />
+    <EmbeddedResource Include="images\Comment.gif" />
+    <EmbeddedResource Include="images\Connect.gif" />
+    <EmbeddedResource Include="images\Copy.png" />
+    <EmbeddedResource Include="images\Copy.png.gif" />
+    <EmbeddedResource Include="images\cubicTrends.png" />
+    <EmbeddedResource Include="images\DataArea.gif" />
+    <EmbeddedResource Include="images\DataAreaPressed.gif" />
+    <EmbeddedResource Include="images\del.png" />
+    <EmbeddedResource Include="images\del.png.gif" />
+    <EmbeddedResource Include="images\DeleteGroup.gif" />
+    <EmbeddedResource Include="images\delover.png" />
+    <EmbeddedResource Include="images\delover.png.gif" />
+    <EmbeddedResource Include="images\deltaAreas.png" />
+    <EmbeddedResource Include="images\deltaBars.png" />
+    <EmbeddedResource Include="images\deltaLines.png" />
+    <EmbeddedResource Include="images\dt.png" />
+    <EmbeddedResource Include="images\dt.png.gif" />
+    <EmbeddedResource Include="images\EditComment.gif" />
+    <EmbeddedResource Include="images\Expand.gif" />
+    <EmbeddedResource Include="images\Expand_Level.gif" />
+    <EmbeddedResource Include="images\Expand_ParentChild.gif" />
+    <EmbeddedResource Include="images\e_bmp.gif" />
+    <EmbeddedResource Include="images\e_csv.gif" />
+    <EmbeddedResource Include="images\e_html.gif" />
+    <EmbeddedResource Include="images\e_pdf.gif" />
+    <EmbeddedResource Include="images\e_txt.gif" />
+    <EmbeddedResource Include="images\e_xls.gif" />
+    <EmbeddedResource Include="images\filter.png" />
+    <EmbeddedResource Include="images\filter.png.gif" />
+    <EmbeddedResource Include="images\Filtered.png" />
+    <EmbeddedResource Include="images\Filtered.png.gif" />
+    <EmbeddedResource Include="images\FilteredMenu.png" />
+    <EmbeddedResource Include="images\FilteredMenu.png.gif" />
+    <EmbeddedResource Include="images\FilterGrid.png" />
+    <EmbeddedResource Include="images\FilterGrid.png.gif" />
+    <EmbeddedResource Include="images\FilterHierarchy.png" />
+    <EmbeddedResource Include="images\FilterHierarchy.png.gif" />
+    <EmbeddedResource Include="images\filterover.png" />
+    <EmbeddedResource Include="images\filterover.png.gif" />
+    <EmbeddedResource Include="images\FiltrClear.png" />
+    <EmbeddedResource Include="images\FiltrClear.png.gif" />
+    <EmbeddedResource Include="images\filtr_calc.gif" />
+    <EmbeddedResource Include="images\filtr_caption.gif" />
+    <EmbeddedResource Include="images\filtr_clock.gif" />
+    <EmbeddedResource Include="images\filtr_edit.gif" />
+    <EmbeddedResource Include="images\filtr_sel.png" />
+    <EmbeddedResource Include="images\FolderDimen.gif" />
+    <EmbeddedResource Include="images\GroupAll.gif" />
+    <EmbeddedResource Include="images\groupbelow.gif" />
+    <EmbeddedResource Include="images\GroupBelowThis.gif" />
+    <EmbeddedResource Include="images\GroupExcept.gif" />
+    <EmbeddedResource Include="images\GroupThis.gif" />
+    <EmbeddedResource Include="images\HideAbove.gif" />
+    <EmbeddedResource Include="images\HideBelow.gif" />
+    <EmbeddedResource Include="images\HideExcept.gif" />
+    <EmbeddedResource Include="images\HideThis.gif" />
+    <EmbeddedResource Include="images\hoAttribute.gif" />
+    <EmbeddedResource Include="images\holes.png" />
+    <EmbeddedResource Include="images\hoParentChild.gif" />
+    <EmbeddedResource Include="images\hoUserDefined.gif" />
+    <EmbeddedResource Include="images\KPI.gif" />
+    <EmbeddedResource Include="images\k_a_b.gif" />
+    <EmbeddedResource Include="images\k_a_g.gif" />
+    <EmbeddedResource Include="images\k_a_n.gif" />
+    <EmbeddedResource Include="images\k_c_b.gif" />
+    <EmbeddedResource Include="images\k_c_g.gif" />
+    <EmbeddedResource Include="images\k_c_n.gif" />
+    <EmbeddedResource Include="images\k_f_b.gif" />
+    <EmbeddedResource Include="images\k_f_g.gif" />
+    <EmbeddedResource Include="images\k_f_n.gif" />
+    <EmbeddedResource Include="images\k_g_b.gif" />
+    <EmbeddedResource Include="images\k_g_bn.gif" />
+    <EmbeddedResource Include="images\k_g_g.gif" />
+    <EmbeddedResource Include="images\k_g_n.gif" />
+    <EmbeddedResource Include="images\k_g_ng.gif" />
+    <EmbeddedResource Include="images\k_rg_b.gif" />
+    <EmbeddedResource Include="images\k_rg_bn.gif" />
+    <EmbeddedResource Include="images\k_rg_g.gif" />
+    <EmbeddedResource Include="images\k_rg_n.gif" />
+    <EmbeddedResource Include="images\k_rg_ng.gif" />
+    <EmbeddedResource Include="images\k_rs_b.gif" />
+    <EmbeddedResource Include="images\k_rs_g.gif" />
+    <EmbeddedResource Include="images\k_rs_n.gif" />
+    <EmbeddedResource Include="images\k_traf_b.gif" />
+    <EmbeddedResource Include="images\k_traf_g.gif" />
+    <EmbeddedResource Include="images\k_traf_n.gif" />
+    <EmbeddedResource Include="images\k_t_b.gif" />
+    <EmbeddedResource Include="images\k_t_g.gif" />
+    <EmbeddedResource Include="images\k_t_n.gif" />
+    <EmbeddedResource Include="images\legend.gif" />
+    <EmbeddedResource Include="images\lines.png" />
+    <EmbeddedResource Include="images\linesMenu.png" />
+    <EmbeddedResource Include="images\linTrends.png" />
+    <EmbeddedResource Include="images\Load.gif" />
+    <EmbeddedResource Include="images\loader_bg.gif" />
+    <EmbeddedResource Include="images\locked.gif" />
+    <EmbeddedResource Include="images\MeasureCalculated.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\MeasuresRoot.gif" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="CoreCompat.System.Drawing.v2" Version="5.2.0-preview1-r131" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.0" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="CellSet\Relational\" />
+    <Folder Include="Controls\Cube\Relational\" />
+    <Folder Include="Engine\Relational\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\radarcube-xmlaclient\src\XmlaClient.NetCore.csproj" />
+  </ItemGroup>
+</Project>

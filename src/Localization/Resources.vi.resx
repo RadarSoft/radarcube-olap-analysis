@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Xóa sạch nhóm này</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Tạo một nhóm mới...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Xóa nhóm này</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Xem theo</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Vùng các cột</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Cấu trúc Cube</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Không xác định</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Lọc dữ liệu</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Vùng lọc dữ liệu</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Các thước đo</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Vị trí các thước đo</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Không sắp xếp</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Sắp xếp tăng dần</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Sắp xếp theo mặc định</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Sắp xếp giảm dần</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>Quý {0}</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Vùng các dòng</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Hạng của cột</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>Xu hướng</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>Tỉ lệ % trên tổng cột</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>Tỉ lệ % trên tổng cộng</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>Tỉ lệ % trên tổng dòng</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Hạng của dòng</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Tổng cộng</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Các giá trị</value>
+  </data>
+  <data name="exprt_Custom" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="exprt_CustomizePage" xml:space="preserve">
+    <value>Tùy chọn số trang</value>
+  </data>
+  <data name="exprt_CustomizePageTitle" xml:space="preserve">
+    <value>Tùy chọn tiêu đề trang</value>
+  </data>
+  <data name="exprt_CustomPrint" xml:space="preserve">
+    <value>Tùy chọn in</value>
+  </data>
+  <data name="exprt_Data" xml:space="preserve">
+    <value>Dữ liệu</value>
+  </data>
+  <data name="exprt_Description" xml:space="preserve">
+    <value>Diễn giải</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Bằng</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Lọc trên các tiêu đề</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Không bằng</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Lọc trên tiêu đề ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Lọc trên giá trị ({0})</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Nằm giữa</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Bao gồm</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Bết thúc với</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Lọc trên giá trị</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Lớn hơn</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Nhỏ hơn</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Nằm ngoài</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Không bao gồm</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Không kết thúc với</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Không lớn hơn</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Không nhỏ hơn</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Không bắt đầu với</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Bắt đầu với</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Các phần tử</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>trong</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Lọc trên ngày</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Giá trị không hợp lệ</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>Vùng Pivot</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>Cho phép thay đổi sự sắp xếp</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>Tất cả vùng</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Thước đo</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Diễn giải lọc dữ liệu</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Phần tử</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>Vùng dữ liệu</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>Xem {0} theo</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>Chọn chế độ lọc</value>
+  </data>
+</root>

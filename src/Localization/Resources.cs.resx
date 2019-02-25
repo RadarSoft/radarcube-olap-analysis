@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mdColor" xml:space="preserve">
+    <value>Spalva:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>Spalvų nustatymai:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>Detalės:</value>
+  </data>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>Forma:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>Formos nustatymai:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>Dydis:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>Dydžio nustatymai:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>Spalvų ašis</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>Detalės</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>Nustatyti ašį</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Išvalyti</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>Pirmas stulpelis</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>Paskutinis stulpelis</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>Paskutinė eilutė</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>Pirma eilutė</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>Įtraukti į reikšmes</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>Paieška:</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Vymazat skupinu</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Vytvořit novou skupinu</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Smazat tuto skupinu</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Išskleisti visus</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>iki to paties lygio vaikų</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>iki kitos hierarchijos</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>iki kito lygio</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Sutraukti visus </value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Išskleisti iki to paties lygio vaikų</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Išskleisti iki kitos hierarchijos</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Išskleisti iki kito lygio</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Sutraukti</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Įveskite naujos grupės pavadinimą</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Nerodyti nieko, išskyrus pasirinktą</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Nerodyti šių matavimų</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>nerodyti šios srities</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Nerodyti visų sričių virš pasirinktos</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Nerodyti visų sričių žemiau pasirinktos</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Hierarchijos redaktorius</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>Paspauskite norint pakeisti filtrą</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>Filtro tekstas</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>Pritaikyti filtrą hierarchijos medžiui</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>Įveskite puslapio numerį (nuo 1 iki {0})</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>Paprastas filtras</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>Įveskite reikšmę nuo {0} iki {1}!</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Neteisinga reikšmė</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Perkelti visas sritis į grupę</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Perkelti visas sritis žemiau pasirinktos į grupę</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Perkelti visas sritis išskyrus pasirinktą į grupę</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Perkelti visas sritis iš grupės</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Perkelti sritį į grupę</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Perkelti į stulpelių dalį</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Perkelti į eilučių dalį</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>Pasirinkti kelis</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;naujas grupės pavadinimas&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Kita</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Įveskite procentą arba ribinę reikšmę</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Pašalinti iš medžio</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Pervardinti šią grupę</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Išvalyti filtrą</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Parodyti kaip</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Rodyti tuščias vietas</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Rodyti tik apačią</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Rodyti tik viršų</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>Filtras gali būti naudojamas tik su skaitmeninėmis reikšmėmis</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>Veiksmai</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>Po visko</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>Apjungtos reikšmės</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>Visos sritys, išskyrus {0}</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Visos sritys</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>ir</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Pritaikyti</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>Pritaikyti paletę</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>Pritaikyti temą</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Prieš viską</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>Apačia</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>Nutraukti</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Stulpelių dalis</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Kopijuoti pažymėtą dalį</value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>Sukurti apskaičiuojamą matavimą...</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>Sukurti apskaičiuojama sritį...</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Kubo struktūros medis</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Nežinomas</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>Pašalinti matavimą</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>Pašalinti sritį</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>Visos dalys</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>Duomenų sritis</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>Redaguoti matavimą...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>Redaguoti sritį...</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>Redaguoti filtrą</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>Faktų lentelės reikšmės</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Tarp</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Talpinti</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Baigiasi tekstu</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Lygu</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Filtras pagal pavadinimus</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Filtruoti pagal datą</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Filtruoti pagal reikšmę</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>Pirmi 10</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Viršyti</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Mažiau</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Nėra tarp</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Netalpina</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Nesibaigia testu</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Nelygu</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Nedaugiau</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Nemažiau</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Neprasideda reikšme</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>Rodyti punktus, atitinkančius šias sąlygas:</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Prasideda reikšme</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Filtras pagal pavadinimą ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Filtras pagal reikšmę ({0})</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Filtruoti</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Filtro dalis</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Filtro aprašymas</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>Surasti</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>Formulių Redaktorius</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>Tikslus atitikimas</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} Pusė metų</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} didėjimas</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>{0} iki Datos</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>sąraše</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>Duomenų kubas neaktyvus.</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Grupė</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Punktai</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>Parodyti lygius</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Kraunama...</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>MDXFunkcijos</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>MDXŠablonai</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Matavimai</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Matavimai</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Matavimų pozicija</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>Gerai</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>Dalys</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>Punktų skaičiaus %</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Peržiūrėti</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Nerodyti "Viso"</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Rodyti "Viso" pradžioje</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Rodyti "Viso" pabaigoje</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Nerūšiuoti</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Rūšiuoti didėjančiai</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Rūšiavimas pagal nutylėjimą</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Rūšiuoti mažėjančiai</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} ketvirtis</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>Greitas filtras</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>Gražinti</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>Atstatyti</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>Atstatyti dydį į 100%</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>Apribojimai:</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Eilučių dalis</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>Išsaugoti viską</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>Išsaugoti išvaizdą</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>Išsaugoti tik duomenis</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>Išsaugoti duomenis ir nustatymus</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>Išsaugoti tik nustatymus</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>Išsaugoti būseną</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>Rodyti visas dalis</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>Rodyti {0} kaip</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Stulpelio laipsnis</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Tikslas</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>Būsena</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>Kryptis</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Reikšmė</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Svoris</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Reikšmė</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>Procentas nuo stulpelio "Viso"</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>Procentas nuo "Iš viso"</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>Procentas nuo stulpelio "tėvo" reikšmės</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>Procentas nuo eilutės "tėvo" reikšmės</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>Procentas nuo eilutės "Viso"</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Eilutės laipsnis</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>Sukeisti stulpelius ir eilutes</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>Pirmi</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Viso</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>Atstatyti</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Reikšmės</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>Padidinti</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>Sumažinti</value>
+  </data>
+</root>

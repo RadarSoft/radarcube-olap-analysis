@@ -1,0 +1,2091 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="d_edAddNewDimention" xml:space="preserve">
+    <value>Содать новое измерение</value>
+  </data>
+  <data name="d_edAddNewUDhier" xml:space="preserve">
+    <value>Создать новую многоуровневую иерархию</value>
+  </data>
+  <data name="d_edCreateInNewDim" xml:space="preserve">
+    <value>Создать вместе с новым измерением</value>
+  </data>
+  <data name="d_edDayOfMonth" xml:space="preserve">
+    <value>День месяца</value>
+  </data>
+  <data name="d_edDayOfWeekLong" xml:space="preserve">
+    <value>День недели (полностью)</value>
+  </data>
+  <data name="d_edDayOfWeekShort" xml:space="preserve">
+    <value>День недели (сокращенно)</value>
+  </data>
+  <data name="d_edDayOfYear" xml:space="preserve">
+    <value>День года</value>
+  </data>
+  <data name="d_edHalfYear" xml:space="preserve">
+    <value>Полугодие</value>
+  </data>
+  <data name="d_edHour" xml:space="preserve">
+    <value>Час</value>
+  </data>
+  <data name="d_edMarkHierarchyIn" xml:space="preserve">
+    <value>Пометить как иерархию в</value>
+  </data>
+  <data name="d_edMarkMeasure" xml:space="preserve">
+    <value>Пометить как показатель</value>
+  </data>
+  <data name="d_edMinute" xml:space="preserve">
+    <value>Минута</value>
+  </data>
+  <data name="d_edMonthLong" xml:space="preserve">
+    <value>Месяц (полностью)</value>
+  </data>
+  <data name="d_edMonthNumber" xml:space="preserve">
+    <value>Номер месяца</value>
+  </data>
+  <data name="d_edMonthShort" xml:space="preserve">
+    <value>Месяц (сокращенно)</value>
+  </data>
+  <data name="d_edNewCalculatedHier" xml:space="preserve">
+    <value>Создать новую вычисляемую иерархию</value>
+  </data>
+  <data name="d_edNewCalculatedHierDateTime" xml:space="preserve">
+    <value>Создать новую иерархию дата-время</value>
+  </data>
+  <data name="d_edNewCalculatedMeas" xml:space="preserve">
+    <value>Создать новый вычисляемый показатель</value>
+  </data>
+  <data name="d_edNewDimension" xml:space="preserve">
+    <value>Новое измерение</value>
+  </data>
+  <data name="d_edNewDimensionName" xml:space="preserve">
+    <value>Имя нового измерения</value>
+  </data>
+  <data name="d_edNewHierarchyName" xml:space="preserve">
+    <value>Имя новой иерархии</value>
+  </data>
+  <data name="d_edNewUDHierarchy" xml:space="preserve">
+    <value>Новая многоуровневая иерархия</value>
+  </data>
+  <data name="d_edProperties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="d_edQuarter" xml:space="preserve">
+    <value>Квартал</value>
+  </data>
+  <data name="d_edRemoveDimension" xml:space="preserve">
+    <value>Удалить измерение</value>
+  </data>
+  <data name="d_edRemoveHierarchy" xml:space="preserve">
+    <value>Удалить иерархию</value>
+  </data>
+  <data name="d_edRemoveMeasure" xml:space="preserve">
+    <value>Удалить показатель</value>
+  </data>
+  <data name="d_edSecond" xml:space="preserve">
+    <value>Секунда</value>
+  </data>
+  <data name="d_edUnmarkField" xml:space="preserve">
+    <value>Снять пометку с поля</value>
+  </data>
+  <data name="d_edWeekOfYear" xml:space="preserve">
+    <value>Неделя года</value>
+  </data>
+  <data name="d_edYear" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="d_rsBackgroundEditor" xml:space="preserve">
+    <value>Редактор фона</value>
+  </data>
+  <data name="MF_AllAction" xml:space="preserve">
+    <value>Все действия</value>
+  </data>
+  <data name="MF_BackColor" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="MF_Background" xml:space="preserve">
+    <value>Цветовое ранжирование</value>
+  </data>
+  <data name="MF_BelowAverage" xml:space="preserve">
+    <value>Меньше среднего</value>
+  </data>
+  <data name="MF_BelowThan" xml:space="preserve">
+    <value>Меньше чем % макс</value>
+  </data>
+  <data name="MF_Bright" xml:space="preserve">
+    <value>Яркость</value>
+  </data>
+  <data name="MF_ChartBar" xml:space="preserve">
+    <value>Гистограммы</value>
+  </data>
+  <data name="MF_ClearList" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="MF_ColorChemes" xml:space="preserve">
+    <value>Цветовые схемы</value>
+  </data>
+  <data name="MF_FarAverage" xml:space="preserve">
+    <value>Отдаленные от среднего</value>
+  </data>
+  <data name="MF_Gradient" xml:space="preserve">
+    <value>Градиент</value>
+  </data>
+  <data name="MF_LastCommand" xml:space="preserve">
+    <value>Последние команды</value>
+  </data>
+  <data name="MF_MindFormat" xml:space="preserve">
+    <value>Условное форматирование</value>
+  </data>
+  <data name="MF_MoreAverage" xml:space="preserve">
+    <value>Больше среднего</value>
+  </data>
+  <data name="MF_MoreThan" xml:space="preserve">
+    <value>Больше чем % макс</value>
+  </data>
+  <data name="MF_NearAverage" xml:space="preserve">
+    <value>Ближние к среднему</value>
+  </data>
+  <data name="MF_Rainbow" xml:space="preserve">
+    <value>Радуга</value>
+  </data>
+  <data name="MF_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="MF_SelectionMode" xml:space="preserve">
+    <value>Режим выделения</value>
+  </data>
+  <data name="MF_StandardMode" xml:space="preserve">
+    <value>Стандартный режим</value>
+  </data>
+  <data name="MF_System" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="MF_UseLeftButton" xml:space="preserve">
+    <value>Использовать левую кнопку</value>
+  </data>
+  <data name="MF_UseRightButton" xml:space="preserve">
+    <value>Использовать правую кнопку</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Очистить группу</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Создать новую группу...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Удалить группу</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Раскрыть все узлы</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value> на том же уровне</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>до следующей иерархии</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>до следующего уровня</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Свернуть все узлы</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Раскрыть все узлы на том же уровне</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Раскрыть все узлы до следующей иерархии</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Раскрыть все узлы до следующего уровня</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Введите имя группы</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Скрыть все узлы кроме выбранного</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Скрыть выбранный показатель</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>Скрыть выбранный узел</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Скрыть все узлы выше выбранного</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Скрыть все узлы ниже выбранного</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Редактор иерархии</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Все элементы</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Перенести все узлы в группу</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Перенести узлы ниже выбранного в группу</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Перенести все узлы кроме выбранного в группу</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Удалить выбранный узел из группы</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Перенести выбранный узел в группу</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Перенести в область столбцов</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>Перенести в область фильтров</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Перенести в область строк</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;Имя новой группы&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Прочие</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Введите числовое или процентное значение порога</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Удалить из активной области</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Переименовать эту группу</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Сбросить наложенный фильтр</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Показать как</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Показать пустые строки</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Показать наименьшие</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Показать наибольшие</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>Фильтр может быть применен только к числовым данным</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>После всех</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Перед всеми</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="rsCantReadAnotherProductStream" xml:space="preserve">
+    <value>Выбранный поток был создан другой версией RadarCube, и в данный момент не поддерживается</value>
+  </data>
+  <data name="rsCantRestoreInactiveGrid" xml:space="preserve">
+    <value>Невозможно восстановить состояние для неактивного Grid</value>
+  </data>
+  <data name="rsCantSaveInactiveGrid" xml:space="preserve">
+    <value>Нельзя сохранить в поток неактивный Grid</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>Координаты ячейки за пределами диапазона. Строка: {0}. Столбец: {1}</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Область столбцов</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Структура куба</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Неизвестный</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>Измерение "{0}" не найдено.</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>Раскрыть до следующего узла того же уровня</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>Раскрыть до следующего уровня</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>Раскрыть до следующей иерархии</value>
+  </data>
+  <data name="rsecStreamVersionError" xml:space="preserve">
+    <value>Невозможно прочесть поток ранней версии ({0})</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>Редактировать это значение</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>Введите номер страницы</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Область фильтров</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>Точное соответствие</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>Невозможно создать иерархию, так как она не трансформируется в плоскую</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>Иерархия "{0}" не найдена.</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>Иерархия "{0}" не инициализирована</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} полугодие</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>Группа и группируемый узел должны принадлежать одному и тому же уровню</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>Группа и группируемый член должны иметь общего "родителя"</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} рост</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>С {0} текущей даты</value>
+  </data>
+  <data name="rsInactiveCube" xml:space="preserve">
+    <value>Для вызова этого метода куб должен быть активным.</value>
+  </data>
+  <data name="rsInadmissibleDrillAction" xml:space="preserve">
+    <value>Невозможна операция раскрытия ({0}) для узла: {1}</value>
+  </data>
+  <data name="rsInvalidPropertyError" xml:space="preserve">
+    <value>Некорректное значение свойства {0:X}</value>
+  </data>
+  <data name="rsInvalidStreamFormat" xml:space="preserve">
+    <value>Некорректный формат потока</value>
+  </data>
+  <data name="rsInvalidTagError" xml:space="preserve">
+    <value>Некорректные данные потока в позиции {0:X}. Тэг "{1}" ожидался</value>
+  </data>
+  <data name="rsiTimeIntelligence" xml:space="preserve">
+    <value>Анализ временных рядов для "{0}"</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>КПИ</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Показатели</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Позиция показателей</value>
+  </data>
+  <data name="rsMuitifilterDrillthroughError" xml:space="preserve">
+    <value>Невозможно выполнить операцию Drillthrough: частично отфильтрованная иерархия '{0}' имеет видимым больше одного члена.</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>Именованные множества</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>Иерархия "{0}" не содержит уровней.</value>
+  </data>
+  <data name="rsNoParentMember" xml:space="preserve">
+    <value>Член иерархии ({0}), не являющийся корневым, не имеет своего "родителя".</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>Страниц:</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>Агрегировать все члены выбранной иерархии</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>Агрегировать только видимые члены выбранной иерархии</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>Скрывать, если возможно, названия показателей</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>Контекстное меню загружается. Пожалуйста, подождите... </value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Не показывать итоги</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Показать итоги первыми</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Показать итоги последними</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Не сортировать</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Сортировка по возрастанию</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Сортировка по умолчанию</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Сортировка по убыванию</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} квартал</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Область строк</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Ранг в столбце</value>
+  </data>
+  <data name="rssmError" xml:space="preserve">
+    <value>Показатель "{0}" не может быть показан в режиме "{1}", так как событие OnShowMeasure не обрабатывается</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Цель</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>Тренд</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Вес</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>В процентах от итога по столбцу</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>В процентах от общего итога</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>В процентах от родительского итога по столбцу</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>В процентах от родительского итога по строке</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>В процентах от итога по строке</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Ранг в строке</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="rsTryToDeleteWrongMeasure" xml:space="preserve">
+    <value>Показатель "{0}" не является вычисляемым и не может быть удален.</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Значения</value>
+  </data>
+  <data name="exprt_Additional" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="exprt_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="exprt_Apply" xml:space="preserve">
+    <value>Применить изменения не закрывая</value>
+  </data>
+  <data name="exprt_Auto_AllCells" xml:space="preserve">
+    <value>Все ячейки</value>
+  </data>
+  <data name="exprt_Auto_ExeptHeader" xml:space="preserve">
+    <value>Все ячейки, кроме заголовков</value>
+  </data>
+  <data name="exprt_Auto_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="exprt_AutoSizeFor" xml:space="preserve">
+    <value>Автоподбор размера</value>
+  </data>
+  <data name="exprt_AutoSizeForText" xml:space="preserve">
+    <value>Автоподбор для</value>
+  </data>
+  <data name="exprt_Background" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="exprt_Behavior" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="exprt_Bmp_Format" xml:space="preserve">
+    <value>Bmp</value>
+  </data>
+  <data name="exprt_BorderColor" xml:space="preserve">
+    <value>Цвет границы</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>Последние</value>
+  </data>
+  <data name="exprt_Cancel" xml:space="preserve">
+    <value>Отменить и закрыть</value>
+  </data>
+  <data name="exprt_Caption" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="exprt_CellsFontAndColor" xml:space="preserve">
+    <value>Шрифт и цвет экспортируемых ячеек</value>
+  </data>
+  <data name="exprt_ChangesPreview" xml:space="preserve">
+    <value>Отображать изменения</value>
+  </data>
+  <data name="exprt_Chart" xml:space="preserve">
+    <value>Диаграмма</value>
+  </data>
+  <data name="exprt_ClosePreview" xml:space="preserve">
+    <value>Закрыть предпросмотр</value>
+  </data>
+  <data name="exprt_Colontitle" xml:space="preserve">
+    <value>Колонтитулы</value>
+  </data>
+  <data name="exprt_Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="exprt_Csv_Format" xml:space="preserve">
+    <value>Значения через запятую</value>
+  </data>
+  <data name="exprt_CurrencyFormat" xml:space="preserve">
+    <value>Формат валюты</value>
+  </data>
+  <data name="exprt_CustomPrint" xml:space="preserve">
+    <value>Спец. печать</value>
+  </data>
+  <data name="exprt_Data" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="exprt_DataSlice" xml:space="preserve">
+    <value>Только данные</value>
+  </data>
+  <data name="exprt_DataSliceOnly" xml:space="preserve">
+    <value>Только срез</value>
+  </data>
+  <data name="exprt_DataTotal" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="exprt_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="exprt_DrawProperties" xml:space="preserve">
+    <value>Настройки отображения</value>
+  </data>
+  <data name="exprt_Edges" xml:space="preserve">
+    <value>Отступ</value>
+  </data>
+  <data name="exprt_Editing" xml:space="preserve">
+    <value>Разрешить редактирование</value>
+  </data>
+  <data name="exprt_EditingEnabled" xml:space="preserve">
+    <value>Разрешить редактирование ячейки</value>
+  </data>
+  <data name="exprt_EmptyString" xml:space="preserve">
+    <value>Отображать в пустых ячейках</value>
+  </data>
+  <data name="exprt_EmptyValue" xml:space="preserve">
+    <value>Пустое значение</value>
+  </data>
+  <data name="exprt_Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="exprt_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="exprt_ExportDataSlice" xml:space="preserve">
+    <value>Экспортированные данные</value>
+  </data>
+  <data name="exprt_ExportSelection" xml:space="preserve">
+    <value>Экспортировать выбранное</value>
+  </data>
+  <data name="exprt_ExportSettings" xml:space="preserve">
+    <value>Настройки экспорта</value>
+  </data>
+  <data name="exprt_FileExportName" xml:space="preserve">
+    <value>Имя файла для экспорта</value>
+  </data>
+  <data name="exprt_FilterButton" xml:space="preserve">
+    <value>Кнопка фильтра</value>
+  </data>
+  <data name="exprt_FitToHeight" xml:space="preserve">
+    <value>Подогнать к высоте</value>
+  </data>
+  <data name="exprt_FitToPage" xml:space="preserve">
+    <value>Подогнать к ширине</value>
+  </data>
+  <data name="exprt_FullView" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="exprt_Gif_Format" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="exprt_GridSettings" xml:space="preserve">
+    <value>Свойства таблицы</value>
+  </data>
+  <data name="exprt_Grid" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="exprt_GridBGColor" xml:space="preserve">
+    <value>Изменить фон таблицы</value>
+  </data>
+  <data name="exprt_Group" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="exprt_HotKey" xml:space="preserve">
+    <value>Комбинация для смены видимости кнопок разворота</value>
+  </data>
+  <data name="exprt_HotKeyText" xml:space="preserve">
+    <value>Гор. клавиша</value>
+  </data>
+  <data name="exprt_Html_Format" xml:space="preserve">
+    <value>Html  формат</value>
+  </data>
+  <data name="exprt_ImageClear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="exprt_ImagePosition" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="exprt_Jpg_Format" xml:space="preserve">
+    <value>Jpg</value>
+  </data>
+  <data name="exprt_LineColor" xml:space="preserve">
+    <value>Изменить цвет границы</value>
+  </data>
+  <data name="exprt_LoadSkin" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="exprt_ManyFileFormat" xml:space="preserve">
+    <value>{0} часть {1}</value>
+  </data>
+  <data name="exprt_MeasurePosition" xml:space="preserve">
+    <value>Позиция панели мер</value>
+  </data>
+  <data name="exprt_Member" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="exprt_MemberTotal" xml:space="preserve">
+    <value>Итого для элемента</value>
+  </data>
+  <data name="exprt_MoveToCustom" xml:space="preserve">
+    <value>Перейти к странице</value>
+  </data>
+  <data name="exprt_MoveToLast" xml:space="preserve">
+    <value>Перейти к последней</value>
+  </data>
+  <data name="exprt_MoveToNext" xml:space="preserve">
+    <value>Перейти к следующей</value>
+  </data>
+  <data name="exprt_MoveToPrior" xml:space="preserve">
+    <value>Перейти к предыдущей</value>
+  </data>
+  <data name="exprt_MoveToToFirst" xml:space="preserve">
+    <value>Перейти к первой</value>
+  </data>
+  <data name="exprt_OK" xml:space="preserve">
+    <value>Принять и закрыть</value>
+  </data>
+  <data name="exprt_OncePage" xml:space="preserve">
+    <value>Одна страница</value>
+  </data>
+  <data name="exprt_PageAllView" xml:space="preserve">
+    <value>Показать все</value>
+  </data>
+  <data name="exprt_PageEdges" xml:space="preserve">
+    <value>Размеры и поля страницы</value>
+  </data>
+  <data name="exprt_PageFour" xml:space="preserve">
+    <value>4 страницы</value>
+  </data>
+  <data name="exprt_PagesCurrent" xml:space="preserve">
+    <value>Текущая страница ({0})</value>
+  </data>
+  <data name="exprt_PageSegmentFormat" xml:space="preserve">
+    <value>Страница {0:D} из {1:D} </value>
+  </data>
+  <data name="exprt_PageToHeight" xml:space="preserve">
+    <value>Отмасштабировать по высоте</value>
+  </data>
+  <data name="exprt_PageToWidth" xml:space="preserve">
+    <value>Отмасштабировать по ширине</value>
+  </data>
+  <data name="exprt_PageTwo" xml:space="preserve">
+    <value>2 страницы</value>
+  </data>
+  <data name="exprt_PagsSegment" xml:space="preserve">
+    <value>Все (от {0} до {1})</value>
+  </data>
+  <data name="exprt_Pdf_Format" xml:space="preserve">
+    <value>Портативный формат</value>
+  </data>
+  <data name="exprt_PivotAndData" xml:space="preserve">
+    <value>Редактор и данные</value>
+  </data>
+  <data name="exprt_PivotButton" xml:space="preserve">
+    <value>Кнопка редактора</value>
+  </data>
+  <data name="exprt_PivotColored" xml:space="preserve">
+    <value>Цветные панели</value>
+  </data>
+  <data name="exprt_PivotColoredTips" xml:space="preserve">
+    <value>Разрешить различные цвета для редактора и таблицы</value>
+  </data>
+  <data name="exprt_PivotPanel" xml:space="preserve">
+    <value>Панель редактирования</value>
+  </data>
+  <data name="exprt_PivotStyle" xml:space="preserve">
+    <value>Выбрать стиль панели</value>
+  </data>
+  <data name="exprt_PivotStyleText" xml:space="preserve">
+    <value>Современный стиль</value>
+  </data>
+  <data name="exprt_Placed_ColF" xml:space="preserve">
+    <value>Колонки первыми</value>
+  </data>
+  <data name="exprt_Placed_ColL" xml:space="preserve">
+    <value>Колонки последними</value>
+  </data>
+  <data name="exprt_Placed_RowF" xml:space="preserve">
+    <value>Ряды первыми</value>
+  </data>
+  <data name="exprt_Placed_RowL" xml:space="preserve">
+    <value>Ряды последними</value>
+  </data>
+  <data name="exprt_Png_Format" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="exprt_PreviewExportSetting" xml:space="preserve">
+    <value>Настройки просмотра и экспорта</value>
+  </data>
+  <data name="exprt_PreviewOptions" xml:space="preserve">
+    <value>Настройки просмотра таблицы</value>
+  </data>
+  <data name="exprt_PrintAll" xml:space="preserve">
+    <value>Все страницы</value>
+  </data>
+  <data name="exprt_PrintCurrent" xml:space="preserve">
+    <value>Текущая страница</value>
+  </data>
+  <data name="exprt_PrintDialog" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="exprt_PrintOK" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="exprt_PrintPreview" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="exprt_PrintToFile" xml:space="preserve">
+    <value>Печать в файл</value>
+  </data>
+  <data name="exprt_RefreshOnScroll" xml:space="preserve">
+    <value>Обновлять при прокрутке</value>
+  </data>
+  <data name="exprt_RefreshReWidth" xml:space="preserve">
+    <value>Обновлять при изменении размера</value>
+  </data>
+  <data name="exprt_RefreshReWidthTips" xml:space="preserve">
+    <value>Обновить при изменении ширины колонки</value>
+  </data>
+  <data name="exprt_RefreshScroll" xml:space="preserve">
+    <value>Разрешить обновлние таблицы при прокрутке</value>
+  </data>
+  <data name="exprt_SampleText" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="exprt_SapmleDraw" xml:space="preserve">
+    <value>Рисунок</value>
+  </data>
+  <data name="exprt_SettingsPrint" xml:space="preserve">
+    <value>Установки печати</value>
+  </data>
+  <data name="exprt_ShowDrill" xml:space="preserve">
+    <value>Всегда отображать все кнопки разворота</value>
+  </data>
+  <data name="exprt_ShowExportPrintPrev" xml:space="preserve">
+    <value>Показывать при экспорте,печати, просмотре</value>
+  </data>
+  <data name="exprt_ShowScrollBar" xml:space="preserve">
+    <value>Показывать полосы прокрутки</value>
+  </data>
+  <data name="exprt_ShowToolbtn" xml:space="preserve">
+    <value>Показать панель управления</value>
+  </data>
+  <data name="exprt_ShowToolbtnText" xml:space="preserve">
+    <value>Показать кнопки </value>
+  </data>
+  <data name="exprt_Skin" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="exprt_Strings" xml:space="preserve">
+    <value>Строки</value>
+  </data>
+  <data name="exprt_StyleAlign" xml:space="preserve">
+    <value>Выравнивание текста</value>
+  </data>
+  <data name="exprt_StyleBackColor" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="exprt_Text_Format" xml:space="preserve">
+    <value>Текстовый формат</value>
+  </data>
+  <data name="exprt_TextAlign" xml:space="preserve">
+    <value>Выравнивание текста</value>
+  </data>
+  <data name="exprt_TextFont" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="exprt_TextOnPivot" xml:space="preserve">
+    <value>Вывести текст на панелях для обычного вида)</value>
+  </data>
+  <data name="exprt_TextOnPivotText" xml:space="preserve">
+    <value>Текст на панелях</value>
+  </data>
+  <data name="exprt_Tiff_Format" xml:space="preserve">
+    <value>Tiff</value>
+  </data>
+  <data name="exprt_Title_document" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="exprt_ToolBtn" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="exprt_TreeWidth" xml:space="preserve">
+    <value>Установить ширину дерева</value>
+  </data>
+  <data name="exprt_TreeWidthText" xml:space="preserve">
+    <value>Ширина области дерева</value>
+  </data>
+  <data name="exprt_Worksheet" xml:space="preserve">
+    <value>Лист</value>
+  </data>
+  <data name="exprt_Xml_Format" xml:space="preserve">
+    <value>Xml</value>
+  </data>
+  <data name="exprt_ZoomCustom" xml:space="preserve">
+    <value>Особый масштаб</value>
+  </data>
+  <data name="MF_CurrentColorChemas" xml:space="preserve">
+    <value>Текущая цветовая схема</value>
+  </data>
+  <data name="MF_MindFormating" xml:space="preserve">
+    <value>Условное форматирование</value>
+  </data>
+  <data name="MF_ShowMenuCommand" xml:space="preserve">
+    <value>Показать созданные команды</value>
+  </data>
+  <data name="MF_ShowMenuItem" xml:space="preserve">
+    <value>Показать элементы меню</value>
+  </data>
+  <data name="MF_ShowMenuLastCommand" xml:space="preserve">
+    <value>Показать последнюю команду</value>
+  </data>
+  <data name="MF_ShowMenuMode" xml:space="preserve">
+    <value>Показать меню режима выбора</value>
+  </data>
+  <data name="MF_ShowMenuThemes" xml:space="preserve">
+    <value>Показать меню цветовых схем</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>Куб неактивен.</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>и</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Равно</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Фильтр по названию</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Не равно</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>Показывать только члены удовлетворяющие следующему условию:</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Фильтр по названию ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Фильтр по значению ({0})</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Между</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Заканчивается на</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Фильтр по значениям</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Больше</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Меньше</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Вне</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Не содержит</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Не заканчивается на</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Не больше</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Не меньше</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Не начинается на</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Начинается на</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>Первые 10</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Члены</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% от кол-ва членов</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>Первые</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Фильтр на дату</value>
+  </data>
+  <data name="repHierarhyEditorLevel" xml:space="preserve">
+    <value>Уровень для фильтрации:</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>Простой фильтр</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>Нажмите для настройки контекстного фильтра</value>
+  </data>
+  <data name="exprt_InputCaption" xml:space="preserve">
+    <value>Ввод. знач.</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>Введите номер страницы (от 1 до {0})</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>Введите значение от {0} до {1}!</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Некорректное значение</value>
+  </data>
+  <data name="rsFilterTree" xml:space="preserve">
+    <value>Отфильтровать члены в дереве Редактора Иерархий</value>
+  </data>
+  <data name="rsContextFilterSettings" xml:space="preserve">
+    <value>Настройки контекстного фильтра</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>Агрегированные значения</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>Значения в таблице фактов</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>Ограничить:</value>
+  </data>
+  <data name="rsNewChat" xml:space="preserve">
+    <value>Перетащите сюда показатель для создания нового графика</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="rsMemberFilterSettings" xml:space="preserve">
+    <value>Настройки фильтра на члены иерархии</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>Область вращения</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>Разрешить перетаскивать панели</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>Все области</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>Первый в колонке</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>Последний в колонке</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>Последний в ряду</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>Первый в ряду</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>Перенести в область значений</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>Текст фильтра</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>Применить дерево к иерархии</value>
+  </data>
+  <data name="rsDockMenuItem" xml:space="preserve">
+    <value>Применить стиль панелей</value>
+  </data>
+  <data name="rsWrongNamedSetPivoting" xml:space="preserve">
+    <value>“{0}” и “{1}” нельзя показать одновременно</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Скопировать выделенное</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>Множественный выбор</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>Поиск:</value>
+  </data>
+  <data name="rep_QuickSearch" xml:space="preserve">
+    <value>Для фильтрации куба напишите здесь</value>
+  </data>
+  <data name="rsWrongDateStr" xml:space="preserve">
+    <value>Невозможно распознать "{0}" как дату. Используйте формат: "{1}"</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>Все элементы кроме {0}</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Мера</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Описание фильтра</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Элемент</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>Показать уровни</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>Редактировать фильтр</value>
+  </data>
+  <data name="repMoveToColorChanger" xml:space="preserve">
+    <value>Переместить в область цвета</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>Область данных</value>
+  </data>
+  <data name="repMoveToDetailsChanger" xml:space="preserve">
+    <value>Перенести в область детализации</value>
+  </data>
+  <data name="repMoveToShapeChanger" xml:space="preserve">
+    <value>Перенести в область формы</value>
+  </data>
+  <data name="repMoveToSizeChanger" xml:space="preserve">
+    <value>Перенести в область размера</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>Быстрый фильтр</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>Редактор формул</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>MDX функции</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>MDX шаблоны</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="exprt_ModificatorContainer" xml:space="preserve">
+    <value>Область легенды</value>
+  </data>
+  <data name="exprt_ModificatorCustom" xml:space="preserve">
+    <value>Легенда</value>
+  </data>
+  <data name="exprt_ModificatorHierarchy" xml:space="preserve">
+    <value>Легенда иерархии</value>
+  </data>
+  <data name="exprt_ModificatorItem" xml:space="preserve">
+    <value>Элемент легенды</value>
+  </data>
+  <data name="exprt_ModificatorMeasure" xml:space="preserve">
+    <value>Легенда показателей</value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>Создать меру...</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>Cоздать член измерения...</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>Удалить меру</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>Удалить член измерения</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>Редактировать меру...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>Редактировать член измерения...</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>Цвет:</value>
+  </data>
+  <data name="mdColorFore" xml:space="preserve">
+    <value>Цвет текста:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>Настройки цвета:</value>
+  </data>
+  <data name="mdColorForeSettings" xml:space="preserve">
+    <value>Настройки цвета текста:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>Детализация:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>Размер:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>Настройки размера:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>Ось цвета</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>Детализация</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>Ось размера</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>Форма:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>Настройки формы:</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>Форма</value>
+  </data>
+  <data name="mnShapeAxis" xml:space="preserve">
+    <value>Ось формы</value>
+  </data>
+  <data name="mdModificators" xml:space="preserve">
+    <value>Модификаторы</value>
+  </data>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>Легенды</value>
+  </data>
+  <data name="mnFilterSelection" xml:space="preserve">
+    <value>Отфильтровать только выделенные элементы</value>
+  </data>
+  <data name="mnShowUnderlying" xml:space="preserve">
+    <value>Информация о выделенных элементах</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>Подключиться</value>
+  </data>
+  <data name="rsDrillthrough" xml:space="preserve">
+    <value>Детализация...</value>
+  </data>
+  <data name="rsDrillthroughResults" xml:space="preserve">
+    <value>Результаты детализации</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>Загрузить сохраненное состояние</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>Панели</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>Сохранить все</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>Сохранить внешний вид</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>Сохранить только данные</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>Сохранить данные и конфигурацию куба</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>Сохранить только конфигурацию куба</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>Сохранить текущее состояние</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>Показать все панели</value>
+  </data>
+  <data name="rsShowExceptTree" xml:space="preserve">
+    <value>Показать все за исключением Структуры Куба</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>Показать {0} как</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>Поменять местами столбцы и строки</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>Применить палитру</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>Применить внешний вид</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>Сбросить масштабирование до 100%</value>
+  </data>
+  <data name="rsShowDataOnly" xml:space="preserve">
+    <value>Показать только область данных</value>
+  </data>
+  <data name="rsShowDefault" xml:space="preserve">
+    <value>Загрузить раскладку по-умолчанию</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="repShowPages" xml:space="preserve">
+    <value>Показать страницы</value>
+  </data>
+  <data name="repVisibleOnly" xml:space="preserve">
+    <value>Показать только видимые члены</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>Выберите режим фильтрации</value>
+  </data>
+  <data name="rsFilterRescale" xml:space="preserve">
+    <value>Изменить масштаб</value>
+  </data>
+  <data name="rsFilterRescaleHint" xml:space="preserve">
+    <value>Показать только данные масштабируемого сегмента</value>
+  </data>
+  <data name="rsFilterShowSegmentData" xml:space="preserve">
+    <value>Показать данные сегмента</value>
+  </data>
+  <data name="rsFilterShowSegmentDataHint" xml:space="preserve">
+    <value>Показать только выделенные данные</value>
+  </data>
+  <data name="rsTrendAdd" xml:space="preserve">
+    <value>Добавить линию тренда</value>
+  </data>
+  <data name="rsTrendRemove" xml:space="preserve">
+    <value>Удалить линию тренда</value>
+  </data>
+  <data name="rsTrendCubic" xml:space="preserve">
+    <value>Кубический</value>
+  </data>
+  <data name="rsTrendLine" xml:space="preserve">
+    <value>Линейный</value>
+  </data>
+  <data name="rsTrendQuadratic" xml:space="preserve">
+    <value>Квадратичный</value>
+  </data>
+  <data name="rsTrendColor" xml:space="preserve">
+    <value>Цвет тренда...</value>
+  </data>
+  <data name="rsTrendType" xml:space="preserve">
+    <value>Тип тренда</value>
+  </data>
+  <data name="label_CCSettingsSetupControl_Advanced" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="exprt_ExportDateFormat" xml:space="preserve">
+    <value>Дата: {0:dd.MM.yyyy}</value>
+  </data>
+  <data name="hint_ClickChangeColor" xml:space="preserve">
+    <value>Кликните для изменения цвета элемента</value>
+  </data>
+  <data name="hint_ClickChangeShape" xml:space="preserve">
+    <value>Кликните для изменения формы элемента</value>
+  </data>
+  <data name="hint_ClickExpandCollapse" xml:space="preserve">
+    <value>Кликните для сворачивания или разворачивания узла</value>
+  </data>
+  <data name="hint_ClickToEditHierFilter" xml:space="preserve">
+    <value>Кликните для редактирования фильтра на иерархию</value>
+  </data>
+  <data name="hint_ClickTopEditMeasFilter" xml:space="preserve">
+    <value>Кликните для редактирования фильтра на показатель</value>
+  </data>
+  <data name="hint_ClickToSort" xml:space="preserve">
+    <value>Кликните для сортировки по значениям в колонке</value>
+  </data>
+  <data name="hint_CollapseCell" xml:space="preserve">
+    <value>Свернуть ячейку</value>
+  </data>
+  <data name="hint_CollapseLevel" xml:space="preserve">
+    <value>Свернуть уровень</value>
+  </data>
+  <data name="hint_DragPanelToPivot" xml:space="preserve">
+    <value>Перетащите панель, чтобы повернуть Куб</value>
+  </data>
+  <data name="hint_DragToFilter" xml:space="preserve">
+    <value>Претащите сюда элемен для наложения на него фильтра</value>
+  </data>
+  <data name="hint_DragToPivot" xml:space="preserve">
+    <value>Перетащите элемент, чтобы повернуть Куб</value>
+  </data>
+  <data name="hint_DrillNextHierarchy" xml:space="preserve">
+    <value>Раскрыть до членов следующей иерархии</value>
+  </data>
+  <data name="hint_DrillNextLevel" xml:space="preserve">
+    <value>Раскрыть до членов следующего уровня</value>
+  </data>
+  <data name="hint_DrillParentChild" xml:space="preserve">
+    <value>Раскрыть ячейку</value>
+  </data>
+  <data name="hint_ExpandThisLevel" xml:space="preserve">
+    <value>Раскрыть уровень</value>
+  </data>
+  <data name="hint_PressCtrlOrShift" xml:space="preserve">
+    <value>Нажмите Ctrl или Shift для изменения режима выделения</value>
+  </data>
+  <data name="hint_RightClickTheCell" xml:space="preserve">
+    <value>Щелкните правой кнопкой мыши для появления меню, или левой для начала выделения</value>
+  </data>
+  <data name="hint_RightClickTheCell2" xml:space="preserve">
+    <value>Щелкните правой кнопкой мыши для появления меню</value>
+  </data>
+  <data name="hint_RightClickToContext" xml:space="preserve">
+    <value>Щелкните правой кнопкой мыши для появления меню</value>
+  </data>
+  <data name="rsItemToFilter" xml:space="preserve">
+    <value>Фильтровать элемент</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>Выражение</value>
+  </data>
+  <data name="rsFormat" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="rsChangeColor" xml:space="preserve">
+    <value>Изменить цвет...</value>
+  </data>
+  <data name="rsChooseColor" xml:space="preserve">
+    <value>Выберите цвет</value>
+  </data>
+  <data name="rsSteppedColors" xml:space="preserve">
+    <value>Дискретные цвета</value>
+  </data>
+  <data name="rsEmailError" xml:space="preserve">
+    <value>Пожалуйста, скопируйте информацию выше, и отправьте ее в службу поддержки по адресу {0}.</value>
+  </data>
+  <data name="rsErrorMessage" xml:space="preserve">
+    <value>Сообщение об ошибке</value>
+  </data>
+  <data name="rsServerError" xml:space="preserve">
+    <value>ПРивыполнении кода на сервере, произошла ошибка:</value>
+  </data>
+  <data name="rsColorArea" xml:space="preserve">
+    <value>Область цвета</value>
+  </data>
+  <data name="rsDetailsArea" xml:space="preserve">
+    <value>Область деталей</value>
+  </data>
+  <data name="rsDragMeasure" xml:space="preserve">
+    <value>- новая серия -</value>
+  </data>
+  <data name="rsDragMeasure2" xml:space="preserve">
+    <value>- новый график -</value>
+  </data>
+  <data name="rsEnablePaging" xml:space="preserve">
+    <value>Использовать страничный просмотр</value>
+  </data>
+  <data name="rsMatchFilter" xml:space="preserve">
+    <value>Подстановочный фильтр:</value>
+  </data>
+  <data name="rsShapeArea" xml:space="preserve">
+    <value>Область формы</value>
+  </data>
+  <data name="rsSizeArea" xml:space="preserve">
+    <value>Область размера</value>
+  </data>
+  <data name="rsTreeFilterSettings" xml:space="preserve">
+    <value>Настройки фильтра для дерева элементов</value>
+  </data>
+  <data name="hint_ConnectTo" xml:space="preserve">
+    <value>Подключиться к серверу...</value>
+  </data>
+  <data name="hint_ExportTo" xml:space="preserve">
+    <value>Экспорт в  {0}</value>
+  </data>
+  <data name="hint_LoadReport" xml:space="preserve">
+    <value>Загрузить сохраненный отчет</value>
+  </data>
+  <data name="hint_SaveReport" xml:space="preserve">
+    <value>Сохранить текущий отчет</value>
+  </data>
+  <data name="rsCatalog" xml:space="preserve">
+    <value>Каталог:</value>
+  </data>
+  <data name="rsConnectionSettings" xml:space="preserve">
+    <value>Настройки подключения</value>
+  </data>
+  <data name="rsCube" xml:space="preserve">
+    <value>Куб:</value>
+  </data>
+  <data name="rsPleaseWait" xml:space="preserve">
+    <value>Пожалуйста, подождите. Запрос обрабатывается...</value>
+  </data>
+  <data name="rsServer" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="rsAllMembersHidden" xml:space="preserve">
+    <value>Все элементы скрыты</value>
+  </data>
+  <data name="exprt_Settings_FontAndColorGroup" xml:space="preserve">
+    <value>Шрифт и цвет экспортиуемых ячеек</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_BackColor" xml:space="preserve">
+    <value>Цвет подложки</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_PageBack" xml:space="preserve">
+    <value>Предыдущая страницв</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Skins" xml:space="preserve">
+    <value>Обрамления</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByColumns" xml:space="preserve">
+    <value>По колонкам</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByRows" xml:space="preserve">
+    <value>По строкам</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintColumnHeader" xml:space="preserve">
+    <value>Печатать заголовок колонок</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintRowHeader" xml:space="preserve">
+    <value>Печатать заголовки строк</value>
+  </data>
+  <data name="exprt_Settings_PrintPage" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="rsFor_Hierarchy" xml:space="preserve">
+    <value>для {0} иерархии</value>
+  </data>
+  <data name="rsInfoAttributesEditor" xml:space="preserve">
+    <value>Редактор атрибутов</value>
+  </data>
+  <data name="rsCopyCellText" xml:space="preserve">
+    <value>Копировать текст ячейки</value>
+  </data>
+  <data name="rsReady" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="rsHideAllProperties" xml:space="preserve">
+    <value>Скрыть все свойства</value>
+  </data>
+  <data name="rsShowAllProperties" xml:space="preserve">
+    <value>Показать все свойства</value>
+  </data>
+  <data name="rsShowPropertiesReport" xml:space="preserve">
+    <value>Показать свойства в отчете</value>
+  </data>
+  <data name="rsShowPropertiesTooltip" xml:space="preserve">
+    <value>Показать свойства как подсказку</value>
+  </data>
+  <data name="rsDeferLayoutUpdateCheckBoxCaption" xml:space="preserve">
+    <value>Отложить обновление среза</value>
+  </data>
+  <data name="hint_ShowHidePanels" xml:space="preserve">
+    <value>Показать/скрыть панели</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageNumber" xml:space="preserve">
+    <value>Номер страницы</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageTitle" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="exprt_Settings_ColorAndFontPage" xml:space="preserve">
+    <value>Цвет и шрифт</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Left" xml:space="preserve">
+    <value>Слева</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_MeasureUnit" xml:space="preserve">
+    <value>Меры</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PageOrientation" xml:space="preserve">
+    <value>Ориентация страницы</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PaperSize" xml:space="preserve">
+    <value>Размер страницы</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PreviewEdge" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_ResetEdges" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Right" xml:space="preserve">
+    <value>Справа</value>
+  </data>
+  <data name="exprt_Settings_Print_From" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="exprt_Settings_Print_GridOptions" xml:space="preserve">
+    <value>Настройка таблицы</value>
+  </data>
+  <data name="exprt_Settings_Print_PageForPrint" xml:space="preserve">
+    <value>Печатать страницу</value>
+  </data>
+  <data name="exprt_Settings_Print_PrinterSelect" xml:space="preserve">
+    <value>Выбор принтера</value>
+  </data>
+  <data name="exprt_Settings_Print_To" xml:space="preserve">
+    <value>до</value>
+  </data>
+  <data name="preview_Statis_TotalPages" xml:space="preserve">
+    <value>Всего страниц</value>
+  </data>
+  <data name="rsDockAllowSplitting" xml:space="preserve">
+    <value>Показать разделитель</value>
+  </data>
+  <data name="toolbox_Export_ExportDataTo" xml:space="preserve">
+    <value>Экспортировать данные...</value>
+  </data>
+  <data name="rsGridArea" xml:space="preserve">
+    <value>OLAP-срез</value>
+  </data>
+  <data name="rsCommentEdit" xml:space="preserve">
+    <value>Редактировать комментарий</value>
+  </data>
+  <data name="rsCommentCell" xml:space="preserve">
+    <value>Комментарий...</value>
+  </data>
+  <data name="rsCommentCellPrompt" xml:space="preserve">
+    <value>Комментарий:</value>
+  </data>
+  <data name="rsCommentDialogName" xml:space="preserve">
+    <value>Редактор комментария</value>
+  </data>
+  <data name="rsAverage" xml:space="preserve">
+    <value>Среднее</value>
+  </data>
+  <data name="rsCount" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="rsMax" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="rsMin" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="rsColon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="rsDisplayName" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="rsBackColorReminder" xml:space="preserve">
+    <value>Перетащите сюда элемент куба для изменения фонового цвета ячеек</value>
+  </data>
+  <data name="rsForeColorReminder" xml:space="preserve">
+    <value>Перетащите сюда элемент куба для изменения цвета текста ячееек</value>
+  </data>
+  <data name="rsBackColor" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="rsForeColor" xml:space="preserve">
+    <value>Цвет текста</value>
+  </data>
+  <data name="rsBrushEditor" xml:space="preserve">
+    <value>Редактор цвета</value>
+  </data>
+  <data name="rsColorEditor" xml:space="preserve">
+    <value>Редактор цвета</value>
+  </data>
+  <data name="rsGradientEditor" xml:space="preserve">
+    <value>Редактор градиента</value>
+  </data>
+  <data name="rsSolidColor" xml:space="preserve">
+    <value>Сплошной цвет</value>
+  </data>
+  <data name="rsGradient" xml:space="preserve">
+    <value>Градиент</value>
+  </data>
+  <data name="rsRemove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="rsAlpha" xml:space="preserve">
+    <value>Прозрачность</value>
+  </data>
+  <data name="rsRed" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="rsGreen" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="rsBlue" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="rsPalette" xml:space="preserve">
+    <value>Палитра</value>
+  </data>
+  <data name="rsPaletteColored" xml:space="preserve">
+    <value>Цветной</value>
+  </data>
+  <data name="rsPaletteColoredLight" xml:space="preserve">
+    <value>Светлый цвет</value>
+  </data>
+  <data name="rsPaletteGray" xml:space="preserve">
+    <value>Оттенки серого</value>
+  </data>
+  <data name="rsPaletteBlack" xml:space="preserve">
+    <value>Черная</value>
+  </data>
+  <data name="rsPaletteWhite" xml:space="preserve">
+    <value>Белая</value>
+  </data>
+  <data name="rsDiscrete" xml:space="preserve">
+    <value>Дискретный</value>
+  </data>
+  <data name="rsHighlighting" xml:space="preserve">
+    <value>Подсветить</value>
+  </data>
+  <data name="rsSelectBackground" xml:space="preserve">
+    <value>Выбрать цвет фона</value>
+  </data>
+  <data name="rsSelectForeground" xml:space="preserve">
+    <value>Выбрать цвет текста</value>
+  </data>
+  <data name="rsClearAll" xml:space="preserve">
+    <value>Очистить все</value>
+  </data>
+  <data name="rsAllowPaging" xml:space="preserve">
+    <value>Разрешить разбиение на страницы</value>
+  </data>
+  <data name="rsPageOfStart" xml:space="preserve">
+    <value>страница</value>
+  </data>
+  <data name="rsPageOfEnd" xml:space="preserve">
+    <value>из {0}</value>
+  </data>
+  <data name="rsPageFirst" xml:space="preserve">
+    <value>Первая</value>
+  </data>
+  <data name="rsPagePrevios" xml:space="preserve">
+    <value>Предыдущая</value>
+  </data>
+  <data name="rsPageEditDot" xml:space="preserve">
+    <value>Редактировать ...</value>
+  </data>
+  <data name="rsPageNext" xml:space="preserve">
+    <value>Следующая</value>
+  </data>
+  <data name="rsPageLast" xml:space="preserve">
+    <value>Последняя</value>
+  </data>
+  <data name="dock_Anchorable_AutoHide" xml:space="preserve">
+    <value>Скрывать Автоматически</value>
+  </data>
+  <data name="dock_Anchorable_BtnAutoHide_Hint" xml:space="preserve">
+    <value>Скрывать Автоматически</value>
+  </data>
+  <data name="dock_Anchorable_BtnClose_Hint" xml:space="preserve">
+    <value>Скрыть</value>
+  </data>
+  <data name="dock_Anchorable_CxMenu_Hint" xml:space="preserve">
+    <value>Положение Окна</value>
+  </data>
+  <data name="dock_Anchorable_Dock" xml:space="preserve">
+    <value>Присоединить</value>
+  </data>
+  <data name="dock_Anchorable_DockAsDocument" xml:space="preserve">
+    <value>Присоединить как Документ</value>
+  </data>
+  <data name="dock_Anchorable_Float" xml:space="preserve">
+    <value>Отсоединить</value>
+  </data>
+  <data name="dock_Anchorable_Hide" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="dock_Document_Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="dock_Document_CloseAllButThis" xml:space="preserve">
+    <value>Закрыть Все кроме Этого</value>
+  </data>
+  <data name="dock_Document_CxMenu_Hint" xml:space="preserve">
+    <value>Положение Окна</value>
+  </data>
+  <data name="dock_Document_DockAsDocument" xml:space="preserve">
+    <value>Присоединить как Документ</value>
+  </data>
+  <data name="dock_Document_Float" xml:space="preserve">
+    <value>Отсоединить</value>
+  </data>
+  <data name="dock_Document_MoveToNextTabGroup" xml:space="preserve">
+    <value>Перейти к Следующей Группе Вкладок</value>
+  </data>
+  <data name="dock_Document_MoveToPreviousTabGroup" xml:space="preserve">
+    <value>Перейти к Предыдущей Группе Вкладок</value>
+  </data>
+  <data name="dock_Document_NewHorizontalTabGroup" xml:space="preserve">
+    <value>Новая Горизонтальная Группа Вкладок</value>
+  </data>
+  <data name="dock_Document_NewVerticalTabGroup" xml:space="preserve">
+    <value>Новая Вертикальная Группа Вкладок</value>
+  </data>
+  <data name="dock_Window_Maximize" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="dock_Window_Restore" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="rsStandardColors" xml:space="preserve">
+    <value>Стандартные цвета</value>
+  </data>
+  <data name="rsCustomColors" xml:space="preserve">
+    <value>Цвета пользователя</value>
+  </data>
+  <data name="rsOtherColors" xml:space="preserve">
+    <value>Другие цвета</value>
+  </data>
+  <data name="rsColorCount" xml:space="preserve">
+    <value>Число цветов:</value>
+  </data>
+  <data name="rsCreateGradient" xml:space="preserve">
+    <value>Создание градиента</value>
+  </data>
+  <data name="rsEndColor" xml:space="preserve">
+    <value>Последний цвет:</value>
+  </data>
+  <data name="rsOpacity" xml:space="preserve">
+    <value>Прозрачность:</value>
+  </data>
+  <data name="rsPercent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="rsPosition" xml:space="preserve">
+    <value>Позиция:</value>
+  </data>
+  <data name="rsPresets" xml:space="preserve">
+    <value>Предустановки:</value>
+  </data>
+  <data name="rsSelectedColor" xml:space="preserve">
+    <value>Выбранный цвет</value>
+  </data>
+  <data name="rsStartColor" xml:space="preserve">
+    <value>Стартовый цвет:</value>
+  </data>
+  <data name="rsBackgroundArea" xml:space="preserve">
+    <value>Область цвета фона</value>
+  </data>
+  <data name="rsForegroundArea" xml:space="preserve">
+    <value>Область цвета текста</value>
+  </data>
+  <data name="rsWaitingTimeError" xml:space="preserve">
+    <value>Кэш не содержит запрашиваемых данных. Это может происходить по причине истечения времени ожидания начала активности пользователя. Для возобновления работы требуется реактивация куба с ID = "{0}".</value>
+  </data>
+  <data name="repMoveToColor" xml:space="preserve">
+    <value>Перенести в область цвета фона</value>
+  </data>
+  <data name="repMoveToColorFore" xml:space="preserve">
+    <value>Перенести в область цвета текста</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Top" xml:space="preserve">
+    <value>Сверху</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Bottom" xml:space="preserve">
+    <value>Снизу</value>
+  </data>
+  <data name="exprt_Filters" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="exprt_Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="exprt_Filters_of" xml:space="preserve">
+    <value>Отфильтрован "{0}"</value>
+  </data>
+  <data name="exprt_Background_of" xml:space="preserve">
+    <value>Фон элементов "{0}"</value>
+  </data>
+  <data name="exprt_Foreground_of" xml:space="preserve">
+    <value>Цвет текста элементов "{0}"</value>
+  </data>
+  <data name="exprt_Sizes_of" xml:space="preserve">
+    <value>Размеры элементов "{0}"</value>
+  </data>
+  <data name="exprt_Shapes_of" xml:space="preserve">
+    <value>Форма элементов "{0}"</value>
+  </data>
+  <data name="exprt_Details_of" xml:space="preserve">
+    <value>Детализация</value>
+  </data>
+  <data name="repMoveToColorForeChanger" xml:space="preserve">
+    <value>Поместить на ось цвета текста</value>
+  </data>
+  <data name="rsAnalysisType" xml:space="preserve">
+    <value>Тип анализа</value>
+  </data>
+  <data name="enum_AnalysisTypeGrid" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="enum_AnalysisTypeChart" xml:space="preserve">
+    <value>График</value>
+  </data>
+  <data name="rsMoveFirstColumn" xml:space="preserve">
+    <value>Переместить в начало колонок</value>
+  </data>
+  <data name="rsMoveFirstRow" xml:space="preserve">
+    <value>Переместить в начало строк</value>
+  </data>
+  <data name="rsMoveLastColumn" xml:space="preserve">
+    <value>Переместить в конец колонок</value>
+  </data>
+  <data name="rsMoveLastRow" xml:space="preserve">
+    <value>Переместить в конец строк</value>
+  </data>
+  <data name="rsDrillAnywhere" xml:space="preserve">
+    <value>Раскрыть до ...</value>
+  </data>
+  <data name="rsDelayPivoting" xml:space="preserve">
+    <value>Включен режим отложенного пивотинга.</value>
+  </data>
+
+  <data name="rsNewOLAPSliceCopy" xml:space="preserve">
+      <value>Добавить новый срез как копию</value>
+    </data>
+  <data name="rsNewOLAPSlice" xml:space="preserve">
+      <value>Добавить новый срез</value>
+    </data>
+
+  <data name="statfuncDisplayNameSUM" xml:space="preserve"><value>Сумма</value></data>
+  <data name="statfuncDisplayNameAVERAGE" xml:space="preserve"><value>Среднее</value></data>
+  <data name="statfuncDisplayNameAVERAGEA" xml:space="preserve"><value>Среднее +</value></data>
+  <data name="statfuncDisplayNameCOUNT" xml:space="preserve"><value>Количество</value></data>
+  <data name="statfuncDisplayNameCOUNTA" xml:space="preserve"><value>Количество +</value></data>
+  <data name="statfuncDisplayNameCOUNTBLANK" xml:space="preserve"><value>Количество пустых</value></data>
+  <data name="statfuncDisplayNameMAX" xml:space="preserve"><value>Максимум</value></data>
+  <data name="statfuncDisplayNameMAXA" xml:space="preserve"><value>Максимум +</value></data>
+  <data name="statfuncDisplayNameMIN" xml:space="preserve"><value>Минимум</value></data>
+  <data name="statfuncDisplayNameMINA" xml:space="preserve"><value>Минимум +</value></data>
+  <data name="statfuncDisplayNameSTDEV" xml:space="preserve"><value>Стандартное отклонение</value></data>
+  <data name="statfuncDisplayNameSTDEVA" xml:space="preserve"><value>Стандартное отклонение +</value></data>
+  <data name="statfuncDisplayNameSTDEVP" xml:space="preserve"><value>Стандартное отклонение по выборке</value></data>
+  <data name="statfuncDisplayNameSTDEVPA" xml:space="preserve"><value>Стандартное отклонение по выборке +</value></data>
+  <data name="statfuncDisplayNameVAR" xml:space="preserve"><value>Дисперсия</value></data>
+  <data name="statfuncDisplayNameVARA" xml:space="preserve"><value>Дисперсия +</value></data>
+  <data name="statfuncDisplayNameVARP" xml:space="preserve"><value>Дисперсия по выборке</value></data>
+  <data name="statfuncDisplayNameVARPA" xml:space="preserve"><value>Дисперсия по выборке +</value></data>
+
+  <data name="statfuncDescriptionSUM" xml:space="preserve"><value>Adds all the numbers in a range of cells</value></data>
+  <data name="statfuncDescriptionAVERAGE" xml:space="preserve"><value>Returns the average (arithmetic mean) of the arguments</value></data>
+  <data name="statfuncDescriptionAVERAGEA" xml:space="preserve"><value>Calculates the average (arithmetic mean) of the values in the list of arguments</value></data>
+  <data name="statfuncDescriptionCOUNT" xml:space="preserve"><value>Counts the number of cells</value></data>
+  <data name="statfuncDescriptionCOUNTA" xml:space="preserve"><value>Counts the number of cells that are not empty</value></data>
+  <data name="statfuncDescriptionCOUNTBLANK" xml:space="preserve"><value>Counts empty cells in a specified range of cells</value></data>
+  <data name="statfuncDescriptionMAX" xml:space="preserve"><value>Returns the largest value in a set of values</value></data>
+  <data name="statfuncDescriptionMAXA" xml:space="preserve"><value>Returns the largest value in a list of arguments</value></data>
+  <data name="statfuncDescriptionMIN" xml:space="preserve"><value>Returns the smallest number in a set of values</value></data>
+  <data name="statfuncDescriptionMINA" xml:space="preserve"><value>Returns the smallest value in the list of arguments</value></data>
+  <data name="statfuncDescriptionSTDEV" xml:space="preserve"><value>Estimates standard deviation based on a sample</value></data>
+  <data name="statfuncDescriptionSTDEVA" xml:space="preserve"><value>Estimates standard deviation based on a sample</value></data>
+  <data name="statfuncDescriptionSTDEVP" xml:space="preserve"><value>Calculates standard deviation based on the entire population given as arguments</value></data>
+  <data name="statfuncDescriptionSTDEVPA" xml:space="preserve"><value>Calculates standard deviation based on the entire population given as arguments</value></data>
+  <data name="statfuncDescriptionVAR" xml:space="preserve"><value>Estimates variance based on a sample</value></data>
+  <data name="statfuncDescriptionVARA" xml:space="preserve"><value>Estimates variance based on a sample</value></data>
+  <data name="statfuncDescriptionVARP" xml:space="preserve"><value>Calculates variance based on the entire population</value></data>
+  <data name="statfuncDescriptionVARPA" xml:space="preserve"><value>Calculates variance based on the entire population</value></data>
+
+  <data name="rsCopyValuesToClipboard" xml:space="preserve"><value>Скопировать значения в буфер обмена</value></data>
+  
+</root>

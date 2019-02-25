@@ -1,0 +1,1822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="d_edAddNewDimention" xml:space="preserve">
+    <value>建立新维度</value>
+  </data>
+  <data name="d_edAddNewUDhier" xml:space="preserve">
+    <value>建立新多级层次</value>
+  </data>
+  <data name="d_edCreateInNewDim" xml:space="preserve">
+    <value>一起建立新维度</value>
+  </data>
+  <data name="d_edDayOfMonth" xml:space="preserve">
+    <value>此月</value>
+  </data>
+  <data name="d_edDayOfWeekLong" xml:space="preserve">
+    <value>此周(长名)</value>
+  </data>
+  <data name="d_edDayOfWeekShort" xml:space="preserve">
+    <value>此周(简短)</value>
+  </data>
+  <data name="d_edDayOfYear" xml:space="preserve">
+    <value>此年</value>
+  </data>
+  <data name="d_edHalfYear" xml:space="preserve">
+    <value>半年</value>
+  </data>
+  <data name="d_edHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="d_edMarkHierarchyIn" xml:space="preserve">
+    <value>标记此层次于</value>
+  </data>
+  <data name="d_edMarkMeasure" xml:space="preserve">
+    <value>标记此量度</value>
+  </data>
+  <data name="d_edMinute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="d_edMonthLong" xml:space="preserve">
+    <value>月(长名)</value>
+  </data>
+  <data name="d_edMonthNumber" xml:space="preserve">
+    <value>月(数字)</value>
+  </data>
+  <data name="d_edMonthShort" xml:space="preserve">
+    <value>月(简短)</value>
+  </data>
+  <data name="d_edNewCalculatedHier" xml:space="preserve">
+    <value>建立新计算层次</value>
+  </data>
+  <data name="d_edNewCalculatedHierDateTime" xml:space="preserve">
+    <value>日期层次</value>
+  </data>
+  <data name="d_edNewCalculatedMeas" xml:space="preserve">
+    <value>建立新计算量度</value>
+  </data>
+  <data name="d_edNewDimension" xml:space="preserve">
+    <value>新维度</value>
+  </data>
+  <data name="d_edNewDimensionName" xml:space="preserve">
+    <value>新维度名字</value>
+  </data>
+  <data name="d_edNewHierarchyName" xml:space="preserve">
+    <value>新层次名字</value>
+  </data>
+  <data name="d_edNewUDHierarchy" xml:space="preserve">
+    <value>新多级层次名字</value>
+  </data>
+  <data name="d_edProperties" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="d_edQuarter" xml:space="preserve">
+    <value>季</value>
+  </data>
+  <data name="d_edRemoveDimension" xml:space="preserve">
+    <value>删除维度</value>
+  </data>
+  <data name="d_edRemoveHierarchy" xml:space="preserve">
+    <value>删除层次</value>
+  </data>
+  <data name="d_edRemoveMeasure" xml:space="preserve">
+    <value>删除量度</value>
+  </data>
+  <data name="d_edSecond" xml:space="preserve">
+    <value>第二</value>
+  </data>
+  <data name="d_edUnmarkField" xml:space="preserve">
+    <value>无记号域</value>
+  </data>
+  <data name="d_edWeekOfYear" xml:space="preserve">
+    <value>周年</value>
+  </data>
+  <data name="d_edYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="d_rsBackgroundEditor" xml:space="preserve">
+    <value>背景编辑</value>
+  </data>
+  <data name="MF_AllAction" xml:space="preserve">
+    <value>所有行动</value>
+  </data>
+  <data name="MF_BackColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="MF_Background" xml:space="preserve">
+    <value>倾斜选择器</value>
+  </data>
+  <data name="MF_BelowAverage" xml:space="preserve">
+    <value>低于平均</value>
+  </data>
+  <data name="MF_BelowThan" xml:space="preserve">
+    <value>低于 % 至多</value>
+  </data>
+  <data name="MF_Bright" xml:space="preserve">
+    <value>亮</value>
+  </data>
+  <data name="MF_ChartBar" xml:space="preserve">
+    <value>图表倾斜</value>
+  </data>
+  <data name="MF_ClearList" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="MF_ColorChemes" xml:space="preserve">
+    <value>定制计划</value>
+  </data>
+  <data name="MF_FarAverage" xml:space="preserve">
+    <value>最大从平均</value>
+  </data>
+  <data name="MF_Gradient" xml:space="preserve">
+    <value>倾斜</value>
+  </data>
+  <data name="MF_MindFormat" xml:space="preserve">
+    <value>有条件的格式</value>
+  </data>
+  <data name="MF_MoreAverage" xml:space="preserve">
+    <value>更平均</value>
+  </data>
+  <data name="MF_MoreThan" xml:space="preserve">
+    <value>更多 % 最大</value>
+  </data>
+  <data name="MF_NearAverage" xml:space="preserve">
+    <value>最接近平均</value>
+  </data>
+  <data name="MF_Rainbow" xml:space="preserve">
+    <value>彩虹</value>
+  </data>
+  <data name="MF_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="MF_SelectionMode" xml:space="preserve">
+    <value>选择模式</value>
+  </data>
+  <data name="MF_StandardMode" xml:space="preserve">
+    <value>标准模式</value>
+  </data>
+  <data name="MF_System" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="MF_UseLeftButton" xml:space="preserve">
+    <value>使用左按钮</value>
+  </data>
+  <data name="MF_UseRightButton" xml:space="preserve">
+    <value>使用右按钮</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>清除这个组</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>建立一个新组...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>删除这个组</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>展开所有</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>同一层次的子节点</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>下一个维度级别</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>下一个层次</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>折叠所有</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>展开同一层次的子节点</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>展开到下一个维度级别</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>展开到下一个层次</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>折叠</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>输入新建组的名称</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>隐藏除此之外的其他成员</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>隐藏这个度量值</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>隐藏这个成员</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>隐藏这之上的所有成员</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>隐藏这之下的所有成员</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>维度级别编辑</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>所有成员</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>把所有成员添加到组</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>把所有这个之下的成员添加到组</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>把除此之外的所有成员添加到组</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>从组中删除成员</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>把成员添加到组</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>移到行区域</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>移到页区域</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>移到列区域</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;新组名称&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>输入阈值或百分比</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>删除此树形组</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>重命名这个组</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>重置筛选</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>显示空单元格</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>只显示最底部的</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>只显示最顶部的</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>此过滤器只接受数字</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>所有之后</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>所有之前</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="rsCantReadAnotherProductStream" xml:space="preserve">
+    <value>读取数据失败! 因此数据是创造于其他系统</value>
+  </data>
+  <data name="rsCantRestoreInactiveGrid" xml:space="preserve">
+    <value>不能恢复静态栅格规划</value>
+  </data>
+  <data name="rsCantSaveInactiveGrid" xml:space="preserve">
+    <value>不能保存态栅格规划</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>'此单元配位数过多: 行: {0}. 栏: {1}</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>行区域</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>立方体树形结构</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>没找到此 "{0}" 维度</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>折叠</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>展开同轴层次</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>展开到下个层次</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>展开到下个维度级别</value>
+  </data>
+  <data name="rsecStreamVersionError" xml:space="preserve">
+    <value>不能读取早期版本的数据 ({0})</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>编辑数值</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>输入页码</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>筛选</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>筛选区域</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>准确匹配</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>不能创造这层次. 因为它不能换算于平直. 上级: {0}</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>没找到此 "{0}" 层次</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>此 "{0}" 层次还没有初始</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} 半年</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>组或组群必须在相同的级别</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>组或组群必须有相同的上级</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} 增加</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>{0} 至今</value>
+  </data>
+  <data name="rsInactiveCube" xml:space="preserve">
+    <value>在这个方法中，立方体应被调用</value>
+  </data>
+  <data name="rsInadmissibleDrillAction" xml:space="preserve">
+    <value>不许可展开行动 ({0}) 对于此成员: {1}</value>
+  </data>
+  <data name="rsInvalidPropertyError" xml:space="preserve">
+    <value>属性无效于 {0:X}</value>
+  </data>
+  <data name="rsInvalidStreamFormat" xml:space="preserve">
+    <value>数据格式错误</value>
+  </data>
+  <data name="rsInvalidTagError" xml:space="preserve">
+    <value>数据格式错误于位置{0:X}. Tag "{1}"</value>
+  </data>
+  <data name="rsiTimeIntelligence" xml:space="preserve">
+    <value>时间智能对于 "{0}"</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>指标</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>加载中...</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>度量值</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>度量值位置</value>
+  </data>
+  <data name="rsMuitifilterDrillthroughError" xml:space="preserve">
+    <value>不能执行访问细目数据: 过滤层次 '{0}' 有超过一个可见成员</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>指定置</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>此层次 "{0}" 没有级别</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>合计所有的层次成员</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>合计所有可见层次成员</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>尝试隐藏量度标题</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>菜单正在加载，请稍候……</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>不显示总数</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>总计显示在最前</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>总计显示在最后</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>不排序</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>默认排序</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>列区域</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>栏等级</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>趋势</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>行汇总的百分比</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>总计的百分比</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>行上父维度的百分比</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>列上父维度的百分比</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>列汇总的百分比</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>排列行</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>度量值</value>
+  </data>
+  <data name="exprt_Additional" xml:space="preserve">
+    <value>附加</value>
+  </data>
+  <data name="exprt_All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="exprt_Apply" xml:space="preserve">
+    <value>应用和保持对话框打开</value>
+  </data>
+  <data name="exprt_Auto_AllCells" xml:space="preserve">
+    <value>全部单元</value>
+  </data>
+  <data name="exprt_Auto_ExeptHeader" xml:space="preserve">
+    <value>全部单元除了标题</value>
+  </data>
+  <data name="exprt_Auto_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="exprt_AutoSizeFor" xml:space="preserve">
+    <value>自动单元尺寸, 除了标题单元</value>
+  </data>
+  <data name="exprt_AutoSizeForText" xml:space="preserve">
+    <value>自动尺寸于</value>
+  </data>
+  <data name="exprt_Background" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="exprt_Behavior" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="exprt_Bmp_Format" xml:space="preserve">
+    <value>位图格式</value>
+  </data>
+  <data name="exprt_BorderColor" xml:space="preserve">
+    <value>边颜色</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="exprt_Cancel" xml:space="preserve">
+    <value>取消转换和关闭对话框</value>
+  </data>
+  <data name="exprt_Caption" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="exprt_CellsFontAndColor" xml:space="preserve">
+    <value>字体和自定颜色单元已导出</value>
+  </data>
+  <data name="exprt_ChangesPreview" xml:space="preserve">
+    <value>转换预览</value>
+  </data>
+  <data name="exprt_Chart" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="exprt_ClosePreview" xml:space="preserve">
+    <value>关闭预览</value>
+  </data>
+  <data name="exprt_Colontitle" xml:space="preserve">
+    <value>柱标题</value>
+  </data>
+  <data name="exprt_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="exprt_Csv_Format" xml:space="preserve">
+    <value>逗号分割值</value>
+  </data>
+  <data name="exprt_CurrencyFormat" xml:space="preserve">
+    <value>货币格式</value>
+  </data>
+  <data name="exprt_CustomPrint" xml:space="preserve">
+    <value>自定印刷</value>
+  </data>
+  <data name="exprt_Data" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="exprt_DataSlice" xml:space="preserve">
+    <value>检查这东西于显示部分数据而已</value>
+  </data>
+  <data name="exprt_DataSliceOnly" xml:space="preserve">
+    <value>部分而已</value>
+  </data>
+  <data name="exprt_DataTotal" xml:space="preserve">
+    <value>数据总数</value>
+  </data>
+  <data name="exprt_Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="exprt_DrawProperties" xml:space="preserve">
+    <value>拉属性</value>
+  </data>
+  <data name="exprt_Edges" xml:space="preserve">
+    <value>光栅边缘</value>
+  </data>
+  <data name="exprt_Editing" xml:space="preserve">
+    <value>允许编辑单元数据</value>
+  </data>
+  <data name="exprt_EditingEnabled" xml:space="preserve">
+    <value>允许编辑文字单元数据</value>
+  </data>
+  <data name="exprt_EmptyString" xml:space="preserve">
+    <value>文字于显示空单元</value>
+  </data>
+  <data name="exprt_EmptyValue" xml:space="preserve">
+    <value>空数值</value>
+  </data>
+  <data name="exprt_Exit" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="exprt_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="exprt_ExportDataSlice" xml:space="preserve">
+    <value>导出部分数据</value>
+  </data>
+  <data name="exprt_ExportSelection" xml:space="preserve">
+    <value>导出已选择数据</value>
+  </data>
+  <data name="exprt_ExportSettings" xml:space="preserve">
+    <value>导出安置</value>
+  </data>
+  <data name="exprt_FileExportName" xml:space="preserve">
+    <value>输入导出文件名称</value>
+  </data>
+  <data name="exprt_FilterButton" xml:space="preserve">
+    <value>过滤钮</value>
+  </data>
+  <data name="exprt_FitToHeight" xml:space="preserve">
+    <value>配合高度</value>
+  </data>
+  <data name="exprt_FitToPage" xml:space="preserve">
+    <value>配合宽度</value>
+  </data>
+  <data name="exprt_FullView" xml:space="preserve">
+    <value>全视图</value>
+  </data>
+  <data name="exprt_Gif_Format" xml:space="preserve">
+    <value>GIF图象格式</value>
+  </data>
+  <data name="exprt_GridSettings" xml:space="preserve">
+    <value>栅格安置</value>
+  </data>
+  <data name="exprt_Grid" xml:space="preserve">
+    <value>栅格</value>
+  </data>
+  <data name="exprt_GridBGColor" xml:space="preserve">
+    <value>击此改变于栅格背景颜色</value>
+  </data>
+  <data name="exprt_Group" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="exprt_HotKey" xml:space="preserve">
+    <value>联合键转换可见展开按钮</value>
+  </data>
+  <data name="exprt_HotKeyText" xml:space="preserve">
+    <value>热键</value>
+  </data>
+  <data name="exprt_Html_Format" xml:space="preserve">
+    <value>Html 格式</value>
+  </data>
+  <data name="exprt_ImageClear" xml:space="preserve">
+    <value>清晰的图象</value>
+  </data>
+  <data name="exprt_ImagePosition" xml:space="preserve">
+    <value>图象位置</value>
+  </data>
+  <data name="exprt_Jpg_Format" xml:space="preserve">
+    <value>Jpg 格式</value>
+  </data>
+  <data name="exprt_LineColor" xml:space="preserve">
+    <value>击此改变于栅格边界颜色</value>
+  </data>
+  <data name="exprt_LoadSkin" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="exprt_ManyFileFormat" xml:space="preserve">
+    <value>{0} 部分 {1}</value>
+  </data>
+  <data name="exprt_MeasurePosition" xml:space="preserve">
+    <value>量度面板位置</value>
+  </data>
+  <data name="exprt_Member" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="exprt_MemberTotal" xml:space="preserve">
+    <value>成员总数</value>
+  </data>
+  <data name="exprt_MoveToCustom" xml:space="preserve">
+    <value>移至自定页</value>
+  </data>
+  <data name="exprt_MoveToLast" xml:space="preserve">
+    <value>移至最后一页</value>
+  </data>
+  <data name="exprt_MoveToNext" xml:space="preserve">
+    <value>移至下一页</value>
+  </data>
+  <data name="exprt_MoveToPrior" xml:space="preserve">
+    <value>移至上一页</value>
+  </data>
+  <data name="exprt_MoveToToFirst" xml:space="preserve">
+    <value>移至第一页</value>
+  </data>
+  <data name="exprt_OK" xml:space="preserve">
+    <value>应用和关闭对话框</value>
+  </data>
+  <data name="exprt_OncePage" xml:space="preserve">
+    <value>浏览一页</value>
+  </data>
+  <data name="exprt_PageAllView" xml:space="preserve">
+    <value>放大全部页</value>
+  </data>
+  <data name="exprt_PageEdges" xml:space="preserve">
+    <value>页和边缘</value>
+  </data>
+  <data name="exprt_PageFour" xml:space="preserve">
+    <value>四页</value>
+  </data>
+  <data name="exprt_PagesCurrent" xml:space="preserve">
+    <value>当前页 ({0})</value>
+  </data>
+  <data name="exprt_PageSegmentFormat" xml:space="preserve">
+    <value>页 {0:D} 从 {1:D} </value>
+  </data>
+  <data name="exprt_PageToHeight" xml:space="preserve">
+    <value>放大页配合高度</value>
+  </data>
+  <data name="exprt_PageToWidth" xml:space="preserve">
+    <value>放大页配合宽度</value>
+  </data>
+  <data name="exprt_PageTwo" xml:space="preserve">
+    <value>两页</value>
+  </data>
+  <data name="exprt_PagsSegment" xml:space="preserve">
+    <value>全部 (from {0} to {1})</value>
+  </data>
+  <data name="exprt_Pdf_Format" xml:space="preserve">
+    <value>便携式文件</value>
+  </data>
+  <data name="exprt_PivotAndData" xml:space="preserve">
+    <value>枢轴和数据</value>
+  </data>
+  <data name="exprt_PivotButton" xml:space="preserve">
+    <value>枢轴按钮</value>
+  </data>
+  <data name="exprt_PivotColored" xml:space="preserve">
+    <value>有色的枢轴面板</value>
+  </data>
+  <data name="exprt_PivotColoredTips" xml:space="preserve">
+    <value>允许枢轴面板和结构立方体用不同的颜色</value>
+  </data>
+  <data name="exprt_PivotPanel" xml:space="preserve">
+    <value>枢轴面板</value>
+  </data>
+  <data name="exprt_PivotStyle" xml:space="preserve">
+    <value>击此选择枢轴面板风格</value>
+  </data>
+  <data name="exprt_PivotStyleText" xml:space="preserve">
+    <value>现代枢轴</value>
+  </data>
+  <data name="exprt_Placed_ColF" xml:space="preserve">
+    <value>栏先</value>
+  </data>
+  <data name="exprt_Placed_ColL" xml:space="preserve">
+    <value>栏后</value>
+  </data>
+  <data name="exprt_Placed_RowF" xml:space="preserve">
+    <value>行先</value>
+  </data>
+  <data name="exprt_Placed_RowL" xml:space="preserve">
+    <value>行后</value>
+  </data>
+  <data name="exprt_Png_Format" xml:space="preserve">
+    <value>Png 格式</value>
+  </data>
+  <data name="exprt_PreviewExportSetting" xml:space="preserve">
+    <value>预览和导出安置</value>
+  </data>
+  <data name="exprt_PreviewOptions" xml:space="preserve">
+    <value>预览选项于栅格</value>
+  </data>
+  <data name="exprt_PrintAll" xml:space="preserve">
+    <value>全页</value>
+  </data>
+  <data name="exprt_PrintCurrent" xml:space="preserve">
+    <value>当前页</value>
+  </data>
+  <data name="exprt_PrintDialog" xml:space="preserve">
+    <value>打印对话框</value>
+  </data>
+  <data name="exprt_PrintOK" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="exprt_PrintPreview" xml:space="preserve">
+    <value>打印预览</value>
+  </data>
+  <data name="exprt_PrintToFile" xml:space="preserve">
+    <value>打印于文件</value>
+  </data>
+  <data name="exprt_RefreshOnScroll" xml:space="preserve">
+    <value>更新涉及滚动</value>
+  </data>
+  <data name="exprt_RefreshReWidth" xml:space="preserve">
+    <value>更新涉及调整大小</value>
+  </data>
+  <data name="exprt_RefreshReWidthTips" xml:space="preserve">
+    <value>更新涉及转换栏宽度</value>
+  </data>
+  <data name="exprt_RefreshScroll" xml:space="preserve">
+    <value>允许栅格更新涉及滚动</value>
+  </data>
+  <data name="exprt_SampleText" xml:space="preserve">
+    <value>正文样品</value>
+  </data>
+  <data name="exprt_SapmleDraw" xml:space="preserve">
+    <value>画样品</value>
+  </data>
+  <data name="exprt_SettingsPrint" xml:space="preserve">
+    <value>打印设置</value>
+  </data>
+  <data name="exprt_ShowDrill" xml:space="preserve">
+    <value>总是显示所有展开按钮</value>
+  </data>
+  <data name="exprt_ShowExportPrintPrev" xml:space="preserve">
+    <value>总是显示导出, 打印, 预览</value>
+  </data>
+  <data name="exprt_ShowScrollBar" xml:space="preserve">
+    <value>自动自动滚动条</value>
+  </data>
+  <data name="exprt_ShowToolbtn" xml:space="preserve">
+    <value>显示工具栏于按钮</value>
+  </data>
+  <data name="exprt_ShowToolbtnText" xml:space="preserve">
+    <value>显示工具栏于按钮</value>
+  </data>
+  <data name="exprt_Skin" xml:space="preserve">
+    <value>皮肤</value>
+  </data>
+  <data name="exprt_Strings" xml:space="preserve">
+    <value>一行</value>
+  </data>
+  <data name="exprt_StyleAlign" xml:space="preserve">
+    <value>文字排列</value>
+  </data>
+  <data name="exprt_StyleBackColor" xml:space="preserve">
+    <value>背部颜色</value>
+  </data>
+  <data name="exprt_Text_Format" xml:space="preserve">
+    <value>文字格式</value>
+  </data>
+  <data name="exprt_TextAlign" xml:space="preserve">
+    <value>文字排列</value>
+  </data>
+  <data name="exprt_TextFont" xml:space="preserve">
+    <value>文字字形</value>
+  </data>
+  <data name="exprt_TextOnPivot" xml:space="preserve">
+    <value>显示文字在枢轴面板 (平常观看)</value>
+  </data>
+  <data name="exprt_TextOnPivotText" xml:space="preserve">
+    <value>文字在枢轴面板</value>
+  </data>
+  <data name="exprt_Tiff_Format" xml:space="preserve">
+    <value>Tiff 格式</value>
+  </data>
+  <data name="exprt_Title_document" xml:space="preserve">
+    <value>标题文件</value>
+  </data>
+  <data name="exprt_ToolBtn" xml:space="preserve">
+    <value>工具按钮</value>
+  </data>
+  <data name="exprt_TreeWidth" xml:space="preserve">
+    <value>调整树状宽度</value>
+  </data>
+  <data name="exprt_TreeWidthText" xml:space="preserve">
+    <value>树状宽度</value>
+  </data>
+  <data name="exprt_ViewMode" xml:space="preserve">
+    <value>选择这东西于观看模式</value>
+  </data>
+  <data name="exprt_ViewModeText" xml:space="preserve">
+    <value>观看模式</value>
+  </data>
+  <data name="exprt_Worksheet" xml:space="preserve">
+    <value>工作表 {0}</value>
+  </data>
+  <data name="exprt_Xml_Format" xml:space="preserve">
+    <value>Xml 格式</value>
+  </data>
+  <data name="exprt_ZoomCustom" xml:space="preserve">
+    <value>自定放大</value>
+  </data>
+  <data name="MF_CurrentColorChemas" xml:space="preserve">
+    <value>当前颜色计划</value>
+  </data>
+  <data name="MF_MindFormating" xml:space="preserve">
+    <value>有条件格式</value>
+  </data>
+  <data name="MF_ShowMenuCommand" xml:space="preserve">
+    <value>显示构成命令</value>
+  </data>
+  <data name="MF_ShowMenuItem" xml:space="preserve">
+    <value>显示菜单项目</value>
+  </data>
+  <data name="MF_ShowMenuLastCommand" xml:space="preserve">
+    <value>显示最后的命令</value>
+  </data>
+  <data name="MF_ShowMenuMode" xml:space="preserve">
+    <value>显示选择模式菜单</value>
+  </data>
+  <data name="MF_ShowMenuThemes" xml:space="preserve">
+    <value>显示颜色风格菜单</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>标题过滤</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>显示项目匹配于下条件</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>标题过滤 ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>数值过滤 ({0})</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>之间</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>结束于</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>数值过滤</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>大过</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>小过</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>不在之间</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>不包含</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>不结束于</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>不大过</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>不小过</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>不以此开始</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>开始于</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>前10</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>之内</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% 于项目数</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>综合性</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>过滤日期</value>
+  </data>
+  <data name="repHierarhyEditorLevel" xml:space="preserve">
+    <value>级别过滤 :</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>简单过滤</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>按此自定制过滤</value>
+  </data>
+  <data name="exprt_InputCaption" xml:space="preserve">
+    <value>输入值</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>输入页码(从 1 to {0})</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>Input value from {0} 到 {1}!</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>数值无效</value>
+  </data>
+  <data name="rsFilterTree" xml:space="preserve">
+    <value>过滤层次内部成员编辑</value>
+  </data>
+  <data name="rsContextFilterSettings" xml:space="preserve">
+    <value>上下文过滤编辑</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>合计数值</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>论据表格数值</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>限制:</value>
+  </data>
+  <data name="rsNewChat" xml:space="preserve">
+    <value>&lt;拖拉项目于此创造新的图表&gt;</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="rsMemberFilterSettings" xml:space="preserve">
+    <value>成员过滤设置</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>允许替换规划</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>第一栏</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>最后一栏</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>最后一行</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>第一行</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>移动数值</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>过滤正文</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>应用过滤树状层次</value>
+  </data>
+  <data name="rsDockMenuItem" xml:space="preserve">
+    <value>而已面板规划</value>
+  </data>
+  <data name="rsWrongNamedSetPivoting" xml:space="preserve">
+    <value>这 “{0}” 和 “{1}” 项目不能同时显示于此报告</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>复制已选择</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>多选</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>查找:</value>
+  </data>
+  <data name="rep_QuickSearch" xml:space="preserve">
+    <value>在这里输入文本以过滤多维数据集结构树</value>
+  </data>
+  <data name="rsWrongDateStr" xml:space="preserve">
+    <value>无法解析 "{0}" 为日期，请使用下面的格式: "{1}"</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>除了 {0} 之外的所有成员</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>度量值</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>过滤描述</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>项</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>显示层级</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>过滤编辑器</value>
+  </data>
+  <data name="repMoveToColorChanger" xml:space="preserve">
+    <value>移动到色轴</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>数据区域</value>
+  </data>
+  <data name="repMoveToDetailsChanger" xml:space="preserve">
+    <value>移动到详细</value>
+  </data>
+  <data name="repMoveToShapeChanger" xml:space="preserve">
+    <value>移动到形状区域</value>
+  </data>
+  <data name="repMoveToSizeChanger" xml:space="preserve">
+    <value>移动到尺寸轴</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>快速过滤</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>公式编辑器</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>MDX 函数</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>MDX模板</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="exprt_ModificatorContainer" xml:space="preserve">
+    <value>图例区域</value>
+  </data>
+  <data name="exprt_ModificatorCustom" xml:space="preserve">
+    <value>自定义图例</value>
+  </data>
+  <data name="exprt_ModificatorHierarchy" xml:space="preserve">
+    <value>层次图例</value>
+  </data>
+  <data name="exprt_ModificatorItem" xml:space="preserve">
+    <value>项图例</value>
+  </data>
+  <data name="exprt_ModificatorMeasure" xml:space="preserve">
+    <value>度量值图例</value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>创建计算度量值...</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>创建计算成员...</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>删除度量值</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>删除成员</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>编辑度量值...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>编辑成员...</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>颜色:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>颜色设置:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>详细:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>尺寸:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>尺寸设置:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>色轴</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>尺寸轴</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>形状:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>形状设置:</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>形状</value>
+  </data>
+  <data name="mnShapeAxis" xml:space="preserve">
+    <value>形状轴</value>
+  </data>
+  <data name="mdModificators" xml:space="preserve">
+    <value>修饰</value>
+  </data>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="mnFilterSelection" xml:space="preserve">
+    <value>过滤选中的项</value>
+  </data>
+  <data name="mnShowUnderlying" xml:space="preserve">
+    <value>显示基础数据</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="rsDrillthrough" xml:space="preserve">
+    <value>下钻...</value>
+  </data>
+  <data name="rsDrillthroughResults" xml:space="preserve">
+    <value>钻取结果</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>加载保存状态</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>保存全部</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>保存外观</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>仅保存数据</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>保存透视表和数据</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>仅保存透视图</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>保存状态</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>保存所有模板</value>
+  </data>
+  <data name="rsShowExceptTree" xml:space="preserve">
+    <value>显示除树状结构外的所有面板</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>显示 {0} 为</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>交换行列</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>应用调色器</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>应用皮肤</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>重置缩放到 100%</value>
+  </data>
+  <data name="rsShowDataOnly" xml:space="preserve">
+    <value>仅显示数据面板</value>
+  </data>
+  <data name="rsShowDefault" xml:space="preserve">
+    <value>恢复为默认布局</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="repShowPages" xml:space="preserve">
+    <value>显示页面</value>
+  </data>
+  <data name="repVisibleOnly" xml:space="preserve">
+    <value>只显示可见成员</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>选择过滤模式</value>
+  </data>
+  <data name="rsFilterRescale" xml:space="preserve">
+    <value>调整</value>
+  </data>
+  <data name="rsFilterRescaleHint" xml:space="preserve">
+    <value>仅显示调整后的选择数据段</value>
+  </data>
+  <data name="rsFilterShowSegmentData" xml:space="preserve">
+    <value>显示数据段</value>
+  </data>
+  <data name="rsFilterShowSegmentDataHint" xml:space="preserve">
+    <value>仅显示选择的数据段</value>
+  </data>
+  <data name="rsTrendAdd" xml:space="preserve">
+    <value>加入趋势线</value>
+  </data>
+  <data name="rsTrendRemove" xml:space="preserve">
+    <value>移除趋势</value>
+  </data>
+  <data name="rsTrendCubic" xml:space="preserve">
+    <value>立方</value>
+  </data>
+  <data name="rsTrendLine" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="rsTrendQuadratic" xml:space="preserve">
+    <value>二次方</value>
+  </data>
+  <data name="rsTrendColor" xml:space="preserve">
+    <value>趋势颜色...</value>
+  </data>
+  <data name="rsTrendType" xml:space="preserve">
+    <value>趋势类型</value>
+  </data>
+  <data name="label_CCSettingsSetupControl_Advanced" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="exprt_ExportDateFormat" xml:space="preserve">
+    <value>日期: {0:dd/MM/yyyy}</value>
+  </data>
+  <data name="hint_ClickChangeColor" xml:space="preserve">
+    <value>点击改变项颜色</value>
+  </data>
+  <data name="hint_ClickChangeShape" xml:space="preserve">
+    <value>点击改变项形状</value>
+  </data>
+  <data name="hint_ClickExpandCollapse" xml:space="preserve">
+    <value>点击展开/收拢</value>
+  </data>
+  <data name="hint_ClickToEditHierFilter" xml:space="preserve">
+    <value>点击编辑层次过滤器</value>
+  </data>
+  <data name="hint_ClickTopEditMeasFilter" xml:space="preserve">
+    <value>点击编辑度量值过滤器</value>
+  </data>
+  <data name="hint_ClickToSort" xml:space="preserve">
+    <value>点击列排序</value>
+  </data>
+  <data name="hint_CollapseCell" xml:space="preserve">
+    <value>收拢列</value>
+  </data>
+  <data name="hint_CollapseLevel" xml:space="preserve">
+    <value>收拢层级</value>
+  </data>
+  <data name="hint_DragPanelToPivot" xml:space="preserve">
+    <value>拖动面板透视多维数据集</value>
+  </data>
+  <data name="hint_DragToFilter" xml:space="preserve">
+    <value>当拖动项到这里时使用过滤器</value>
+  </data>
+  <data name="hint_DragToPivot" xml:space="preserve">
+    <value>当拖动项到这里时透视透视多维数据集</value>
+  </data>
+  <data name="hint_DrillNextHierarchy" xml:space="preserve">
+    <value>下钻到下一层次成员</value>
+  </data>
+  <data name="hint_DrillNextLevel" xml:space="preserve">
+    <value>下钻到下一层级成员</value>
+  </data>
+  <data name="hint_DrillParentChild" xml:space="preserve">
+    <value>下钻并展开成员</value>
+  </data>
+  <data name="hint_ExpandThisLevel" xml:space="preserve">
+    <value>展开层级</value>
+  </data>
+  <data name="hint_PressCtrlOrShift" xml:space="preserve">
+    <value>按下 Ctrl/Shift 改变选择模式</value>
+  </data>
+  <data name="hint_RightClickTheCell" xml:space="preserve">
+    <value>右键单击单元格显示上下文菜单/左键单击选择</value>
+  </data>
+  <data name="hint_RightClickTheCell2" xml:space="preserve">
+    <value>右键单击单元格显示上下文菜单</value>
+  </data>
+  <data name="hint_RightClickToContext" xml:space="preserve">
+    <value>右键单击项显示上下文菜单</value>
+  </data>
+  <data name="rsItemToFilter" xml:space="preserve">
+    <value>项过滤器</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="rsFormat" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="rsChangeColor" xml:space="preserve">
+    <value>更改颜色...</value>
+  </data>
+  <data name="rsChooseColor" xml:space="preserve">
+    <value>选择颜色</value>
+  </data>
+  <data name="rsSteppedColors" xml:space="preserve">
+    <value>阶式颜色</value>
+  </data>
+  <data name="rsEmailError" xml:space="preserve">
+    <value>请复制上面的错误信息并通过Email发送到我们的支持部. {0}</value>
+  </data>
+  <data name="rsErrorMessage" xml:space="preserve">
+    <value>错误信息</value>
+  </data>
+  <data name="rsServerError" xml:space="preserve">
+    <value>服务器发现一个错误:</value>
+  </data>
+  <data name="rsColorArea" xml:space="preserve">
+    <value>颜色区域</value>
+  </data>
+  <data name="rsDetailsArea" xml:space="preserve">
+    <value>详细区域</value>
+  </data>
+  <data name="rsDragMeasure" xml:space="preserve">
+    <value>拖动一个度量值创建序列</value>
+  </data>
+  <data name="rsDragMeasure2" xml:space="preserve">
+    <value>拖动一个度量值创建图表</value>
+  </data>
+  <data name="rsEnablePaging" xml:space="preserve">
+    <value>启用分页</value>
+  </data>
+  <data name="rsMatchFilter" xml:space="preserve">
+    <value>匹配过滤器</value>
+  </data>
+  <data name="rsShapeArea" xml:space="preserve">
+    <value>形状区域</value>
+  </data>
+  <data name="rsSizeArea" xml:space="preserve">
+    <value>尺寸区域</value>
+  </data>
+  <data name="rsTreeFilterSettings" xml:space="preserve">
+    <value>成员树过滤器设置</value>
+  </data>
+  <data name="hint_ConnectTo" xml:space="preserve">
+    <value>连接服务器</value>
+  </data>
+  <data name="hint_ExportTo" xml:space="preserve">
+    <value>导出到 {0}</value>
+  </data>
+  <data name="hint_LoadReport" xml:space="preserve">
+    <value>载入保存的布局</value>
+  </data>
+  <data name="hint_SaveReport" xml:space="preserve">
+    <value>保存当前布局</value>
+  </data>
+  <data name="rsCatalog" xml:space="preserve">
+    <value>目录:</value>
+  </data>
+  <data name="rsConnectionSettings" xml:space="preserve">
+    <value>连接设置</value>
+  </data>
+  <data name="rsCube" xml:space="preserve">
+    <value>多维数据集:</value>
+  </data>
+  <data name="rsPleaseWait" xml:space="preserve">
+    <value>正在处理服务器端请求，请稍候...</value>
+  </data>
+  <data name="rsServer" xml:space="preserve">
+    <value>服务器:</value>
+  </data>
+  <data name="rsAllMembersHidden" xml:space="preserve">
+    <value>所有成员均隐藏</value>
+  </data>
+  <data name="exprt_Settings_FontAndColorGroup" xml:space="preserve">
+    <value>导出时单元格的字体和自定义颜色</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_BackColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Font" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_FontColor" xml:space="preserve">
+    <value>字体颜色</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_PageBack" xml:space="preserve">
+    <value>后退一页</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Skins" xml:space="preserve">
+    <value>皮肤</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByColumns" xml:space="preserve">
+    <value>通过列</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByRows" xml:space="preserve">
+    <value>通过行</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintColumnHeader" xml:space="preserve">
+    <value>打印列头</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintRowHeader" xml:space="preserve">
+    <value>打印行头</value>
+  </data>
+  <data name="exprt_Settings_PrintPage" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="rsFor_Hierarchy" xml:space="preserve">
+    <value>层次  {0}</value>
+  </data>
+  <data name="rsInfoAttributesEditor" xml:space="preserve">
+    <value>信息属性编辑器</value>
+  </data>
+  <data name="rsCopyCellText" xml:space="preserve">
+    <value>复制单元格文本</value>
+  </data>
+  <data name="rsReady" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="rsHideAllProperties" xml:space="preserve">
+    <value>隐藏所有属性</value>
+  </data>
+  <data name="rsShowAllProperties" xml:space="preserve">
+    <value>显示所有属性</value>
+  </data>
+  <data name="rsShowPropertiesReport" xml:space="preserve">
+    <value>在报告中显示属性</value>
+  </data>
+  <data name="rsShowPropertiesTooltip" xml:space="preserve">
+    <value>在提示中显示属性</value>
+  </data>
+  <data name="rsDeferLayoutUpdateCheckBoxCaption" xml:space="preserve">
+    <value>延迟布局更新</value>
+  </data>
+  <data name="hint_ShowHidePanels" xml:space="preserve">
+    <value>显示/隐藏可用的面板</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageNumber" xml:space="preserve">
+    <value>自定义页号</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageTitle" xml:space="preserve">
+    <value>自定义页标题</value>
+  </data>
+  <data name="exprt_Settings_ColorAndFontPage" xml:space="preserve">
+    <value>颜色和字体</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_MeasureUnit" xml:space="preserve">
+    <value>度量值单元</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PageOrientation" xml:space="preserve">
+    <value>页面方向</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PaperSize" xml:space="preserve">
+    <value>纸张大小</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PreviewEdge" xml:space="preserve">
+    <value>预览边缘</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_ResetEdges" xml:space="preserve">
+    <value>重置边缘</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="exprt_Settings_Print_From" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="exprt_Settings_Print_GridOptions" xml:space="preserve">
+    <value>透视表选项</value>
+  </data>
+  <data name="exprt_Settings_Print_PageForPrint" xml:space="preserve">
+    <value>打印此页</value>
+  </data>
+  <data name="exprt_Settings_Print_PrinterSelect" xml:space="preserve">
+    <value>选择打印机</value>
+  </data>
+  <data name="exprt_Settings_Print_To" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="preview_Statis_TotalPages" xml:space="preserve">
+    <value>页合计</value>
+  </data>
+  <data name="rsDockAllowSplitting" xml:space="preserve">
+    <value>允许用户改变分隔状态</value>
+  </data>
+  <data name="toolbox_Export_ExportDataTo" xml:space="preserve">
+    <value>导出数据到...</value>
+  </data>
+  <data name="rsGridArea" xml:space="preserve">
+    <value>透视表</value>
+  </data>
+  <data name="rsCommentEdit" xml:space="preserve">
+    <value>编辑注释</value>
+  </data>
+  <data name="rsCommentCell" xml:space="preserve">
+    <value>注释单元格...</value>
+  </data>
+  <data name="rsCommentCellPrompt" xml:space="preserve">
+    <value>注释:</value>
+  </data>
+  <data name="rsAverage" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="rsCount" xml:space="preserve">
+    <value>计数</value>
+  </data>
+  <data name="rsMax" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="rsMin" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="rsAdditionalInfo" xml:space="preserve">
+    <value>其他信息:</value>
+  </data>
+  <data name="rsCopyToClipboard" xml:space="preserve">
+    <value>复制到剪贴板</value>
+  </data>
+  <data name="rsException" xml:space="preserve">
+    <value>提出异常</value>
+  </data>
+  <data name="rsExceptionRaised" xml:space="preserve">
+    <value>提出异常{0}</value>
+  </data>
+  <data name="hint_ClearLayout" xml:space="preserve">
+    <value>清除当前布局</value>
+  </data>
+  <data name="rsSendToSupport" xml:space="preserve">
+    <value>发送到支持</value>
+  </data>
+  <data name="hint_RemoveItem" xml:space="preserve">
+    <value>点击并移除项</value>
+  </data>
+
+  <data name="dock_Anchorable_AutoHide" xml:space="preserve">
+    <value>自动隐藏</value>
+  </data>
+  <data name="dock_Anchorable_BtnAutoHide_Hint" xml:space="preserve">
+    <value>自动隐藏</value>
+  </data>
+  <data name="dock_Anchorable_BtnClose_Hint" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="dock_Anchorable_CxMenu_Hint" xml:space="preserve">
+    <value>窗口位置</value>
+  </data>
+  <data name="dock_Anchorable_Dock" xml:space="preserve">
+    <value>停靠</value>
+  </data>
+  <data name="dock_Anchorable_DockAsDocument" xml:space="preserve">
+    <value>停靠成标签式文档</value>
+  </data>
+  <data name="dock_Anchorable_Float" xml:space="preserve">
+    <value>漂浮</value>
+  </data>
+  <data name="dock_Anchorable_Hide" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="dock_Document_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="dock_Document_CloseAllButThis" xml:space="preserve">
+    <value>留此，关闭其他</value>
+  </data>
+  <data name="dock_Document_CxMenu_Hint" xml:space="preserve">
+    <value>窗口位置</value>
+  </data>
+  <data name="dock_Document_DockAsDocument" xml:space="preserve">
+    <value>停靠成标签式文档</value>
+  </data>
+  <data name="dock_Document_Float" xml:space="preserve">
+    <value>漂浮</value>
+  </data>
+  <data name="dock_Document_MoveToNextTabGroup" xml:space="preserve">
+    <value>移到下一标签组</value>
+  </data>
+  <data name="dock_Document_MoveToPreviousTabGroup" xml:space="preserve">
+    <value>移到上一标签组</value>
+  </data>
+  <data name="dock_Document_NewHorizontalTabGroup" xml:space="preserve">
+    <value>新建水平标签组</value>
+  </data>
+  <data name="dock_Document_NewVerticalTabGroup" xml:space="preserve">
+    <value>新建垂直标签组</value>
+  </data>
+  <data name="dock_Window_Maximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="dock_Window_Restore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+</root>

@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>Overskrifter</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Tøm</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>Søg:</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Tøm gruppe</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Opret ny gruppe...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Slet gruppe</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Åbn alle</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>til samme niveau</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>til næste hieraki</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>til næste niveau</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Saml alle</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Åb til samme niveau</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Åbn til næste hieraki</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Åbn til næste niveau</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Rul op</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Indtast nyt gruppenavn</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Skjul alle medlemmer pånær denne</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Skjul denne måling</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>Skul dette medlem</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Skjul alle medlemmer over denne</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Skjul alle medlemmer under denne</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Hieraki editor</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>Indtast sidenummer (fra 1 to {0})</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Illegal værdi</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Flyt alle medlemmer til gruppe</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Flyt alle medlemmer under denne til gruppe</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Flyt alle medlemmer pånær denne til gruppe</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Flyt medlem fra gruppe</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Flyt medlem til gruppe</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Flyt til kolonne område</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>Flyt til side panel</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Flyt til række panel</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;nyt gruppe navn&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Andre</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Indtast grænseværdi eller procent</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Flyt til træ</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Omdøb denne gruppe</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Nulstil filter</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Vis som</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Vis tomme celler</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Vis kun bund</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Vis kun top</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>Dette filer kan kun benyttes på numriske data</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>Efter alle</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>Sammensatte værdier</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Alle medlemmer</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>og</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Før alle</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>Bund</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>Anullér</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Kolonne panel</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Kopier valg</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Cube struktur træ</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Ukendt</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>"{0}" dimension findes ikke</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>Tillad ændring i layout</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>Alle paneler</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>Data panel</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>Pivot panel</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>luk</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>Ret denne værdi</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>Indtast side nummer</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Mellem</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Indeholder</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Slutter med</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>lig med</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Filter på overskrifter</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Filter på værdi</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Overskrider</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Mindre end</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Ikke imellem</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Indelholder ikke</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Ender ikke med</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>ikke lig med</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Ikke større</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Ikke mindre</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Starter ikke med</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>Vis kun hvis følgende kriterier er opfyldt:</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Starter med</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Filter på overskrift ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Filter på værdi ({0})</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Filter panel</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Filter beskrivelse</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>Præcis match</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Læser...</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Måling</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Målinger</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Målinger position</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>Navngivet sæt</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>Sider:</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Undlad at vise totaler</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Vis totaler først</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Vis totaler til sidst</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Ingen sortering</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Sortér stigende</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Standard sortering</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Sortér faldende</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} kvartal</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Række panel</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Kolonne rækkefølge</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Værdi</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Vægt</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Værdi</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>Procent af kolonne total</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>Procent af total</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>Procent af rækketotal</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Række sortering</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Værdier</value>
+  </data>
+</root>

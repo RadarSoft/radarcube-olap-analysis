@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="d_edDayOfMonth" xml:space="preserve">
+    <value>Hónap napja</value>
+  </data>
+  <data name="d_edDayOfWeekLong" xml:space="preserve">
+    <value>Hét napja (hosszú név)</value>
+  </data>
+  <data name="d_edDayOfWeekShort" xml:space="preserve">
+    <value>Hét napja (rövid név)</value>
+  </data>
+  <data name="d_edDayOfYear" xml:space="preserve">
+    <value>Év napja</value>
+  </data>
+  <data name="d_edHalfYear" xml:space="preserve">
+    <value>Félév</value>
+  </data>
+  <data name="d_edHour" xml:space="preserve">
+    <value>Óra</value>
+  </data>
+  <data name="d_edMinute" xml:space="preserve">
+    <value>Perc</value>
+  </data>
+  <data name="d_edMonthLong" xml:space="preserve">
+    <value>Hónap (teljes név)</value>
+  </data>
+  <data name="d_edMonthNumber" xml:space="preserve">
+    <value>Hónap (szám)</value>
+  </data>
+  <data name="d_edMonthShort" xml:space="preserve">
+    <value>Hónap (rövid név)</value>
+  </data>
+  <data name="d_edWeekOfYear" xml:space="preserve">
+    <value>Év hete</value>
+  </data>
+  <data name="d_edYear" xml:space="preserve">
+    <value>Év</value>
+  </data>
+  <data name="MF_ClearList" xml:space="preserve">
+    <value>Lista törlése</value>
+  </data>
+  <data name="MF_LastCommand" xml:space="preserve">
+    <value>Utolsó parancs</value>
+  </data>
+  <data name="MF_System" xml:space="preserve">
+    <value>Rendszer</value>
+  </data>
+  <data name="MF_UseLeftButton" xml:space="preserve">
+    <value>Használja a bal egérgombot</value>
+  </data>
+  <data name="MF_UseRightButton" xml:space="preserve">
+    <value>Használja a jobb egérgombot</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Csoport</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Új csoport létrehozása...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Ennek a csoportnak a törlése</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Teljes lefúrás</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>azonos szintig</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>a következő hierarchiáig</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>a következő szintig</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Aggregálás</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Lefúrás azonos szintre</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Lefúrás a következő hierachiáig</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Lefúrás a következő szintig</value>
+  </data>
+  <data name="repDrillThrow" xml:space="preserve">
+    <value>A keresztűlfúrás eredménye</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Aggregálás</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Új csoport felvitele</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Minden elem elrejtése kivéve ezt</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Ennek az adatnak az elrejtése</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>Ennek az elemnek az elrejtése</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Minden elem elrejtése innentől</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Minden elem elrejtése ez alatt</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Hierachia szerkesztő</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Összes elem</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Összes elem csoportosítása</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Összes ez alatti elem csoportosítása</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Összes elem csoportosítása kivéve ezt</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Elem kivétele a csoportból</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Elem csoportosítása</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Áthelyezés az oszlop területre</value>
+  </data>
+  <data name="repMoveToFirst" xml:space="preserve">
+    <value>Adat előrehozása</value>
+  </data>
+  <data name="repMoveToLast" xml:space="preserve">
+    <value>Adat hátraküldése</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>Athelyezés az oldal területre</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Áthelyezés a sor területre</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;az új csoport neve&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Egyéb</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Adja meg a küszöb értéket vagy százalékot</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Áthelyezés fába</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Csoport átnevezése</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Szűrő törlése</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Mutatása mint</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Üres cellák is láthatók</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Utolsó ... megjenítése</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Első ... megjenítése</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>A szűrő csak numerikus adatokat tud fogadni</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>Az összesen után</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Alkalmaz</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Az összesen előtt</value>
+  </data>
+  <data name="rsBlankMemberCaption" xml:space="preserve">
+    <value>(Üres)</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Oszlop terület</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Adatkocka szerkezete</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Ismeretlen</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>A "{0}" dimenzó nem található.</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>összecsuk</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>Lefurás a szinten belüli gyerekre</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>Lefúrás a következő szintű gyerekekre</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>Lefúrás a következő hierarhiába</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>Oldalszám megadása</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Szűrő</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Szűrő terület</value>
+  </data>
+  <data name="rsFilterEditHint" xml:space="preserve">
+    <value>Adja meg a szűrőt. A "%" tetszőleges karaktert jelöl.</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>Pontos egyezés</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>Nem lehet léterhozni a hierarhiát mert nem lehet lapított formába hozni. Szülő: {0}</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>A(z) "{0}" hierarchia szint nem található</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>A(z) "{0}" hierarchia kiinduló értéke nincs beállítva</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} Félév</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} növekmény</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>{0} Elem kummulálás</value>
+  </data>
+  <data name="rsiTimeIntelligence" xml:space="preserve">
+    <value>Idő intelligencia a "{0}" -ra</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>Mutatószámok</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Betöltés...</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Adatok</value>
+  </data>
+  <data name="rsMuitifilterDrillthroughError" xml:space="preserve">
+    <value>Nem lehet lefuttatni az átfúrási műveletet: a szűrt '{0}' hierarhiának több mint egy eleme is látható.</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>Csoportok</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>A "{0}" hierarhiának nincsenek szintjei.</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>Rendben</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>Oldal:</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>A hierarhia összes elemének aggregálása</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>Csak a látható elemek aggregálása</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>Elem cimkék elrejtése ha lehetséges</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>Menü betöltése...</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Összegek elrejtése</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Az összeget elsőnek</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Az összeget utolsónak</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Nincs rendezés</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Növekvő rendezés</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Alapértelmezett rendezés</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Csökkenő rendezés</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} negyed</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Sor terület</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Oszlop szám</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Cél</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>Státusz</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Érték</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Súly</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Érték</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>Oszlop összeg százaléka</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>Főősszeg százaléka</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>Szűlő oszlop elem százaléka</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>Szűlő sor elem százaléka</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>Sor összeg százaléka</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Sor rang</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Összes</value>
+  </data>
+  <data name="rsTryToDeleteWrongMeasure" xml:space="preserve">
+    <value>A "{0}" adat nem számolt mező, ezért nem törölhető.</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Érték</value>
+  </data>
+  <data name="exprt_All" xml:space="preserve">
+    <value>Össz</value>
+  </data>
+  <data name="exprt_Auto_AllCells" xml:space="preserve">
+    <value>Minden cella</value>
+  </data>
+  <data name="exprt_Auto_ExeptHeader" xml:space="preserve">
+    <value>Minden cella a fejléc kivételével</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>Alsó</value>
+  </data>
+  <data name="exprt_Chart" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="exprt_ClosePreview" xml:space="preserve">
+    <value>Előnézet bezárása</value>
+  </data>
+  <data name="exprt_Colontitle" xml:space="preserve">
+    <value>Fejléc, lábléc</value>
+  </data>
+  <data name="exprt_Color" xml:space="preserve">
+    <value>Szín</value>
+  </data>
+  <data name="exprt_Description" xml:space="preserve">
+    <value>Leírás</value>
+  </data>
+  <data name="exprt_EmptyValue" xml:space="preserve">
+    <value>Üres érték</value>
+  </data>
+  <data name="exprt_Exit" xml:space="preserve">
+    <value>Kilépés</value>
+  </data>
+  <data name="exprt_ExportSelection" xml:space="preserve">
+    <value>A kiválasztottak exportja</value>
+  </data>
+  <data name="exprt_ExportSettings" xml:space="preserve">
+    <value>Export beállítások</value>
+  </data>
+  <data name="exprt_FileExportName" xml:space="preserve">
+    <value>Az exportálandó fájl neve</value>
+  </data>
+  <data name="exprt_FilterButton" xml:space="preserve">
+    <value>Szűrő gomb</value>
+  </data>
+  <data name="exprt_FitToHeight" xml:space="preserve">
+    <value>Magassághoz illesztve</value>
+  </data>
+  <data name="exprt_FitToPage" xml:space="preserve">
+    <value>Szélességhez illesztve</value>
+  </data>
+  <data name="exprt_FullView" xml:space="preserve">
+    <value>Teljes nézet</value>
+  </data>
+  <data name="exprt_Group" xml:space="preserve">
+    <value>Csoport</value>
+  </data>
+  <data name="exprt_Html_Format" xml:space="preserve">
+    <value>Html formátm</value>
+  </data>
+  <data name="exprt_ImagePosition" xml:space="preserve">
+    <value>Kép pozíció</value>
+  </data>
+  <data name="exprt_Jpg_Format" xml:space="preserve">
+    <value>Jpg formátum</value>
+  </data>
+  <data name="exprt_Left" xml:space="preserve">
+    <value>Bal</value>
+  </data>
+  <data name="exprt_LoadSkin" xml:space="preserve">
+    <value>Betöltés</value>
+  </data>
+  <data name="exprt_MeasureUnit" xml:space="preserve">
+    <value>Mértékegység</value>
+  </data>
+  <data name="exprt_MoveToLast" xml:space="preserve">
+    <value>Utolsó oldal</value>
+  </data>
+  <data name="exprt_MoveToNext" xml:space="preserve">
+    <value>Következő oldal</value>
+  </data>
+  <data name="exprt_MoveToPrior" xml:space="preserve">
+    <value>Előző oldal</value>
+  </data>
+  <data name="exprt_MoveToToFirst" xml:space="preserve">
+    <value>Első oldal</value>
+  </data>
+  <data name="exprt_PagesCurrent" xml:space="preserve">
+    <value>Aktuális oldal ({0})</value>
+  </data>
+  <data name="exprt_PageSegmentFormat" xml:space="preserve">
+    <value>{0:D} / {1:D} oldal</value>
+  </data>
+  <data name="exprt_PaperSize" xml:space="preserve">
+    <value>Lap méret</value>
+  </data>
+  <data name="exprt_Png_Format" xml:space="preserve">
+    <value>Png formátum</value>
+  </data>
+  <data name="exprt_PrintAll" xml:space="preserve">
+    <value>Összes oldal</value>
+  </data>
+  <data name="exprt_PrintCurrent" xml:space="preserve">
+    <value>Aktuális oldal</value>
+  </data>
+  <data name="exprt_PrintOK" xml:space="preserve">
+    <value>Nyomtatás</value>
+  </data>
+  <data name="exprt_PrintPreview" xml:space="preserve">
+    <value>Nyomtatási előnézet</value>
+  </data>
+  <data name="exprt_PrintSelect" xml:space="preserve">
+    <value>Nyomtató választás</value>
+  </data>
+  <data name="exprt_PrintToFile" xml:space="preserve">
+    <value>Nyomtatás fájlba (radar export)</value>
+  </data>
+  <data name="exprt_Right" xml:space="preserve">
+    <value>Jobb</value>
+  </data>
+  <data name="exprt_SkinDarkBlue" xml:space="preserve">
+    <value>Sötétkék</value>
+  </data>
+  <data name="exprt_ZoomIn" xml:space="preserve">
+    <value>Nagyítás</value>
+  </data>
+  <data name="exprt_ZoomOut" xml:space="preserve">
+    <value>Kicsinyítés</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>A kocka nem aktív</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>és</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Egyenlő</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Szűrés névre</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Nem egyenlő</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Szűrés névre ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Szűrés értékre ({0})</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Között</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Tartalmaz</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Vége</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Szűrés értékre</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Nagyobb</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Kisebb</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Nincs közötte</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Nem tartalmazza</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Nem így végződik</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Nem nagyobb</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Nem kisebb</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Nem így kezdődik</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Kezdete</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>Első 10</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Elemek</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% elemszám</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>Összesen</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>Első</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Dátumszűrés</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>Egyszerű szűrő</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Helytelen érték</value>
+  </data>
+  <data name="rsCharts" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>Aggregált érték</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>Ténytábla értékek</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>Találat</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>Kimutatás nézet terület</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>Szűrés </value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Kijelölt másolása</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>Keresés:</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Mérőszám</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Elem</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>Szűrő szerkesztés</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>adatterület</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Bezár</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Előnézet</value>
+  </data>
+  <data name="rsSkinBlue" xml:space="preserve">
+    <value>Kék</value>
+  </data>
+  <data name="rsSkinDarkBlue" xml:space="preserve">
+    <value>Sötét kék</value>
+  </data>
+  <data name="rsSkinGray" xml:space="preserve">
+    <value>Szürke</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>Képlet szerkesztő</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>MDX funkciók</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>MDX sablonok</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>Alaphelyzet</value>
+  </data>
+  <data name="rsIllegalGrouping_Member" xml:space="preserve">
+    <value>Csak hasonló elemek rendelhetők csoporthoz</value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>Kalkulált mérőszám készítés...</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>Kalkulált elem készítés...</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>Mérőszám törlése</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>Elem törlése</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>Mérőszám módosítása...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>Elem módosítása...</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>Szín:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>Szín beállítások:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>Részletek:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>Méret:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>Méret beállítások:</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>Részletek</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>Kapcsolat</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>Mentett állapot betöltése</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>Panelek</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>Helyreállítás</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>Mentés mind</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>A megjelenés mentése</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>Csak adatok mentése</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>Kimutatásnézet és adat mentése</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>A kimutatásnézet mentése</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>Állapot mentés</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>Mindegyik panel látható</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>Sorok/oszlopok felcserélése</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>Visszavonás</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>Nagyít</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>Kicsinyít</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>Szűró mód választás</value>
+  </data>
+  <data name="rsTrendAdd" xml:space="preserve">
+    <value>Tendencia felvitele</value>
+  </data>
+  <data name="rsTrendRemove" xml:space="preserve">
+    <value>Tendencia törlése</value>
+  </data>
+  <data name="rsTrendCubic" xml:space="preserve">
+    <value>Köbös</value>
+  </data>
+  <data name="rsTrendLine" xml:space="preserve">
+    <value>Lineáris</value>
+  </data>
+  <data name="rsTrendQuadratic" xml:space="preserve">
+    <value>Négyzetes</value>
+  </data>
+  <data name="rsTrendColor" xml:space="preserve">
+    <value>Tendencia színe...</value>
+  </data>
+  <data name="rsTrendType" xml:space="preserve">
+    <value>Tendencia típusa</value>
+  </data>
+  <data name="label_CCSettingsSetupControl_Advanced" xml:space="preserve">
+    <value>Részletes</value>
+  </data>
+  <data name="hint_ClickExpandCollapse" xml:space="preserve">
+    <value>Klikkeljen a kibontáshot/összecsukáshoz</value>
+  </data>
+  <data name="hint_ClickToEditHierFilter" xml:space="preserve">
+    <value>Klikkeljen a hierachia szűrő módosításához</value>
+  </data>
+  <data name="hint_ClickTopEditMeasFilter" xml:space="preserve">
+    <value>Klikkeljen a mérőszám szűrő módosításához</value>
+  </data>
+  <data name="hint_ClickToSort" xml:space="preserve">
+    <value>Klikkeljen az oszlop rendezéséhez</value>
+  </data>
+  <data name="hint_CollapseCell" xml:space="preserve">
+    <value>Cella összecsukása</value>
+  </data>
+  <data name="hint_CollapseLevel" xml:space="preserve">
+    <value>Összecsukás ettől a szinttől</value>
+  </data>
+  <data name="hint_DragToFilter" xml:space="preserve">
+    <value>Vontassa a tételt ide a szűréshez</value>
+  </data>
+  <data name="hint_ExpandThisLevel" xml:space="preserve">
+    <value>Ennek a szintnek a kibontása</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>Kifejezés</value>
+  </data>
+  <data name="rsDetailsArea" xml:space="preserve">
+    <value>Részletező terület</value>
+  </data>
+  <data name="rsCube" xml:space="preserve">
+    <value>Adatkocka:</value>
+  </data>
+  <data name="rsPleaseWait" xml:space="preserve">
+    <value>Kérem várjon, a kérelem feldolgozás alatt...</value>
+  </data>
+  <data name="rsServer" xml:space="preserve">
+    <value>Kiszolgáló:</value>
+  </data>
+  <data name="exprt_Settings_PrintPage" xml:space="preserve">
+    <value>Nyomtatás</value>
+  </data>
+
+  <data name="dock_Anchorable_AutoHide" xml:space="preserve">
+    <value>Automatikus elrejtés</value>
+  </data>
+  <data name="dock_Anchorable_BtnAutoHide_Hint" xml:space="preserve">
+    <value>Automatikus elrejtés</value>
+  </data>
+  <data name="dock_Anchorable_BtnClose_Hint" xml:space="preserve">
+    <value>Elrejtés</value>
+  </data>
+  <data name="dock_Anchorable_CxMenu_Hint" xml:space="preserve">
+    <value>Elhelyezkedés</value>
+  </data>
+  <data name="dock_Anchorable_Dock" xml:space="preserve">
+    <value>Dokkolás</value>
+  </data>
+  <data name="dock_Anchorable_DockAsDocument" xml:space="preserve">
+    <value>Dokkolás dokumentumfülként</value>
+  </data>
+  <data name="dock_Anchorable_Float" xml:space="preserve">
+    <value>Lebegő</value>
+  </data>
+  <data name="dock_Anchorable_Hide" xml:space="preserve">
+    <value>Elrejtés</value>
+  </data>
+  <data name="dock_Document_Close" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="dock_Document_CloseAllButThis" xml:space="preserve">
+    <value>Ennek kivételével az összes bezárása</value>
+  </data>
+  <data name="dock_Document_CxMenu_Hint" xml:space="preserve">
+    <value>Elhelyezkedés</value>
+  </data>
+  <data name="dock_Document_DockAsDocument" xml:space="preserve">
+    <value>Dokkolás dokumentumfülként</value>
+  </data>
+  <data name="dock_Document_Float" xml:space="preserve">
+    <value>Lebegő</value>
+  </data>
+  <data name="dock_Document_MoveToNextTabGroup" xml:space="preserve">
+    <value>Mozgatás a következő fülcsoportra</value>
+  </data>
+  <data name="dock_Document_MoveToPreviousTabGroup" xml:space="preserve">
+    <value>Mozgatás az előző fülcsoportra</value>
+  </data>
+  <data name="dock_Document_NewHorizontalTabGroup" xml:space="preserve">
+    <value>Új vízszintes fülcsoport</value>
+  </data>
+  <data name="dock_Document_NewVerticalTabGroup" xml:space="preserve">
+    <value>Új függőleges fülcsoport</value>
+  </data>
+  <data name="dock_Window_Maximize" xml:space="preserve">
+    <value>Teljes méret</value>
+  </data>
+  <data name="dock_Window_Restore" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+  
+</root>

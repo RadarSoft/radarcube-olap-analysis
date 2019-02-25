@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>このグループをクリア</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>新しいグループの作成...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>このグループを削除</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>すべてのドリルダウん</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>同じレベルの子へ</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>次の階層へ</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>次のレベルへ</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>すべてのドリルアップ</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>同じレベルの子へドリルダウン</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>次の階層へドリルダウン</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>次のレベルへドリルダウン</value>
+  </data>
+  <data name="repDrillThrow" xml:space="preserve">
+    <value>ドリルの結果</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>ドリルアップ</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>新しいグループ名</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>これ以外のメンバを非表示に設定</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>このメジャーを非表示に設定</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>このメンバを非表示に設定</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>この上のメンバを非表示に設定</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>この下のメンバを非表示に設定</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>階層エディタ</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>すべてのメンバ</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>すべてのメンバをグループに移動</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>この下のメンバをすべてグループに移動</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>これ以外のメンバをグループに移動</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>グループからメンバを移動</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>グループへメンバを移動</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>列に移動</value>
+  </data>
+  <data name="repMoveToFirst" xml:space="preserve">
+    <value>メジャーを最初に位置づける</value>
+  </data>
+  <data name="repMoveToLast" xml:space="preserve">
+    <value>メジャーを最後に位置づける</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>ページに移動</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>行に移動</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;新しいグループ名&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>閾値を入力してください</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>ツリーに移動</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>グループ名の変更</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>フィルタのクリア</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>表示形式</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>空セルの表示</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>下位のみ表示</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>上位のみ表示</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>このフィルタは数値のみに適用可能</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>最後</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>最初</value>
+  </data>
+  <data name="rsBlankMemberCaption" xml:space="preserve">
+    <value>（空）</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="rsCannotRestoreLevel" xml:space="preserve">
+    <value>ストリームから {0} レベルを復元できません</value>
+  </data>
+  <data name="rsCantReadAnotherProductStream" xml:space="preserve">
+    <value>指定されたストリームは他の製品より作成されました、現在RadarCubeの製品はこのストリームをサポートしていません</value>
+  </data>
+  <data name="rsCantRestoreInactiveGrid" xml:space="preserve">
+    <value>非アクティブのグリッドの状況を復元することができません</value>
+  </data>
+  <data name="rsCantSaveInactiveGrid" xml:space="preserve">
+    <value>非アクティブのグリッドをストリームに保存できません</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>セルのアドレスは有効の範囲外です。行： {0}、列：{1}</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>キューブ構造のツリー</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>ディメンション "{0}" が見つかりません。</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>折りたたむ</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>同レベルの子にドリルダウン</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>次のレベルにドリルダウン</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>次の階層にドリルダウン</value>
+  </data>
+  <data name="rsecStreamVersionError" xml:space="preserve">
+    <value>過去バージョンのストリームを読み取れません ({0})</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>この値を編集</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>ページ番号を入力</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="rsFilterEditHint" xml:space="preserve">
+    <value>マスクをここに入力します。 "%" をワイルドカード文字として利用できます。</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>完全に一致する</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>階層を平坦化できません。階層を作成することができません。親： {0}</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>階層 "{0}" が見つかりません。</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>階層 "{0}" は初期化されていません。</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} 半期</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>グループとグループ化するメンバは同レベルである必要性があります</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>グループとグループ化するメンバの親は同じである必要性があります</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} 増加</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>{0} ～日付</value>
+  </data>
+  <data name="rsInactiveCube" xml:space="preserve">
+    <value>このメソッドを実行するにはキューブはアクティブである必要性があります。</value>
+  </data>
+  <data name="rsInadmissibleDrillAction" xml:space="preserve">
+    <value>無効なドリル　アクション ({0}) メンバ： {1}</value>
+  </data>
+  <data name="rsInvalidPropertyError" xml:space="preserve">
+    <value>無効なプロパティ値 {0:X}</value>
+  </data>
+  <data name="rsInvalidStreamFormat" xml:space="preserve">
+    <value>ストリーム　フォーマットは無効です</value>
+  </data>
+  <data name="rsInvalidTagError" xml:space="preserve">
+    <value>無効なストリーム　データ、位置： {0:X}、タグ "{1}" 想定されていました</value>
+  </data>
+  <data name="rsiTimeIntelligence" xml:space="preserve">
+    <value>時間インテリジェンス： "{0}"</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>ロード中...</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>メジャー</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>メジャーの位置</value>
+  </data>
+  <data name="rsMuitifilterDrillthroughError" xml:space="preserve">
+    <value>ドリルスルーを実行できません：フィルタされている階層'{0}' に1つ以上のメンバーが表示されています。</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>名前付きセット</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>階層 "{0}" にレベルがありません。</value>
+  </data>
+  <data name="rsNoParentMember" xml:space="preserve">
+    <value>階層のメンバ ({0})、はルート項目またはゼロ　レベルの項目ではありませんので親が存在しなければなれません。</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>ページ：</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>階層の全てのメンバを集計</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>表示されているメンバのみ集計</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>可能な場合にメジャーのキャプションを非表示</value>
+  </data>
+  <data name="rsPivotAreas" xml:space="preserve">
+    <value>ピボット</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>メニューをロードしています。お待ち下さい。 </value>
+  </data>
+  <data name="rsPostbackError" xml:space="preserve">
+    <value>ポストバック時にエラーが発生しました。引数行： {0}</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>合計を表示しない</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>合計を最初に表示</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>合計を最後に表示</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>ソートしない</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>昇順にソート</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>既定のソート順</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>降順にソート</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} 四半期</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>列のランク</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>状況</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>傾向</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>加重</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>列の合計値の割合</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>総合計の割合</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>親の割合（列）</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>親の割合（行）</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>行の合計値の割合</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>行のランク</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="rsTryToDeleteWrongMeasure" xml:space="preserve">
+    <value>メジャー "{0}" は計算されたメジャーではありません、削除することができません。</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>下位</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>キューブはアクティブではありません。</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>と</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>等しい</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>キャプションのフィルタ</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>等しくない</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>次の条件を満たす項目のみ表示：</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>キャプションのフィルタ ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>値のフィルタ ({0})</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>範囲内</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>値／文字を含む</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>で終わる</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>値のフィルタ</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>より大きい</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>より小さい</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>範囲外</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>値／文字を含まない</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>で終わらない</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>以下</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>以上</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>で始まらない</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>で始まる</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>上位／下位</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>値：</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>項目数の割合</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>総合計</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>上位</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>日付のフィルタ</value>
+  </data>
+  <data name="repHierarhyEditorLevel" xml:space="preserve">
+    <value>フィルタするレベル：</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>簡単フィルタ</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>クリックし、フィルタをカスタマイズ</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>ページ番号を入力 ( 1 ～ {0})</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>値を入力 {0} ～ {1}!</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>値は無効です</value>
+  </data>
+  <data name="rsFilterTree" xml:space="preserve">
+    <value>階層エディタのウィンドウ内のみメンバをフィルタ</value>
+  </data>
+  <data name="rsContextFilterSettings" xml:space="preserve">
+    <value>フィルタの設定</value>
+  </data>
+  <data name="rsCharts" xml:space="preserve">
+    <value>グラフ</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>集計値</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>ファクト テーブルの値</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>制限：</value>
+  </data>
+  <data name="rsNewChat" xml:space="preserve">
+    <value>&lt;グラフを作成するには項目をここにドラッグ&gt;</value>
+  </data>
+  <data name="rsColorCustom" xml:space="preserve">
+    <value>カスタム色</value>
+  </data>
+  <data name="rsColorOther" xml:space="preserve">
+    <value>システム色</value>
+  </data>
+  <data name="rsColorStandard" xml:space="preserve">
+    <value>標準色</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="rsMemberFilterSettings" xml:space="preserve">
+    <value>メンバ フィルタの設定</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>ピボット パネル</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>レイアウト更新可能</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>全てのパネル</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>列の先頭</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>列の最後</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>行の最後</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>行の先頭</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>値に移動</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>フィルタ文字</value>
+  </data>
+  <data name="repHierarhyEditorFilterTree" xml:space="preserve">
+    <value>フィルタのツリー</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>ツリー構造のフィルタを適用</value>
+  </data>
+  <data name="repHierarhyEditorFullMatched" xml:space="preserve">
+    <value>完全に位置する結果のみ検査</value>
+  </data>
+  <data name="rsDockMenuItem" xml:space="preserve">
+    <value>パネル レイアウトを適用</value>
+  </data>
+  <data name="rsWrongNamedSetPivoting" xml:space="preserve">
+    <value>“{0}”　と “{1}” の項目は同じレポート上に同時に表示することができません。</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>選択のコピー</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>複数選択</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>検索：</value>
+  </data>
+  <data name="rep_QuickSearch" xml:space="preserve">
+    <value>キューブ構造ツリーをフィルタするにはここに文字を入力</value>
+  </data>
+  <data name="rsWrongDateStr" xml:space="preserve">
+    <value>"{0}" は日付として認識できません。次のフォーマットを利用して下さい： "{1}"</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>{0}以外のメンバ</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>メジャー</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>フィルタの記述</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>表示するレベル</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>フィルタの編集</value>
+  </data>
+  <data name="repMoveToColorChanger" xml:space="preserve">
+    <value>色の軸に移動</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="repMoveToDetailsChanger" xml:space="preserve">
+    <value>詳細に移動</value>
+  </data>
+  <data name="repMoveToShapeChanger" xml:space="preserve">
+    <value>形noMove to shape axis</value>
+  </data>
+  <data name="repMoveToSizeChanger" xml:space="preserve">
+    <value>サイズの軸に移動</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>メジャーの削除</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>メンバの削除</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>メジャーの編集...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>メンバの編集...</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>色:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>色の設定:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>詳細:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>サイズ:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>サイズの設定:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>色の軸</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>サイズの軸</value>
+  </data>
+  <data name="compShowColorAxis" xml:space="preserve">
+    <value>色の軸を表示</value>
+  </data>
+  <data name="compShowDetails" xml:space="preserve">
+    <value>詳細の表示</value>
+  </data>
+  <data name="compShowSizeAxis" xml:space="preserve">
+    <value>サイズの軸を表示</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="rsDrillthrough" xml:space="preserve">
+    <value>ドリルスルー...</value>
+  </data>
+  <data name="rsDrillthroughResults" xml:space="preserve">
+    <value>ドリルスルーの結果</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>保管された状況をロード</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>パネル</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>すべて保存</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>外見の保存</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>データのみ保存</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>ピボットとデータの保存</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>ピボットのみの保存</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>状況の保存</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>すべてのパネルを表示</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>スキンを適用</value>
+  </data>
+</root>

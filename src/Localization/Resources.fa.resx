@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hint_ClickChangeColor" xml:space="preserve">
+    <value>برای تغییر رنگ آیتم کلیک کنید</value>
+  </data>
+  <data name="hint_ClickChangeShape" xml:space="preserve">
+    <value>برای تغییر شکل آیتم کلیک کنید</value>
+  </data>
+  <data name="hint_ClickExpandCollapse" xml:space="preserve">
+    <value>برای باز کردن یا بستن کلیک کنید</value>
+  </data>
+  <data name="hint_ClickToEditHierFilter" xml:space="preserve">
+    <value>برای ویرایش فیلتر سلسله مراتب کلیلک کنید</value>
+  </data>
+  <data name="hint_ClickTopEditMeasFilter" xml:space="preserve">
+    <value>برای ویرایش فیلتر مقدارها کلیک کنید</value>
+  </data>
+  <data name="hint_ClickToSort" xml:space="preserve">
+    <value>برای مرتب سازی ستون کلیک کیند</value>
+  </data>
+  <data name="hint_CollapseCell" xml:space="preserve">
+    <value>بستن سلول</value>
+  </data>
+  <data name="hint_CollapseLevel" xml:space="preserve">
+    <value>بستن این سطح</value>
+  </data>
+  <data name="hint_DragPanelToPivot" xml:space="preserve">
+    <value>کشیدن پانل برای چرخش کیوب </value>
+  </data>
+  <data name="hint_ExpandThisLevel" xml:space="preserve">
+    <value>این سطح باز شود</value>
+  </data>
+  <data name="hint_LoadReport" xml:space="preserve">
+    <value>بارگذاری گزارش ذخیره شده</value>
+  </data>
+  <data name="hint_SaveReport" xml:space="preserve">
+    <value>ذخیره سازی گزارش فعلی</value>
+  </data>
+  <data name="label_CCSettingsSetupControl_Advanced" xml:space="preserve">
+    <value>تنظیم پیشرفته </value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>رنگ:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>تنظیمات رنگ:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>جزئیات:</value>
+  </data>
+  <data name="mdModificators" xml:space="preserve">
+    <value>اصلاحگرها</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>شکل:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>تنظیمات شکل:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>اندازه:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>تنظیمات اندازه:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>محور رنگ</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>جزئیات</value>
+  </data>
+  <data name="mnFilterSelection" xml:space="preserve">
+    <value>آیتمهای انتخاب شد فیلتر شوند</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>شکل</value>
+  </data>
+  <data name="mnShapeAxis" xml:space="preserve">
+    <value>محور شکل</value>
+  </data>
+  <data name="mnShowUnderlying" xml:space="preserve">
+    <value>داده زیرین نمایش داده شود</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>محور اندازه</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>پاک کدردن</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>اولین در ستون</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>آخرین در ستون</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>آخرین در ردیف</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>اولین در ردیف</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>به مقدارها منتقل شود</value>
+  </data>
+  <data name="rep_QuickSearch" xml:space="preserve">
+    <value>برای فیلتر ساختار درخت کیوب یک متن در اینجا وارد شود</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>جسجو</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>این گروه پاک شود</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>ایجاد گروه جدید ...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>حذف این گروه</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>دریل داون همه</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>به سطح فرزندان</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>به سلسله مراتب بعدی</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>به سطح بعدی</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>همگی به بالا دریل آپ شود</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>دریل به همان سطح فرزندان</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>دریل به سلسله مراتب بعدی</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>دریل به سطح بعدی</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>دریل به بالا</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>ورود نام گروه جدید</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>تمام اعضا به جز این پنهان شوند</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>این مقدار پنهان شود</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>این عضو پنهان شود</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>تمام اعضا بالایی پنهان شوند</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>تمام اعضا پایین این پنهان شوند</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>ادیتور سلسله مراتب</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>برای بدلخواه سازی فیلتر فشار دهید</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>فیلتر متن</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>فیلتر به سلسله مراتب درخت اعمال شود</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>شماره صفحه را وارد کنید ( از 2 تا {0})</value>
+  </data>
+  <data name="repHierarhyEditorLevel" xml:space="preserve">
+    <value>سطح فیلترشونده:</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>فیلتر ساده</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>مقدار از }0{ تا }1{ وارد کنید</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>مقدار نامعتبر</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>تمام اعضا به گروه منتقل شوند</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>تمام اعضای بالایی به گروه منتقل شوند</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>تمام اعضا به جز این به گروه منتقل شوند</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>عضو از گروه منتقل شود</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>عضو به گروه منتقل شود</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>به ستونها منتقل شود</value>
+  </data>
+  <data name="repMoveToColorChanger" xml:space="preserve">
+    <value>به محور رنگ منتقل شود</value>
+  </data>
+  <data name="repMoveToDetailsChanger" xml:space="preserve">
+    <value>به جزئیات منتقل شود</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>به صفحه منتقل شود</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>به ردیفها منتقل شود</value>
+  </data>
+  <data name="repMoveToShapeChanger" xml:space="preserve">
+    <value>به محور شکل منتقل شود</value>
+  </data>
+  <data name="repMoveToSizeChanger" xml:space="preserve">
+    <value>به محور اندازه منتقل شود</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>انتخاب چندگانه</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>دیگر</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>ورود سطح آستانه یا درصد</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>حذف به درخت</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>تغییر نام این گروه</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>پاک کردن فیلتر</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>نمایش به عنوان</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>نمایش مداخل خالی</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>تنها پائین نمایش داده شود</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>فقط بالا نمایش داده شود</value>
+  </data>
+  <data name="repShowPages" xml:space="preserve">
+    <value>نمایش صفحات</value>
+  </data>
+  <data name="repVisibleOnly" xml:space="preserve">
+    <value>تنها اعضا قابل مشاهده نمایش داده شود</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>فیلتر تنها به مقادیر عددی قابل اعمال است</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>عملیات</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>بعد از همه</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>مقادیر تجمعی</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>تمام اعضا به جز {0}</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>تمام اعضا</value>
+  </data>
+  <data name="rsAllMembersHidden" xml:space="preserve">
+    <value>تمام اعضا پنهان هستند</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>اعمال</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>اعمال جعبه </value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>اعمال پوسته </value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>پائین</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="rsCantReadAnotherProductStream" xml:space="preserve">
+    <value>استریم مشخص شده بوسیله محصول دیگری از رادارکیوب ایجاد شده است و درحال حاضر پشتیبانی نمی شود.</value>
+  </data>
+  <data name="rsCantRestoreInactiveGrid" xml:space="preserve">
+    <value>عدم امکان بازیابی حالت گرید برای گرید غیرفعال</value>
+  </data>
+  <data name="rsCantSaveInactiveGrid" xml:space="preserve">
+    <value>عدم امکان ذخیره گرید غیرفعال به یک استریم</value>
+  </data>
+  <data name="rsCatalog" xml:space="preserve">
+    <value>کاتالوگ:</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>مکان سلول خارج از محدوده است: ردیف}0{ ستون }1{</value>
+  </data>
+  <data name="rsChangeColor" xml:space="preserve">
+    <value>تغییر رنگ...</value>
+  </data>
+  <data name="rsChooseColor" xml:space="preserve">
+    <value>انتخاب رنگ</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="rsColorArea" xml:space="preserve">
+    <value>ناحیه رنگ</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>ستونها</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="rsConnectionSettings" xml:space="preserve">
+    <value>تنظیمات ارتباط:</value>
+  </data>
+  <data name="rsContextFilterSettings" xml:space="preserve">
+    <value>تنظیمات فیلتر کانتکست</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>کپی انتخاب </value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>مقدار محاسبه شونده ایجاد شود</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>عضور محاسبه شونده ایجاد شود</value>
+  </data>
+  <data name="rsCube" xml:space="preserve">
+    <value>کیوب:</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>ساختار کیوب</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>نامشخص</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>مقدار حذف شود</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>عضو حذف شود</value>
+  </data>
+  <data name="rsDetailsArea" xml:space="preserve">
+    <value>ناحیه جزئیات</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>بعد "{0}" پیدا نشد</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>تغییرات Layout اجازه داده شود</value>
+  </data>
+  <data name="rsDockMenuItem" xml:space="preserve">
+    <value>اعمال لی اوت پنلها</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>تمام ناحیه</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>ناحیه داده </value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>ناحیه pivot</value>
+  </data>
+  <data name="rsDragMeasure" xml:space="preserve">
+    <value>یک مقدار را برای ایجاد سری بکشید</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>بسته شدن</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>دریل به فرزندان هم سطح</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>دریل به سطح بعدی</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>دریل به سلسله مراتب بعدی</value>
+  </data>
+  <data name="rsDrillthrough" xml:space="preserve">
+    <value>دریل به درون...</value>
+  </data>
+  <data name="rsDrillthroughResults" xml:space="preserve">
+    <value>دریل به درون نتایج</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>مقدار ویرایش شود...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>عضو ویرایش شود...</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>ویرایش فیلتر</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>ویرایش این مقدار</value>
+  </data>
+  <data name="rsEnablePaging" xml:space="preserve">
+    <value>فعال سازی صفحه بندی</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>ورود شماره صفحه</value>
+  </data>
+  <data name="rsErrorMessage" xml:space="preserve">
+    <value>پیغام خطا</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>عبارت </value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>مقدارهای جدول فکت</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>ما بین</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>شامل می شود</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>پایان می پذیرد با</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>مساوی با</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>فیلتر روی عناوین</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>فیلتر روی تاریخ</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>فیلتر روی مقادیر</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>10 تای اول</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>افزون</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>کمتر</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>نا بین</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>شامل نمی شود</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>پایان نمی پذیرد با</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>مساوی نیست با </value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>بزرگتر نباشد از</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>کوچکتر نباشد از</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>شروع نشود با</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>تنها آیتمهایی نشان داده شوند که شرایط زیر را برآورده می سازند.</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>شروع نشود با</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>فیتر روی عنوان ({0{)</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>فیلتر روی مقدار ({0})</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>فیلتر</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>فیلترها</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>توصیف فیلتر</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>انتخاب مد فیلتر</value>
+  </data>
+  <data name="rsFilterRescale" xml:space="preserve">
+    <value>تنظیم مقیاس</value>
+  </data>
+  <data name="rsFilterRescaleHint" xml:space="preserve">
+    <value>تنها داده های ناحیه انتخابی تنظیم مقیاس شده نمایش داده شود</value>
+  </data>
+  <data name="rsFilterShowSegmentData" xml:space="preserve">
+    <value>نمایش داده های ناحیه</value>
+  </data>
+  <data name="rsFilterShowSegmentDataHint" xml:space="preserve">
+    <value>تنها داده های ناحیه انتخابی نمایش داده شود</value>
+  </data>
+  <data name="rsFilterTree" xml:space="preserve">
+    <value>تنها اعضای داخل ویرایشگر سلسله مراتب، فیلتر شوند</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>یافت شود</value>
+  </data>
+  <data name="rsFormat" xml:space="preserve">
+    <value>فرمت</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>ویرایشگر فرمول</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>تطبیق دقیق</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>عدم امکان ایجاد سلسله مراتب بدلیل بروز مشکل در انتقال به شکل فلت. پدر: }0{</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>سلسه مراتب "{0}" یافت  نشد</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>سلسه مراتب "{0}" آغازش نشده است</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>نیم سال {0}</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>گروه بندی و عضوی که گروه بندی بر آن ایجاد میشود باید در یک سطح باشند</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>گروه بندی و عضوی که گروه بندی برآن ایجاد می شود باید پدر مشترک داشته باشند.</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>در</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>کیوب فعال نیست</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>آیتم</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>آیتمها</value>
+  </data>
+  <data name="rsItemToFilter" xml:space="preserve">
+    <value>آیتم تحت فیلتر</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>سطحهایی که باید نشان داده شوند</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>در حال بارگذاری....</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>بارگذاری حالت ذخیره شده</value>
+  </data>
+  <data name="rsMatchFilter" xml:space="preserve">
+    <value>فیلتر تطبیق:</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>توابع MDX</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>قالبهای MDX</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>مقدار</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>مقدارها</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>موقعیت مقدار</value>
+  </data>
+  <data name="rsMemberFilterSettings" xml:space="preserve">
+    <value>تنظیمات فیلتر اعضا</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>سلسله مراتب "{0}" هیچ زیر سطحی ندارد</value>
+  </data>
+  <data name="rsNoParentMember" xml:space="preserve">
+    <value> عضو سلسله مراتب "{0}" که ریشه ای ندارد و در سطح صفر هم واقع نشده است باید یک عضو پدر داشته باشد</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>تایید</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>صفحات:</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>تمام اعضا سلسله مراتب تجمیع شوند</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>تنها اعضا قابل مشاهده تجمیع شوند</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>پانلها</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% از تعداد آیتمها</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>عنوان برای مقدارها در صورت امکان پنهان شود</value>
+  </data>
+  <data name="rsPleaseWait" xml:space="preserve">
+    <value>لطفاً صبر کنید در حال پردازش بر روی سرور</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>منو درحال لود است لطفاً صبر کنید...</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>پیش نمایش</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>سرجمع ها نشان داده نشود</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>سرجمع ها در ابتدا نشان داده شود.</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>سرجمع ها در انتها نشان داده شود.</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>بدون مرتب سازی</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>مرتب سازی صعودی</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>مرتب سازی پیشفرض</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>مرتب سازی نزولی</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>فیلتر سریع</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>انجام دوباره</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>ریست</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>زوم به سطح 100% بازگردد</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>محدودیتها:</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>ناحیه ردیفها</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>ذخیره همه</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>ذخیره ظاهر</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>ذخیره تنها داده ها</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>ذخیره Pivot و داده ها</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>ذخیره تنها Pivot</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>ذخیره حالت</value>
+  </data>
+  <data name="rsServer" xml:space="preserve">
+    <value>سرور:</value>
+  </data>
+  <data name="rsShapeArea" xml:space="preserve">
+    <value>ناحیه شکل</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>نمایش تمام Panel ها</value>
+  </data>
+  <data name="rsShowDataOnly" xml:space="preserve">
+    <value>تنها پانل داده نمایش داده شود</value>
+  </data>
+  <data name="rsShowDefault" xml:space="preserve">
+    <value>باز گشت به به لی اوت پیشفرض </value>
+  </data>
+  <data name="rsShowExceptTree" xml:space="preserve">
+    <value>همه بجز درخت ساختاری نمایش داده شوند</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>نمایش }0{ب شکل</value>
+  </data>
+  <data name="rsSizeArea" xml:space="preserve">
+    <value>ناحیه اندازه</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>رتبه ستون</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>هدف</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>حالت</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>ترند</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>مقدار</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>مقدار</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>درصد سرجمع ستون</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>درصد سرجمع کل</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>درصد آیتم پدر ستون</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>درصد آیتم پدر ردیف</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>درصد سرجمع ردیف</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>رتبه ردیف</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>جابجایی ستونها و ردیفها</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>سرآیند</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>سرجمع</value>
+  </data>
+  <data name="rsTrendAdd" xml:space="preserve">
+    <value>اضافه کردن خط ترند </value>
+  </data>
+  <data name="rsTrendColor" xml:space="preserve">
+    <value>رنگ ترند...</value>
+  </data>
+  <data name="rsTrendCubic" xml:space="preserve">
+    <value>مکعبی</value>
+  </data>
+  <data name="rsTrendLine" xml:space="preserve">
+    <value>خط</value>
+  </data>
+  <data name="rsTrendQuadratic" xml:space="preserve">
+    <value>درجه دوم</value>
+  </data>
+  <data name="rsTrendRemove" xml:space="preserve">
+    <value>ترند حذف شود</value>
+  </data>
+  <data name="rsTrendType" xml:space="preserve">
+    <value>نوع ترند</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>مقادیر</value>
+  </data>
+  <data name="rsWrongNamedSetPivoting" xml:space="preserve">
+    <value>آیتمهای "}0{" و "}0{" نمی توانند باهم در یک گذارش بیایند.</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>بزرگنمایی</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>کوچکنمایی</value>
+  </data>
+</root>

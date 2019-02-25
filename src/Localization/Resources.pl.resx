@@ -1,0 +1,1740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="d_edAddNewDimention" xml:space="preserve">
+    <value>Utwórz wymiar</value>
+  </data>
+  <data name="d_edAddNewUDhier" xml:space="preserve">
+    <value>Utwórz hierarchię</value>
+  </data>
+  <data name="d_edCreateInNewDim" xml:space="preserve">
+    <value>Utwórz z nowym wymiarem</value>
+  </data>
+  <data name="d_edDayOfMonth" xml:space="preserve">
+    <value>Dzień</value>
+  </data>
+  <data name="d_edDayOfWeekLong" xml:space="preserve">
+    <value>Dzień tygodnia (nazwa)</value>
+  </data>
+  <data name="d_edDayOfWeekShort" xml:space="preserve">
+    <value>Dzień tygodnia (skrót)</value>
+  </data>
+  <data name="d_edDayOfYear" xml:space="preserve">
+    <value>Dzień roku</value>
+  </data>
+  <data name="d_edHalfYear" xml:space="preserve">
+    <value>Półrocze</value>
+  </data>
+  <data name="d_edHour" xml:space="preserve">
+    <value>Godzina</value>
+  </data>
+  <data name="d_edMarkHierarchyIn" xml:space="preserve">
+    <value>Oznacz jako hierarchię</value>
+  </data>
+  <data name="d_edMarkMeasure" xml:space="preserve">
+    <value>Oznacz jalko miarę</value>
+  </data>
+  <data name="d_edMinute" xml:space="preserve">
+    <value>Minuta</value>
+  </data>
+  <data name="d_edMonthLong" xml:space="preserve">
+    <value>Miesiąc (nazwa)</value>
+  </data>
+  <data name="d_edMonthNumber" xml:space="preserve">
+    <value>Miesiąc (liczba)</value>
+  </data>
+  <data name="d_edMonthShort" xml:space="preserve">
+    <value>Miesiąc (skrót)</value>
+  </data>
+  <data name="d_edNewCalculatedHier" xml:space="preserve">
+    <value>Utwórz hierarchię wyliczaną</value>
+  </data>
+  <data name="d_edNewCalculatedHierDateTime" xml:space="preserve">
+    <value>Hierarchia czasu</value>
+  </data>
+  <data name="d_edNewCalculatedMeas" xml:space="preserve">
+    <value>Utwórz miarę wyliczaną</value>
+  </data>
+  <data name="d_edNewDimension" xml:space="preserve">
+    <value>Utwórz wymiar</value>
+  </data>
+  <data name="d_edNewDimensionName" xml:space="preserve">
+    <value>Nazwa wymiaru</value>
+  </data>
+  <data name="d_edNewHierarchyName" xml:space="preserve">
+    <value>Nazwa nowej hierarchii</value>
+  </data>
+  <data name="d_edNewUDHierarchy" xml:space="preserve">
+    <value>Utwórz hierarchię</value>
+  </data>
+  <data name="d_edProperties" xml:space="preserve">
+    <value>Właściwości</value>
+  </data>
+  <data name="d_edQuarter" xml:space="preserve">
+    <value>Kwartał</value>
+  </data>
+  <data name="d_edRemoveDimension" xml:space="preserve">
+    <value>Usuń wymiar</value>
+  </data>
+  <data name="d_edRemoveHierarchy" xml:space="preserve">
+    <value>Usuń hierarchię</value>
+  </data>
+  <data name="d_edRemoveMeasure" xml:space="preserve">
+    <value>Usuń miarę</value>
+  </data>
+  <data name="d_edSecond" xml:space="preserve">
+    <value>Sekunda</value>
+  </data>
+  <data name="d_edUnmarkField" xml:space="preserve">
+    <value>Odznacz pole</value>
+  </data>
+  <data name="d_edWeekOfYear" xml:space="preserve">
+    <value>Tydzień roku</value>
+  </data>
+  <data name="d_edYear" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="d_rsBackgroundEditor" xml:space="preserve">
+    <value>Edytor tła</value>
+  </data>
+  <data name="MF_AllAction" xml:space="preserve">
+    <value>Wszystko</value>
+  </data>
+  <data name="MF_BackColor" xml:space="preserve">
+    <value>Gradient tła</value>
+  </data>
+  <data name="MF_Background" xml:space="preserve">
+    <value>Gradient zaznaczenia</value>
+  </data>
+  <data name="MF_BelowAverage" xml:space="preserve">
+    <value>Poniżej średniej</value>
+  </data>
+  <data name="MF_BelowThan" xml:space="preserve">
+    <value>Procentowo mniej niż</value>
+  </data>
+  <data name="MF_Bright" xml:space="preserve">
+    <value>Jasny</value>
+  </data>
+  <data name="MF_ChartBar" xml:space="preserve">
+    <value>Gradient wykresu słupkowego</value>
+  </data>
+  <data name="MF_ClearList" xml:space="preserve">
+    <value>Wyczyść listę</value>
+  </data>
+  <data name="MF_ColorChemes" xml:space="preserve">
+    <value>Schemat kolorów</value>
+  </data>
+  <data name="MF_FarAverage" xml:space="preserve">
+    <value>Najdalsze od średniej</value>
+  </data>
+  <data name="MF_LastCommand" xml:space="preserve">
+    <value>Ostatnie polecenia</value>
+  </data>
+  <data name="MF_MindFormat" xml:space="preserve">
+    <value>Formatowanie warunkowe</value>
+  </data>
+  <data name="MF_MoreThan" xml:space="preserve">
+    <value>Procentowo więcej niż</value>
+  </data>
+  <data name="MF_NearAverage" xml:space="preserve">
+    <value>Najbliższe średniej</value>
+  </data>
+  <data name="MF_Rainbow" xml:space="preserve">
+    <value>Tęcza</value>
+  </data>
+  <data name="MF_Remove" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="MF_SelectionMode" xml:space="preserve">
+    <value>Sposób zaznaczania</value>
+  </data>
+  <data name="MF_StandardMode" xml:space="preserve">
+    <value>Standardowy</value>
+  </data>
+  <data name="MF_System" xml:space="preserve">
+    <value>Systemowy</value>
+  </data>
+  <data name="MF_UseLeftButton" xml:space="preserve">
+    <value>Lewym przyciskiem</value>
+  </data>
+  <data name="MF_UseRightButton" xml:space="preserve">
+    <value>Prawym przyciskiem</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Wyczyść grupę</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Utwórz grupę</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Usuń grupę</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Drąż do samego dołu</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>do potomków na tym samym poziomie</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>do następnej hierarchii</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>do następnego poziomu</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Drąż w górę</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Drąż do potomków na tym samym poziomie</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Drąż do następnej hierarchii</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Drąż do następnego poziomu</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Drąż w górę</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Wpisz nazwę grupy</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Ukryj wszystkie elementy oprócz tego</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Ukryj miarę</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>Ukryj element</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Ukryj elementy powyżej</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Ukryj elementy poniżej</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Edytor hierarchii</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Wszystkie elementy</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Dodaj wszystkie elementy do grupy</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Dodaj elemety poniżej do grupy</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Dodaj wszystkie elementy oprócz tego do grupy</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Usuń element z grupy</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Dodaj element do grupy</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Przesuń do obszaru kolumn</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>Przesuń do obszaru strony</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Przesuń do obszaru wiersza</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;nowa grupa&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Inne</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Wpisz wartość progową lub procent</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Usuń do drzewa</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Zmień nazwę grupy</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Usuń filtr</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Pokaż jako</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Pokaż puste komórki</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Pokaż tylko dolne</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Pokaż tylko górne</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>Filtr może być użyty tylko do danych numerycznych</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>Za wszystkimi</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Zastosuj</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Przed wszystkimi</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="rsCantReadAnotherProductStream" xml:space="preserve">
+    <value>Wybrany strumień został stworzony w innym produkcie RadarCube i nie jest w tej chwili obsługiwany</value>
+  </data>
+  <data name="rsCantRestoreInactiveGrid" xml:space="preserve">
+    <value>Nie można przywrócić stanu dla nieaktywnej siatki</value>
+  </data>
+  <data name="rsCantSaveInactiveGrid" xml:space="preserve">
+    <value>Nie można zapisać nieaktywnej siatki do strumienia</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>Współrzędne komórki poza zakresem. Wiersz: {0}. Kolumna: {1}</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Obszar kolumn</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Drzewo struktury kostki</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Nieznane</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>Wymiar "{0}" nie znaleziony.</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>zwiń</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>drąż potomków na poziomie</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>drąż do następnego poziomu</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>drąż do następnej hierarchii</value>
+  </data>
+  <data name="rsecStreamVersionError" xml:space="preserve">
+    <value>Nie można odczytać ze strumienia z wczesnej wersji ({0})</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>Edytuj wartość</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>Wpisz numer strony</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Filtr</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Obszar filtru</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>Dokładne porównywanie</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>Nie można stworzyć hierarchii, ponieważ nie może ona być przekształcona do płaskiej. Rodzic: {0}</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>Hierarchia "{0}" nie znaleziona.</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>Hierarchia "{0}" nie zanicjalizowana</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} Półrocze</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>Grupa i element grupujący muszą należeć do tego samego poziomu</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>Grupa i element grupujący muszą mieć tego samego rodzica</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} wzrost</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>{0} do dziś</value>
+  </data>
+  <data name="rsInactiveCube" xml:space="preserve">
+    <value>Kostka powinna być aktywna, aby wywołać tą metodę.</value>
+  </data>
+  <data name="rsInadmissibleDrillAction" xml:space="preserve">
+    <value>Niedozwolone drążenie ({0}) dla elementu {1}</value>
+  </data>
+  <data name="rsInvalidPropertyError" xml:space="preserve">
+    <value>Niewłaściwa wartość atrybutu w {0:X}</value>
+  </data>
+  <data name="rsInvalidStreamFormat" xml:space="preserve">
+    <value>Niewłaściwy format strumienia</value>
+  </data>
+  <data name="rsInvalidTagError" xml:space="preserve">
+    <value>Niewłaściwe dane w strumieniu w pozycji {0:X}. Oczekiwano tagu "{1}"</value>
+  </data>
+  <data name="rsiTimeIntelligence" xml:space="preserve">
+    <value>Time intelligence dla "{0}"</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Ładowanie...</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Miary</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Pozycja miar</value>
+  </data>
+  <data name="rsMuitifilterDrillthroughError" xml:space="preserve">
+    <value>Nie można wykonać polecenia "Drąż przez": filtrowana hierarchia '{0}' ma więcej niż jednego widocznego członka</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>Nazwane zbiory</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>Hierarchia "{0}" nie zawiera poziomów.</value>
+  </data>
+  <data name="rsNoParentMember" xml:space="preserve">
+    <value>Element hierarchii ({0}), który nie jest elementem głównym ani zlokalizowanym na 0. poziomie, powinien mieć rodzica.</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>Strony:</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>Zagreguj elementy hierarchii</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>Zagreguj widoczne elementy</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>Ukryj opisy miar, jeżeli to możliwe</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>Ładowanie menu kontekstowego. Proszę czekać...</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Nie pokazuj sum</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Pokaż sumy na początku</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Pokaż sumy na końcu</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Nie sortuj</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Sortuj rosnąco</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Sortuj domyślnie</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Sortuj malejąco</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} kwartał</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Obszar wierszy</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Ranga kolumny</value>
+  </data>
+  <data name="rssmError" xml:space="preserve">
+    <value>Miara "{0}" nie może być pokazana w trybie "{1}", ponieważ zdarzenie OnShowMeasure nie jest obsługiwane</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Cel</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Wartość</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Szerokość</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Wartość</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>Procent sumy kolumny</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>Procent sumy całkowitej</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>Procent elementu kolumny-rodzica</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>Procent elementu wiersza-rodzica</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>Procent sumy wiersza</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Ranga wiersza</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="rsTryToDeleteWrongMeasure" xml:space="preserve">
+    <value>Miara "{0}" nie jest obliczana i nie można jej usunąć.</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Wartości</value>
+  </data>
+  <data name="exprt_Additional" xml:space="preserve">
+    <value>Dodatkowe</value>
+  </data>
+  <data name="exprt_All" xml:space="preserve">
+    <value>Wszystko</value>
+  </data>
+  <data name="exprt_Apply" xml:space="preserve">
+    <value>Zastosuj zmiany ale nie zamykaj okna dialogowego</value>
+  </data>
+  <data name="exprt_Auto_AllCells" xml:space="preserve">
+    <value>Wszystkie komórki</value>
+  </data>
+  <data name="exprt_Auto_ExeptHeader" xml:space="preserve">
+    <value>Wszystkie komórki poza nagłówkiem</value>
+  </data>
+  <data name="exprt_Auto_None" xml:space="preserve">
+    <value>Brak</value>
+  </data>
+  <data name="exprt_AutoSizeFor" xml:space="preserve">
+    <value>Automatyczny rozmiar komórek (brak, wszystkie, wszystkie poza nagłówkiem)</value>
+  </data>
+  <data name="exprt_AutoSizeForText" xml:space="preserve">
+    <value>Automatyczny rozmiar dla</value>
+  </data>
+  <data name="exprt_Background" xml:space="preserve">
+    <value>Tło</value>
+  </data>
+  <data name="exprt_Behavior" xml:space="preserve">
+    <value>Zachowanie</value>
+  </data>
+  <data name="exprt_Bmp_Format" xml:space="preserve">
+    <value>Format bitmapy</value>
+  </data>
+  <data name="exprt_BorderColor" xml:space="preserve">
+    <value>Kolor krawędzi</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>Dół</value>
+  </data>
+  <data name="exprt_Cancel" xml:space="preserve">
+    <value>Anuluj zmiany i zamknij okno dialogowe</value>
+  </data>
+  <data name="exprt_Caption" xml:space="preserve">
+    <value>Nagłówek</value>
+  </data>
+  <data name="exprt_CellsFontAndColor" xml:space="preserve">
+    <value>Czcionka i kolor eksportowanych komórek</value>
+  </data>
+  <data name="exprt_ChangesPreview" xml:space="preserve">
+    <value>Podgląd zmian</value>
+  </data>
+  <data name="exprt_Chart" xml:space="preserve">
+    <value>Wykres</value>
+  </data>
+  <data name="exprt_ClosePreview" xml:space="preserve">
+    <value>Zamknij podgląd wydruku</value>
+  </data>
+  <data name="exprt_Colontitle" xml:space="preserve">
+    <value>Nagłowki i stopki</value>
+  </data>
+  <data name="exprt_Color" xml:space="preserve">
+    <value>Kolor</value>
+  </data>
+  <data name="exprt_Csv_Format" xml:space="preserve">
+    <value>Format CSV</value>
+  </data>
+  <data name="exprt_CurrencyFormat" xml:space="preserve">
+    <value>Format waluty</value>
+  </data>
+  <data name="exprt_CustomPrint" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="exprt_Data" xml:space="preserve">
+    <value>Dane</value>
+  </data>
+  <data name="exprt_DataSlice" xml:space="preserve">
+    <value>Zaznacz, by pokazać tylko dane</value>
+  </data>
+  <data name="exprt_DataSliceOnly" xml:space="preserve">
+    <value>Tylko dane</value>
+  </data>
+  <data name="exprt_DataTotal" xml:space="preserve">
+    <value>Podsumowania</value>
+  </data>
+  <data name="exprt_Description" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="exprt_DrawProperties" xml:space="preserve">
+    <value>Właściwości rysowania</value>
+  </data>
+  <data name="exprt_Edges" xml:space="preserve">
+    <value>Marginesy</value>
+  </data>
+  <data name="exprt_Editing" xml:space="preserve">
+    <value>Zezwól na edycję danych</value>
+  </data>
+  <data name="exprt_EditingEnabled" xml:space="preserve">
+    <value>Zezwól na edycję opisów</value>
+  </data>
+  <data name="exprt_EmptyString" xml:space="preserve">
+    <value>Ciąg pokazywany w pustych komórkach</value>
+  </data>
+  <data name="exprt_EmptyValue" xml:space="preserve">
+    <value>Wartość pusta</value>
+  </data>
+  <data name="exprt_Exit" xml:space="preserve">
+    <value>Wyjście</value>
+  </data>
+  <data name="exprt_Export" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="exprt_ExportDataSlice" xml:space="preserve">
+    <value>Eksport danych</value>
+  </data>
+  <data name="exprt_ExportSelection" xml:space="preserve">
+    <value>Eksportuj zaznaczone</value>
+  </data>
+  <data name="exprt_ExportSettings" xml:space="preserve">
+    <value>Ustawienia eksportu</value>
+  </data>
+  <data name="exprt_FileExportName" xml:space="preserve">
+    <value>Podaj nazwę pliku eksportu</value>
+  </data>
+  <data name="exprt_FilterButton" xml:space="preserve">
+    <value>Przycisk filtru</value>
+  </data>
+  <data name="exprt_FitToHeight" xml:space="preserve">
+    <value>Dopasuj wysokość</value>
+  </data>
+  <data name="exprt_FitToPage" xml:space="preserve">
+    <value>Dopasuj szerokość</value>
+  </data>
+  <data name="exprt_FullView" xml:space="preserve">
+    <value>Pokaż całą stronę</value>
+  </data>
+  <data name="exprt_Gif_Format" xml:space="preserve">
+    <value>Format GIF</value>
+  </data>
+  <data name="exprt_GridSettings" xml:space="preserve">
+    <value>Ustawienia siatki</value>
+  </data>
+  <data name="exprt_Grid" xml:space="preserve">
+    <value>Siatka</value>
+  </data>
+  <data name="exprt_GridBGColor" xml:space="preserve">
+    <value>Kliknij tu by zmienić kolor tła siatki</value>
+  </data>
+  <data name="exprt_Group" xml:space="preserve">
+    <value>Grupy</value>
+  </data>
+  <data name="exprt_HotKey" xml:space="preserve">
+    <value>Kombinacja klawiszy przełączająca widoczność przycisków drążenia</value>
+  </data>
+  <data name="exprt_HotKeyText" xml:space="preserve">
+    <value>Skrót klawiszowy</value>
+  </data>
+  <data name="exprt_Html_Format" xml:space="preserve">
+    <value>Format HTML</value>
+  </data>
+  <data name="exprt_ImageClear" xml:space="preserve">
+    <value>Czyszczenie obrazu</value>
+  </data>
+  <data name="exprt_ImagePosition" xml:space="preserve">
+    <value>Pozycja obrazu</value>
+  </data>
+  <data name="exprt_Jpg_Format" xml:space="preserve">
+    <value>Format JPG</value>
+  </data>
+  <data name="exprt_LineColor" xml:space="preserve">
+    <value>Kliknij tu by zmienić kolor krawędzi siatki</value>
+  </data>
+  <data name="exprt_LoadSkin" xml:space="preserve">
+    <value>Wczytaj</value>
+  </data>
+  <data name="exprt_ManyFileFormat" xml:space="preserve">
+    <value>{0} część z {1}</value>
+  </data>
+  <data name="exprt_MeasurePosition" xml:space="preserve">
+    <value>Położenie obszaru miar</value>
+  </data>
+  <data name="exprt_Member" xml:space="preserve">
+    <value>Elementy</value>
+  </data>
+  <data name="exprt_MemberTotal" xml:space="preserve">
+    <value>Podsumowania elementów</value>
+  </data>
+  <data name="exprt_MoveToCustom" xml:space="preserve">
+    <value>Przejdź do strony nr...</value>
+  </data>
+  <data name="exprt_MoveToLast" xml:space="preserve">
+    <value>Ostatnia strona</value>
+  </data>
+  <data name="exprt_MoveToNext" xml:space="preserve">
+    <value>Następna strona</value>
+  </data>
+  <data name="exprt_MoveToPrior" xml:space="preserve">
+    <value>Poprzednia strona</value>
+  </data>
+  <data name="exprt_MoveToToFirst" xml:space="preserve">
+    <value>Pierwsza strona</value>
+  </data>
+  <data name="exprt_OK" xml:space="preserve">
+    <value>Zaakceptuj zmiany i zamknij okno dialogowe</value>
+  </data>
+  <data name="exprt_OncePage" xml:space="preserve">
+    <value>Jedna strona</value>
+  </data>
+  <data name="exprt_PageAllView" xml:space="preserve">
+    <value>Cała strona</value>
+  </data>
+  <data name="exprt_PageEdges" xml:space="preserve">
+    <value>Ustawienia strony</value>
+  </data>
+  <data name="exprt_PageFour" xml:space="preserve">
+    <value>Cztery strony</value>
+  </data>
+  <data name="exprt_PagesCurrent" xml:space="preserve">
+    <value>Bieżąca strona ({0})</value>
+  </data>
+  <data name="exprt_PageSegmentFormat" xml:space="preserve">
+    <value>Strona {0:D} z {1:D} </value>
+  </data>
+  <data name="exprt_PageToHeight" xml:space="preserve">
+    <value>Dopasuj wysokość</value>
+  </data>
+  <data name="exprt_PageToWidth" xml:space="preserve">
+    <value>Dopasuj szerokość</value>
+  </data>
+  <data name="exprt_PageTwo" xml:space="preserve">
+    <value>Dwie strony</value>
+  </data>
+  <data name="exprt_PagsSegment" xml:space="preserve">
+    <value>Wszyskkie strony (od {0} do {1})</value>
+  </data>
+  <data name="exprt_Pdf_Format" xml:space="preserve">
+    <value>Format PDF</value>
+  </data>
+  <data name="exprt_PivotAndData" xml:space="preserve">
+    <value>Tabela przestawna i dane</value>
+  </data>
+  <data name="exprt_PivotButton" xml:space="preserve">
+    <value>Przycisk tabeli przestawnej</value>
+  </data>
+  <data name="exprt_PivotColored" xml:space="preserve">
+    <value>Kolorowe panele tabeli przestawnej</value>
+  </data>
+  <data name="exprt_PivotPanel" xml:space="preserve">
+    <value>Panel tabeli przestawnej</value>
+  </data>
+  <data name="exprt_PivotStyle" xml:space="preserve">
+    <value>Kliknij aby wybrać styl panelu tabeli przestawnej</value>
+  </data>
+  <data name="exprt_PivotStyleText" xml:space="preserve">
+    <value>Nowoczesna tabela przestawna</value>
+  </data>
+  <data name="exprt_Placed_ColF" xml:space="preserve">
+    <value>Kolumna pierwsza</value>
+  </data>
+  <data name="exprt_Placed_ColL" xml:space="preserve">
+    <value>Kolumna ostatnia</value>
+  </data>
+  <data name="exprt_Placed_RowF" xml:space="preserve">
+    <value>Wiersz pierwszy</value>
+  </data>
+  <data name="exprt_Placed_RowL" xml:space="preserve">
+    <value>Wiersz ostatni</value>
+  </data>
+  <data name="exprt_Png_Format" xml:space="preserve">
+    <value>Format PNG</value>
+  </data>
+  <data name="exprt_PreviewExportSetting" xml:space="preserve">
+    <value>Ustawienia wydruku i eksportu</value>
+  </data>
+  <data name="exprt_PreviewOptions" xml:space="preserve">
+    <value>Obejrzyj ustawienia na siatce</value>
+  </data>
+  <data name="exprt_PrintAll" xml:space="preserve">
+    <value>Wszystkie strony</value>
+  </data>
+  <data name="exprt_PrintCurrent" xml:space="preserve">
+    <value>Bieżąca strona</value>
+  </data>
+  <data name="exprt_PrintDialog" xml:space="preserve">
+    <value>Okno wydruku</value>
+  </data>
+  <data name="exprt_PrintOK" xml:space="preserve">
+    <value>Drukuj</value>
+  </data>
+  <data name="exprt_PrintPreview" xml:space="preserve">
+    <value>Podgląd wydruku</value>
+  </data>
+  <data name="exprt_PrintToFile" xml:space="preserve">
+    <value>Drukuj do pliku (eksport)</value>
+  </data>
+  <data name="exprt_RefreshOnScroll" xml:space="preserve">
+    <value>Odśwież przy przewijaniui</value>
+  </data>
+  <data name="exprt_RefreshReWidth" xml:space="preserve">
+    <value>Odśwież przy zmianie rozmiaru</value>
+  </data>
+  <data name="exprt_RefreshReWidthTips" xml:space="preserve">
+    <value>Odśwież przy zmianie szerokości kolumny</value>
+  </data>
+  <data name="exprt_RefreshScroll" xml:space="preserve">
+    <value>Zezwól na odświeżanie siatki przy przewijaniu</value>
+  </data>
+  <data name="exprt_SampleText" xml:space="preserve">
+    <value>Przykładowy tekst</value>
+  </data>
+  <data name="exprt_SapmleDraw" xml:space="preserve">
+    <value>Przykładowy wykres</value>
+  </data>
+  <data name="exprt_SettingsPrint" xml:space="preserve">
+    <value>Ustawienia wydruku</value>
+  </data>
+  <data name="exprt_ShowDrill" xml:space="preserve">
+    <value>Zawsze pokazuj wszystie przyciski drążenia</value>
+  </data>
+  <data name="exprt_ShowExportPrintPrev" xml:space="preserve">
+    <value>Pokaż przy eksporcie, wydruku, podglądzie</value>
+  </data>
+  <data name="exprt_ShowScrollBar" xml:space="preserve">
+    <value>Automarycznie pokazuj suwaki</value>
+  </data>
+  <data name="exprt_ShowToolbtn" xml:space="preserve">
+    <value>Pokaż pasek narzędzi z przyciskami</value>
+  </data>
+  <data name="exprt_ShowToolbtnText" xml:space="preserve">
+    <value>Pokaż przyciski</value>
+  </data>
+  <data name="exprt_Skin" xml:space="preserve">
+    <value>Schemat kolorów</value>
+  </data>
+  <data name="exprt_Strings" xml:space="preserve">
+    <value>Ciągi</value>
+  </data>
+  <data name="exprt_StyleAlign" xml:space="preserve">
+    <value>Wyrównanie</value>
+  </data>
+  <data name="exprt_StyleBackColor" xml:space="preserve">
+    <value>Kolor tła</value>
+  </data>
+  <data name="exprt_Text_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="exprt_TextAlign" xml:space="preserve">
+    <value>Wyrównanie</value>
+  </data>
+  <data name="exprt_TextFont" xml:space="preserve">
+    <value>Czcionka</value>
+  </data>
+  <data name="exprt_TextOnPivot" xml:space="preserve">
+    <value>Pokaż tekst w obszarze tabeli przestawnej (tylko dla typowego widoku!)</value>
+  </data>
+  <data name="exprt_TextOnPivotText" xml:space="preserve">
+    <value>Tekst w obszarze tabeli przestawnej</value>
+  </data>
+  <data name="exprt_Tiff_Format" xml:space="preserve">
+    <value>Format TIFF</value>
+  </data>
+  <data name="exprt_Title_document" xml:space="preserve">
+    <value>Tytuł dokumentu</value>
+  </data>
+  <data name="exprt_ToolBtn" xml:space="preserve">
+    <value>Przycisk narzędzia</value>
+  </data>
+  <data name="exprt_TreeWidth" xml:space="preserve">
+    <value>Ustaw szerokość drzewa</value>
+  </data>
+  <data name="exprt_TreeWidthText" xml:space="preserve">
+    <value>Szerokość widoku drzewa</value>
+  </data>
+  <data name="exprt_ViewMode" xml:space="preserve">
+    <value>Wybierz aby pokazać tryb przeglądania</value>
+  </data>
+  <data name="exprt_ViewModeText" xml:space="preserve">
+    <value>Tryb przeglądania</value>
+  </data>
+  <data name="exprt_Worksheet" xml:space="preserve">
+    <value>Arkusz {0}</value>
+  </data>
+  <data name="exprt_Xml_Format" xml:space="preserve">
+    <value>Format XML</value>
+  </data>
+  <data name="exprt_ZoomCustom" xml:space="preserve">
+    <value>Dowolne powiększenie</value>
+  </data>
+  <data name="MF_CurrentColorChemas" xml:space="preserve">
+    <value>Bieżący schemat kolorów</value>
+  </data>
+  <data name="MF_MindFormating" xml:space="preserve">
+    <value>Formatowanie warunkowe</value>
+  </data>
+  <data name="MF_ShowMenuCommand" xml:space="preserve">
+    <value>Pokaż wykonane polecenia</value>
+  </data>
+  <data name="MF_ShowMenuItem" xml:space="preserve">
+    <value>Pokaż pozycję menu</value>
+  </data>
+  <data name="MF_ShowMenuLastCommand" xml:space="preserve">
+    <value>Pokaż menu ostatnich poleceń</value>
+  </data>
+  <data name="MF_ShowMenuMode" xml:space="preserve">
+    <value>Pokaż menu sposobu zaznaczania</value>
+  </data>
+  <data name="MF_ShowMenuThemes" xml:space="preserve">
+    <value>Pokaż menu wyboru koloru</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>Kostka nie jest aktywna.</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Równe</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Filtruj wg opisu</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Różne</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>Pokaż tylko elementy spełniające warunek:</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Filtruj wg opisu ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Filtruj wg wartości ({0})</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Jest pomiędzy</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Zawiera</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Kończy się na</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Filtruj wg wartości</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Większe</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Mniejsze</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Nie jest pomiędzy</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Nie zawiera</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Nie kończy się na</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Nie większe</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Nie mniejsze</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Nie zaczyna się od</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Zaczyna się od</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>Pierwsze 10</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Elementy</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% liczby elementów</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>Góra</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Filtruj wg daty</value>
+  </data>
+  <data name="repHierarhyEditorLevel" xml:space="preserve">
+    <value>Poziom do filtrowania:</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>Filtr prosty</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>Naciśnij aby zmienić filtr</value>
+  </data>
+  <data name="exprt_InputCaption" xml:space="preserve">
+    <value>Wartość wejściowa</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>Wprowadź numer strony (od 1 do {0})</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>Wprowadź wartość od {0} do {1}!</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Niepoprawna wartość</value>
+  </data>
+  <data name="rsFilterTree" xml:space="preserve">
+    <value>Filtruj elementy tylko w Edytorze Hierarchii</value>
+  </data>
+  <data name="rsContextFilterSettings" xml:space="preserve">
+    <value>Ustawienia filtru kontekstowego</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>Wartość zagregowana</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>Wartości z tabeli faktów</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>Ogranicza:</value>
+  </data>
+  <data name="rsNewChat" xml:space="preserve">
+    <value>&lt;przeciągnij tu element, aby utworzyć wykres&gt;</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>Znajdź</value>
+  </data>
+  <data name="rsMemberFilterSettings" xml:space="preserve">
+    <value>Ustawienia filtru członków</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>Obszar tabeli przestawnej</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>Zezwól na zmianę układu</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>Cały obszar</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>Pierwszy w kolumnie</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>Ostatni w kolumnie</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>Pierwszy w wierszu</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>Ostatni w wierszu</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>Przesuń do wartości</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>Filtruj tekst</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>Zastosuj filtr do hierarchii drzewa</value>
+  </data>
+  <data name="rsDockMenuItem" xml:space="preserve">
+    <value>Zastosuj rozmieszczenie paneli</value>
+  </data>
+  <data name="rsWrongNamedSetPivoting" xml:space="preserve">
+    <value>Elementy “{0}” i “{1}” nie mogą wystąpić jednocześnie w raporcie</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Kopiuj zaznaczenie</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>Wielowybór</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Wyczyść</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>Szukaj:</value>
+  </data>
+  <data name="rep_QuickSearch" xml:space="preserve">
+    <value>Wprowadź tu tekst by filtrować drzewo struktury kostki</value>
+  </data>
+  <data name="rsWrongDateStr" xml:space="preserve">
+    <value>Nie można wczytać daty "{0}". Proszę wprowadzić datę w formacie "{1}"</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>Wszystkie elementy oprócz {0}</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Miara</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Opis filtru</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>Pokazuj poziomy</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>Edytuj filtr</value>
+  </data>
+  <data name="repMoveToColorChanger" xml:space="preserve">
+    <value>Przenieś do osi koloru</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>Obszar danych</value>
+  </data>
+  <data name="repMoveToDetailsChanger" xml:space="preserve">
+    <value>Przenieś do detali</value>
+  </data>
+  <data name="repMoveToShapeChanger" xml:space="preserve">
+    <value>Przenieś do osi kształtu</value>
+  </data>
+  <data name="repMoveToSizeChanger" xml:space="preserve">
+    <value>Przenieś do osi rozmiaru</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Podgląd wydruku</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>Szybkie filtrowanie</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>Edytor Formuł</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>Funkcje MDX</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>Szablony MDX</value>
+  </data>
+  <data name="exprt_ModificatorContainer" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="exprt_ModificatorCustom" xml:space="preserve">
+    <value>Legenda: inne</value>
+  </data>
+  <data name="exprt_ModificatorHierarchy" xml:space="preserve">
+    <value>Legenda: hierarchia</value>
+  </data>
+  <data name="exprt_ModificatorItem" xml:space="preserve">
+    <value>Legenda: element</value>
+  </data>
+  <data name="exprt_ModificatorMeasure" xml:space="preserve">
+    <value>Legenda: miara</value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>Utwórz miarę wyliczaną...</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>Utwórz element wyliczany...</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>Usuń miarę</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>Usuń element</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>Edytuj miarę</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>Edytuj element</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>Kolor:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>Ustawienia kolorów:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>Szczegóły:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>Rozmiar:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>Ustawienia rozmiaru:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>Oś koloru</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>Oś rozmiaru</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>Kształt:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>Ustawienia kształtu:</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>Kształt</value>
+  </data>
+  <data name="mnShapeAxis" xml:space="preserve">
+    <value>Oś kształtu</value>
+  </data>
+  <data name="mdModificators" xml:space="preserve">
+    <value>Modyfikatory</value>
+  </data>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>Opisy</value>
+  </data>
+  <data name="mnFilterSelection" xml:space="preserve">
+    <value>Filtruj wybrane elementy</value>
+  </data>
+  <data name="mnShowUnderlying" xml:space="preserve">
+    <value>Pokaż dane</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>Połącz</value>
+  </data>
+  <data name="rsDrillthrough" xml:space="preserve">
+    <value>Drąż...</value>
+  </data>
+  <data name="rsDrillthroughResults" xml:space="preserve">
+    <value>Wyniki drążenia</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>Wczytaj stan</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>Powtórz</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>Zapisz wszystko</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>Zapisz wygląd</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>Zapisz dane</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>Zapisz tabelę i danę</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>Zapisz tabelę</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>Zapisz stan</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>Pokaż wszystkie panele</value>
+  </data>
+  <data name="rsShowExceptTree" xml:space="preserve">
+    <value>Pokaż wszystko z wyjątkiem drzewa struktury</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>Pokaż {0} jako</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>Zamień wiersze z kolumnami</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>Zastosuj paletę</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>Zastosuj skórkę</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>Ustaw powiększenie na 100%</value>
+  </data>
+  <data name="rsShowDataOnly" xml:space="preserve">
+    <value>Pokaż tylko panel danych</value>
+  </data>
+  <data name="rsShowDefault" xml:space="preserve">
+    <value>Wróć do domyślnego ustawienia</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>Powiększenie</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>Zmniejszenie</value>
+  </data>
+  <data name="repShowPages" xml:space="preserve">
+    <value>Pokaż strony</value>
+  </data>
+  <data name="repVisibleOnly" xml:space="preserve">
+    <value>Pokaż tylko widoczne elementy</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>Akcje</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>Wybierz tryb filtrowania</value>
+  </data>
+  <data name="rsFilterRescale" xml:space="preserve">
+    <value>Przeskaluj</value>
+  </data>
+  <data name="rsFilterRescaleHint" xml:space="preserve">
+    <value>Pokaż tylko przeskalowane dane wybranego segmentu</value>
+  </data>
+  <data name="rsFilterShowSegmentData" xml:space="preserve">
+    <value>Pokaż dane segmentu</value>
+  </data>
+  <data name="rsFilterShowSegmentDataHint" xml:space="preserve">
+    <value>Pokaż tylko dane wybranego segmentu</value>
+  </data>
+  <data name="rsTrendAdd" xml:space="preserve">
+    <value>Dodaj linię trendu</value>
+  </data>
+  <data name="rsTrendRemove" xml:space="preserve">
+    <value>Usuń trend</value>
+  </data>
+  <data name="rsTrendCubic" xml:space="preserve">
+    <value>Sześcienny</value>
+  </data>
+  <data name="rsTrendLine" xml:space="preserve">
+    <value>Liniowy</value>
+  </data>
+  <data name="rsTrendQuadratic" xml:space="preserve">
+    <value>Kwadratowy</value>
+  </data>
+  <data name="rsTrendColor" xml:space="preserve">
+    <value>Kolor trendu ...</value>
+  </data>
+  <data name="rsTrendType" xml:space="preserve">
+    <value>Typ trendu</value>
+  </data>
+  <data name="label_CCSettingsSetupControl_Advanced" xml:space="preserve">
+    <value>Zaawansowane</value>
+  </data>
+  <data name="exprt_ExportDateFormat" xml:space="preserve">
+    <value>Data: {0:yyyy-MM-dd}</value>
+  </data>
+  <data name="hint_ClickChangeColor" xml:space="preserve">
+    <value>Kliknij tu aby zmienić kolor</value>
+  </data>
+  <data name="hint_ClickChangeShape" xml:space="preserve">
+    <value>Kliknij tu aby zmienić kształt</value>
+  </data>
+  <data name="hint_ClickExpandCollapse" xml:space="preserve">
+    <value>Kliknij tu aby zwinąć lub rozwinąć</value>
+  </data>
+  <data name="hint_ClickToEditHierFilter" xml:space="preserve">
+    <value>Kliknij tu by edytować filtr hierarchii</value>
+  </data>
+  <data name="hint_ClickTopEditMeasFilter" xml:space="preserve">
+    <value>Kliknij tu by edytować filtr miar</value>
+  </data>
+  <data name="hint_ClickToSort" xml:space="preserve">
+    <value>Kliknij tu by posortować wg kolumny</value>
+  </data>
+  <data name="hint_CollapseCell" xml:space="preserve">
+    <value>Zwiń komórkę</value>
+  </data>
+  <data name="hint_CollapseLevel" xml:space="preserve">
+    <value>Zwiń poziom</value>
+  </data>
+  <data name="hint_DragPanelToPivot" xml:space="preserve">
+    <value>Przeciągnij panel aby zamienić wiersze i kolumnyt</value>
+  </data>
+  <data name="hint_DragToFilter" xml:space="preserve">
+    <value>Przeciągnij element aby utworzyć filtr</value>
+  </data>
+  <data name="hint_DragToPivot" xml:space="preserve">
+    <value>Przeciągnij ten element aby zamienić wiersze i kolumny</value>
+  </data>
+  <data name="hint_DrillNextHierarchy" xml:space="preserve">
+    <value>Drąż do elementów następnej hierarchii</value>
+  </data>
+  <data name="hint_DrillNextLevel" xml:space="preserve">
+    <value>Drąż do elementów następnego poziomu</value>
+  </data>
+  <data name="hint_DrillParentChild" xml:space="preserve">
+    <value>Drąż do rozwinięcia elementu</value>
+  </data>
+  <data name="hint_ExpandThisLevel" xml:space="preserve">
+    <value>Rozwiń poziom</value>
+  </data>
+  <data name="hint_PressCtrlOrShift" xml:space="preserve">
+    <value>Naciśnij Ctrl lub Shift by zmienić tryb zaznaczania</value>
+  </data>
+  <data name="hint_RightClickTheCell" xml:space="preserve">
+    <value>Naciśnij prawy przycisk myszy by pokazać menu kontekstowe lub lewy by zaznaczyć</value>
+  </data>
+  <data name="hint_RightClickTheCell2" xml:space="preserve">
+    <value>Naciśnij prawy przycisk myszy by pokazać menu kontekstowe komórki</value>
+  </data>
+  <data name="hint_RightClickToContext" xml:space="preserve">
+    <value>Naciśnij prawy przycisk myszy by pokazać menu kontekstowe elementu</value>
+  </data>
+  <data name="rsItemToFilter" xml:space="preserve">
+    <value>Element do filtrowania</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>Wyrażenie</value>
+  </data>
+  <data name="rsChangeColor" xml:space="preserve">
+    <value>Zmień kolor...</value>
+  </data>
+  <data name="rsChooseColor" xml:space="preserve">
+    <value>Wybierz kolor</value>
+  </data>
+  <data name="rsSteppedColors" xml:space="preserve">
+    <value>Intensywność kolorów</value>
+  </data>
+  <data name="rsEmailError" xml:space="preserve">
+    <value>Prosimy o skopiowanie powyższych informacji o błędzie i przesłanie ich na adres {0}.</value>
+  </data>
+  <data name="rsErrorMessage" xml:space="preserve">
+    <value>Komunikat o błędzie</value>
+  </data>
+  <data name="rsServerError" xml:space="preserve">
+    <value>Serwer zgłosił błąd:</value>
+  </data>
+  <data name="rsColorArea" xml:space="preserve">
+    <value>Obszar koloru</value>
+  </data>
+  <data name="rsDetailsArea" xml:space="preserve">
+    <value>Obszar detali</value>
+  </data>
+  <data name="rsDragMeasure" xml:space="preserve">
+    <value>Przeciągnij miarę by utworzyć serię</value>
+  </data>
+  <data name="rsDragMeasure2" xml:space="preserve">
+    <value>Przeciągnij miarę by utworzyć wykres</value>
+  </data>
+  <data name="rsEnablePaging" xml:space="preserve">
+    <value>Pozwól dzielić na strony</value>
+  </data>
+  <data name="rsMatchFilter" xml:space="preserve">
+    <value>Filtr:</value>
+  </data>
+  <data name="rsShapeArea" xml:space="preserve">
+    <value>Obszar kształtu</value>
+  </data>
+  <data name="rsSizeArea" xml:space="preserve">
+    <value>Obszar rozmiaru</value>
+  </data>
+  <data name="rsTreeFilterSettings" xml:space="preserve">
+    <value>Ustawienia filtru elementów</value>
+  </data>
+  <data name="hint_ConnectTo" xml:space="preserve">
+    <value>Połącz z serwerem</value>
+  </data>
+  <data name="hint_ExportTo" xml:space="preserve">
+    <value>Eksportuj do {0}</value>
+  </data>
+  <data name="hint_LoadReport" xml:space="preserve">
+    <value>Wczytaj raport</value>
+  </data>
+  <data name="hint_SaveReport" xml:space="preserve">
+    <value>Zapisz bieżący raport</value>
+  </data>
+  <data name="rsCatalog" xml:space="preserve">
+    <value>Katalog:</value>
+  </data>
+  <data name="rsConnectionSettings" xml:space="preserve">
+    <value>Ustawienia połączenia</value>
+  </data>
+  <data name="rsCube" xml:space="preserve">
+    <value>Kostka:</value>
+  </data>
+  <data name="rsPleaseWait" xml:space="preserve">
+    <value>Proszę czekać. Serwer przetwarza polecenie...</value>
+  </data>
+  <data name="rsServer" xml:space="preserve">
+    <value>Serwer:</value>
+  </data>
+  <data name="rsAllMembersHidden" xml:space="preserve">
+    <value>Wszystkie elementy są ukryte</value>
+  </data>
+  <data name="exprt_Settings_FontAndColorGroup" xml:space="preserve">
+    <value>Tczionka oraz niestandardowy kolor komórek są eksportowane</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_BackColor" xml:space="preserve">
+    <value>Kolor tła</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Font" xml:space="preserve">
+    <value>Czcionka</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_FontColor" xml:space="preserve">
+    <value>Kolor tekstu</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_PageBack" xml:space="preserve">
+    <value>Tło</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Skins" xml:space="preserve">
+    <value>Schematy kolorów</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByColumns" xml:space="preserve">
+    <value>Wg kolumn</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByRows" xml:space="preserve">
+    <value>Wg wierszy</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintColumnHeader" xml:space="preserve">
+    <value>Drukuj nagłówki kolumn</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintRowHeader" xml:space="preserve">
+    <value>Drukuj nagłówki wierszy</value>
+  </data>
+  <data name="exprt_Settings_PrintPage" xml:space="preserve">
+    <value>Wydruk</value>
+  </data>
+  <data name="rsFor_Hierarchy" xml:space="preserve">
+    <value>dla hirarchii {0}</value>
+  </data>
+  <data name="rsInfoAttributesEditor" xml:space="preserve">
+    <value>Edytor atrybutów info</value>
+  </data>
+  <data name="rsCopyCellText" xml:space="preserve">
+    <value>Kopiuj tekst komórki</value>
+  </data>
+  <data name="rsReady" xml:space="preserve">
+    <value>Gotowy</value>
+  </data>
+  <data name="rsHideAllProperties" xml:space="preserve">
+    <value>Ukryj właściwości</value>
+  </data>
+  <data name="rsShowAllProperties" xml:space="preserve">
+    <value>Pokaż właściwości</value>
+  </data>
+  <data name="rsShowPropertiesReport" xml:space="preserve">
+    <value>Pokaż właściwości w raporcie</value>
+  </data>
+  <data name="rsShowPropertiesTooltip" xml:space="preserve">
+    <value>Pokaż właściwości w dymku</value>
+  </data>
+  <data name="rsDeferLayoutUpdateCheckBoxCaption" xml:space="preserve">
+    <value>Opóźnione odświeżanie układu</value>
+  </data>
+  <data name="hint_ShowHidePanels" xml:space="preserve">
+    <value>Pokaż/ukryj dostępne panele</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageNumber" xml:space="preserve">
+    <value>Dostosuj numer strony</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageTitle" xml:space="preserve">
+    <value>Dostosuj tytuł strony</value>
+  </data>
+  <data name="exprt_Settings_ColorAndFontPage" xml:space="preserve">
+    <value>Kolor i tcziocnka</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Left" xml:space="preserve">
+    <value>Lewa</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_MeasureUnit" xml:space="preserve">
+    <value>Jednostka miary</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PageOrientation" xml:space="preserve">
+    <value>Orientacja strony</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PaperSize" xml:space="preserve">
+    <value>Rozmiar papieru</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PreviewEdge" xml:space="preserve">
+    <value>Podgląd krawędzi</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_ResetEdges" xml:space="preserve">
+    <value>Reset krawędzi</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Right" xml:space="preserve">
+    <value>Prawa</value>
+  </data>
+  <data name="exprt_Settings_Print_From" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="exprt_Settings_Print_GridOptions" xml:space="preserve">
+    <value>Opcje siatki</value>
+  </data>
+  <data name="exprt_Settings_Print_PageForPrint" xml:space="preserve">
+    <value>Strona do wydruku</value>
+  </data>
+  <data name="exprt_Settings_Print_PrinterSelect" xml:space="preserve">
+    <value>Wybór drukarki</value>
+  </data>
+  <data name="exprt_Settings_Print_To" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="preview_Statis_TotalPages" xml:space="preserve">
+    <value>Ogólna liczba stron</value>
+  </data>
+  <data name="rsDockAllowSplitting" xml:space="preserve">
+    <value>Pozwól użytkownikowi na podział</value>
+  </data>
+  <data name="toolbox_Export_ExportDataTo" xml:space="preserve">
+    <value>Eksportuj dane do ...</value>
+  </data>
+  <data name="rsGridArea" xml:space="preserve">
+    <value>Siatka</value>
+  </data>
+  <data name="rsCommentEdit" xml:space="preserve">
+    <value>Edytuj komentarz</value>
+  </data>
+  <data name="rsCommentCell" xml:space="preserve">
+    <value>Komentuj komórkę</value>
+  </data>
+  <data name="rsCommentCellPrompt" xml:space="preserve">
+    <value>Komentarz:</value>
+  </data>
+  <data name="rsAverage" xml:space="preserve">
+    <value>Średnia</value>
+  </data>
+  <data name="rsCount" xml:space="preserve">
+    <value>Liczba</value>
+  </data>
+  <data name="rsMax" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+</root>

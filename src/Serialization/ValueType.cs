@@ -1,0 +1,30 @@
+namespace RadarSoft.RadarCube.Serialization
+{
+    public enum ValueType : byte
+    {
+        Null,
+        False,
+        True,
+        Byte,
+        SByte,
+        Int16,
+        UInt16,
+        Int32,
+        UInt32,
+        Int64,
+        UInt64,
+        Char,
+        DateTime,
+        Type,
+        String,
+        Guid,
+        Object,
+        Decimal,
+        Double,
+        Single,
+        Binary,
+        StreamedObject,
+        TypedStreamedObject,
+        Stream
+    }
+}

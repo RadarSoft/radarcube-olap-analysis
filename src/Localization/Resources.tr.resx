@@ -1,0 +1,1746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="d_edAddNewDimention" xml:space="preserve">
+    <value>Boyut Oluştur</value>
+  </data>
+  <data name="d_edAddNewUDhier" xml:space="preserve">
+    <value>Yeni çok seviyeli hiyerarşi yarat</value>
+  </data>
+  <data name="d_edCreateInNewDim" xml:space="preserve">
+    <value>Boyutla birlikte yarat</value>
+  </data>
+  <data name="d_edDayOfMonth" xml:space="preserve">
+    <value>Ayın Günü</value>
+  </data>
+  <data name="d_edDayOfWeekLong" xml:space="preserve">
+    <value>Haftanın Günü (uzun adı)</value>
+  </data>
+  <data name="d_edDayOfWeekShort" xml:space="preserve">
+    <value>Haftanın Günü (kısa adı)</value>
+  </data>
+  <data name="d_edDayOfYear" xml:space="preserve">
+    <value>Yılın Günü</value>
+  </data>
+  <data name="d_edHalfYear" xml:space="preserve">
+    <value>6 Aylık</value>
+  </data>
+  <data name="d_edHour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="d_edMarkHierarchyIn" xml:space="preserve">
+    <value>Hiyerarşi olarak işaretle</value>
+  </data>
+  <data name="d_edMarkMeasure" xml:space="preserve">
+    <value>Ölçü olarak işaretle</value>
+  </data>
+  <data name="d_edMinute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="d_edMonthLong" xml:space="preserve">
+    <value>AY (tam adı)</value>
+  </data>
+  <data name="d_edMonthNumber" xml:space="preserve">
+    <value>AY (sayı)</value>
+  </data>
+  <data name="d_edMonthShort" xml:space="preserve">
+    <value>AY (kısa adı)</value>
+  </data>
+  <data name="d_edNewCalculatedHier" xml:space="preserve">
+    <value>Hiyerarşi Oluştur</value>
+  </data>
+  <data name="d_edNewCalculatedHierDateTime" xml:space="preserve">
+    <value>Zaman olarak hiyerarşi</value>
+  </data>
+  <data name="d_edNewCalculatedMeas" xml:space="preserve">
+    <value>Ölçü Oluştur</value>
+  </data>
+  <data name="d_edNewDimension" xml:space="preserve">
+    <value>Yeni Boyut</value>
+  </data>
+  <data name="d_edNewDimensionName" xml:space="preserve">
+    <value>Yeni Boyut Adı</value>
+  </data>
+  <data name="d_edNewHierarchyName" xml:space="preserve">
+    <value>Yeni Hiyerarşi Adı</value>
+  </data>
+  <data name="d_edNewUDHierarchy" xml:space="preserve">
+    <value>Yeni Çok Seviyeli Hiyerarşi</value>
+  </data>
+  <data name="d_edProperties" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="d_edQuarter" xml:space="preserve">
+    <value>3 Aylık</value>
+  </data>
+  <data name="d_edRemoveDimension" xml:space="preserve">
+    <value>Boyut Kaldır</value>
+  </data>
+  <data name="d_edRemoveHierarchy" xml:space="preserve">
+    <value>Hiyerarşi Kaldır</value>
+  </data>
+  <data name="d_edRemoveMeasure" xml:space="preserve">
+    <value>Ölçü Kaldır</value>
+  </data>
+  <data name="d_edSecond" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="d_edUnmarkField" xml:space="preserve">
+    <value>Seçimi Kaldır</value>
+  </data>
+  <data name="d_edWeekOfYear" xml:space="preserve">
+    <value>Yılın Haftası</value>
+  </data>
+  <data name="d_edYear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="d_rsBackgroundEditor" xml:space="preserve">
+    <value>Geri Plan Editörü</value>
+  </data>
+  <data name="MF_AllAction" xml:space="preserve">
+    <value>Bütün eylemler</value>
+  </data>
+  <data name="MF_BackColor" xml:space="preserve">
+    <value>Geriplan gradyanı</value>
+  </data>
+  <data name="MF_Background" xml:space="preserve">
+    <value>Gradyan seçicisi</value>
+  </data>
+  <data name="MF_BelowAverage" xml:space="preserve">
+    <value>Ortalamanın altında</value>
+  </data>
+  <data name="MF_BelowThan" xml:space="preserve">
+    <value>Maksimum % altında</value>
+  </data>
+  <data name="MF_Bright" xml:space="preserve">
+    <value>Parlak</value>
+  </data>
+  <data name="MF_ChartBar" xml:space="preserve">
+    <value>Çizelge çubuğu gradyanı</value>
+  </data>
+  <data name="MF_ClearList" xml:space="preserve">
+    <value>Listeyi temizle</value>
+  </data>
+  <data name="MF_ColorChemes" xml:space="preserve">
+    <value>Özelleştirme şemaları</value>
+  </data>
+  <data name="MF_FarAverage" xml:space="preserve">
+    <value>Ortalamadan en uzak</value>
+  </data>
+  <data name="MF_Gradient" xml:space="preserve">
+    <value>Gradyan</value>
+  </data>
+  <data name="MF_LastCommand" xml:space="preserve">
+    <value>Son emirler</value>
+  </data>
+  <data name="MF_MindFormat" xml:space="preserve">
+    <value>Koşullu format</value>
+  </data>
+  <data name="MF_MoreAverage" xml:space="preserve">
+    <value>Daha ortalama</value>
+  </data>
+  <data name="MF_MoreThan" xml:space="preserve">
+    <value>Ençok %  dan fazla</value>
+  </data>
+  <data name="MF_NearAverage" xml:space="preserve">
+    <value>Ortalamaya en yakın</value>
+  </data>
+  <data name="MF_Rainbow" xml:space="preserve">
+    <value>Gökkuşağı</value>
+  </data>
+  <data name="MF_Remove" xml:space="preserve">
+    <value>Çıkar</value>
+  </data>
+  <data name="MF_SelectionMode" xml:space="preserve">
+    <value>Şeçim şekli</value>
+  </data>
+  <data name="MF_StandardMode" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="MF_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="MF_UseLeftButton" xml:space="preserve">
+    <value>Sol düğmeyi kullan</value>
+  </data>
+  <data name="MF_UseRightButton" xml:space="preserve">
+    <value>Sağ düğmeyi kullan</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Grubu Temizle...</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Yeni Grup Oluştur...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Grubu Sil</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Tüm Seviyelere İn</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>aynı seviye çocuklarına</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>Sonraki Hiyerarşi</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>Sonraki Seviyeye</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Tüm Seviyelere Çık</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Tümünü aynı seviye çocuklarına in</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Bir sonraki hiyerarşiye in</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Bir sonraki seviyeye in</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Tümüne çık</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Grup ismini giriniz</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Seçilen Üyeler Haricindekileri Gizle</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Ölçü Gizle</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>Bu üyeyi Gizle</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Bunun Üstündeki Üyeleri Gizle</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Bunun altındaki Üyeleri Gizle</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Hiyerarşi Editörü</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Tüm Üyeler</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Tüm Üyeleri Gruba Taşı</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Bunun Altındaki Tüm üyleri Gruba Taşı</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Bu Üyenin Haricindeki Tüm Üyeleri Gruba Taşı</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Üyeyi Gruptan Taşı</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Üyeyi Gruba Taşı</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Sütun Alanına Taşı</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>Sayfa Alanına Taşı</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Satır Alanına Taşı</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>&lt;Yeni Grup Adı&gt;</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Eşik değerini veya yüzdesini giriniz...</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Ağaça Çıkar</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Grubu Yeniden Adlandır</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Filtrelemeyi Kaldır</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Olarak Göster</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Boş Hücreleri Göster</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Sadece Alt Tarafı Göster</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Sadece Üst Tarafı Göster</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>Filtre Sadece sayı tipi veriler için geçerlidir </value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>Hepsinden Sonra</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Hepsinden önce</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="rsCantReadAnotherProductStream" xml:space="preserve">
+    <value>Belirtilen stream başka bir ürün tarafından yaratılmış ve şu anda desteklenmiyor</value>
+  </data>
+  <data name="rsCantRestoreInactiveGrid" xml:space="preserve">
+    <value>Aktif olmayan gridin önceki grid durumu geri alınamıyor</value>
+  </data>
+  <data name="rsCantSaveInactiveGrid" xml:space="preserve">
+    <value>Aktif olmayan grid streame kaydedilemiyor</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>Hücre koordinatları sınırları dışında . Satır: {0}. Sütun: {1}</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Sütun Alanı</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Küp Ağaç Yapısı</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Bilinmiyor</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>Hiç Boyut bulunamadı.</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>Kapa</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>Seviyenin içindeki çocuklara in</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>Bir sonraki seviyeye in</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>Bir sonraki hiyerarşiye in</value>
+  </data>
+  <data name="rsecStreamVersionError" xml:space="preserve">
+    <value>Önceki bür sürümün streaminden ({0})</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>Bu değeri Düzenle</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>Sayfa Numarasını Gir</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Filterele</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Filtre Alanı</value>
+  </data>
+  <data name="rshExactMatching" xml:space="preserve">
+    <value>Birebir eşleşme</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>Hiyerarşiyi yaratmıyor çünkü düzleştirilmiş. Ebeveyn: {0}</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>"{0}" hiyerarşisi bulunamadı</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>"{0}" hiyerarşisi başlatılmamış</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} YarıYıl</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>Grup ve gruplama üyesi aynı seviyeye ait olmalı</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>Grup ve gruplama üyesi aynı ebeveyne sahip olmalı</value>
+  </data>
+  <data name="rsiMemberGrowth" xml:space="preserve">
+    <value>{0} büyüme</value>
+  </data>
+  <data name="rsiMemberToDate" xml:space="preserve">
+    <value>{0} Kümülasyon</value>
+  </data>
+  <data name="rsInactiveCube" xml:space="preserve">
+    <value>Bu metodu çağımak için kübün aktif olması gerekli</value>
+  </data>
+  <data name="rsInadmissibleDrillAction" xml:space="preserve">
+    <value> üye {1} için uygulanamayan sondaj aksiyonu ({0})</value>
+  </data>
+  <data name="rsInvalidPropertyError" xml:space="preserve">
+    <value> {0:X} da geçersiz değer</value>
+  </data>
+  <data name="rsInvalidStreamFormat" xml:space="preserve">
+    <value>Geçersiz stream formatı</value>
+  </data>
+  <data name="rsInvalidTagError" xml:space="preserve">
+    <value> {0:X}. Poziyonunda  geçersiz veri Etiket "{1}" veri</value>
+  </data>
+  <data name="rsiTimeIntelligence" xml:space="preserve">
+    <value> "{0}" için Zaman Zekası</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>KPIler</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Ölçüler</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Ölçü Yeri</value>
+  </data>
+  <data name="rsNamedSets" xml:space="preserve">
+    <value>Adlandırılmış Kümeler</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>Hiyerarşi "{0}" seviyesi yok</value>
+  </data>
+  <data name="rsNoParentMember" xml:space="preserve">
+    <value>Kök olmayan veya sıfır seviyesinde olmayan Hiyerarşi üyesi ({0}) 'nın  bir ebeveyn üyesi olmak sorunda</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>Sayfalar:</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>Bütün hiyerarşi üyelerini kümüle et</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>Sadece görünen üyeleri kümüle et</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>Mümkünse Ölçü etiketlerini sakla</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>Bağlam menüsü yükleniyor. Lütfen bekleyin... </value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Toplamları gösterme</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Toplamları başta göster</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Toplamları sonda göster</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Sıralama Yok</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Artan Sıralama</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Varsayılan Sıralama</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Azalan Sıralama</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} çeyrek</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Satır Alanı</value>
+  </data>
+  <data name="rssmColumnRank" xml:space="preserve">
+    <value>Sütun Rütbesi</value>
+  </data>
+  <data name="rssmError" xml:space="preserve">
+    <value> "{0}"  ölçüsü "{1}" modunda gösterilemedi çünkü OnShowMeasure olayı yürütülmedi</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>Eğilim</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Ağırlık</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>Sütun Toplamının Yüzdesi</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>Büyük Toplamının Yüzdesi</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>Ana Sütün Elemanının Yüzdesi</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>Ana Satır Elemanının Yüzdesi</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>Satır Toplamının Yüzdesi</value>
+  </data>
+  <data name="rssmRowRank" xml:space="preserve">
+    <value>Satır Rütbesi</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="rsTryToDeleteWrongMeasure" xml:space="preserve">
+    <value>Ölçü "{0}" hesaplanmış bir ölçü değil  and silinemez</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Değerler</value>
+  </data>
+  <data name="exprt_Additional" xml:space="preserve">
+    <value>Ek</value>
+  </data>
+  <data name="exprt_All" xml:space="preserve">
+    <value>Hepsi</value>
+  </data>
+  <data name="exprt_Apply" xml:space="preserve">
+    <value>Değişikleri uygula ve diyalog penceresini açık tut</value>
+  </data>
+  <data name="exprt_Auto_AllCells" xml:space="preserve">
+    <value>Bütün hücreler</value>
+  </data>
+  <data name="exprt_Auto_ExeptHeader" xml:space="preserve">
+    <value>Başlık dışında bütün hücreler</value>
+  </data>
+  <data name="exprt_Auto_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="exprt_AutoSizeFor" xml:space="preserve">
+    <value>Hücreleri otomatik boyutladır (hiçbiri, bütün hücreler, başlık dışında bütün hücreler)</value>
+  </data>
+  <data name="exprt_AutoSizeForText" xml:space="preserve">
+    <value>için otomatik boyutlandır</value>
+  </data>
+  <data name="exprt_Background" xml:space="preserve">
+    <value>Geriplan</value>
+  </data>
+  <data name="exprt_Behavior" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="exprt_Bmp_Format" xml:space="preserve">
+    <value>Bitmap formatı</value>
+  </data>
+  <data name="exprt_BorderColor" xml:space="preserve">
+    <value>Kenarlık rengi</value>
+  </data>
+  <data name="rsBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="exprt_Cancel" xml:space="preserve">
+    <value>Değişiklikleri iptal et ve diyalog penceresini kapat</value>
+  </data>
+  <data name="exprt_Caption" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="exprt_CellsFontAndColor" xml:space="preserve">
+    <value>Dışa verilen hücrelerin Yazı tipi ve özelleştirilmiş rengi</value>
+  </data>
+  <data name="exprt_ChangesPreview" xml:space="preserve">
+    <value>Değiklik önizlemesi</value>
+  </data>
+  <data name="exprt_Chart" xml:space="preserve">
+    <value>Çizelge</value>
+  </data>
+  <data name="exprt_ClosePreview" xml:space="preserve">
+    <value>Önizlemeyi kapat</value>
+  </data>
+  <data name="exprt_Colontitle" xml:space="preserve">
+    <value>Üstlükler ve altlıklar</value>
+  </data>
+  <data name="exprt_Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="exprt_Csv_Format" xml:space="preserve">
+    <value>Virgül ile ayrılmış değerler</value>
+  </data>
+  <data name="exprt_CurrencyFormat" xml:space="preserve">
+    <value>Para birimi format dizgisi</value>
+  </data>
+  <data name="exprt_CustomPrint" xml:space="preserve">
+    <value>Özel yazdır</value>
+  </data>
+  <data name="exprt_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="exprt_DataSlice" xml:space="preserve">
+    <value>Sadece veri dilimi göstermek için işaretle</value>
+  </data>
+  <data name="exprt_DataSliceOnly" xml:space="preserve">
+    <value>Sadece veri dilimi</value>
+  </data>
+  <data name="exprt_DataTotal" xml:space="preserve">
+    <value>Veri toplamı</value>
+  </data>
+  <data name="exprt_Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="exprt_DrawProperties" xml:space="preserve">
+    <value>Çizim özellikleri</value>
+  </data>
+  <data name="exprt_Edges" xml:space="preserve">
+    <value>Kenar boşlğu</value>
+  </data>
+  <data name="exprt_Editing" xml:space="preserve">
+    <value>Veri hücrelerinin düzenlenmesine izin ver</value>
+  </data>
+  <data name="exprt_EditingEnabled" xml:space="preserve">
+    <value>Hücre metni düzenlemesi açık</value>
+  </data>
+  <data name="exprt_EmptyString" xml:space="preserve">
+    <value>Boş hücrelerde gösterilecek dizgi</value>
+  </data>
+  <data name="exprt_EmptyValue" xml:space="preserve">
+    <value>Boş değer</value>
+  </data>
+  <data name="exprt_Exit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="exprt_Export" xml:space="preserve">
+    <value>Dışa aktar</value>
+  </data>
+  <data name="exprt_ExportDataSlice" xml:space="preserve">
+    <value>Veri dilimini dışa aktar</value>
+  </data>
+  <data name="exprt_ExportSelection" xml:space="preserve">
+    <value>Sadece seçimi dışa aktar</value>
+  </data>
+  <data name="exprt_ExportSettings" xml:space="preserve">
+    <value>Dışa aktarma ayarları</value>
+  </data>
+  <data name="exprt_FileExportName" xml:space="preserve">
+    <value>Dışa aktarmak için dosya belirt</value>
+  </data>
+  <data name="exprt_FilterButton" xml:space="preserve">
+    <value>Filtre düğmesi</value>
+  </data>
+  <data name="exprt_FitToHeight" xml:space="preserve">
+    <value>Yükseliğe sığdır</value>
+  </data>
+  <data name="exprt_FitToPage" xml:space="preserve">
+    <value>Genişliğe sığdır</value>
+  </data>
+  <data name="exprt_FullView" xml:space="preserve">
+    <value>Tam görünüm</value>
+  </data>
+  <data name="exprt_Gif_Format" xml:space="preserve">
+    <value>Gif formatı</value>
+  </data>
+  <data name="exprt_GridSettings" xml:space="preserve">
+    <value>Grid Ayarları</value>
+  </data>
+  <data name="exprt_GridBGColor" xml:space="preserve">
+    <value>Grid geriplan rengini değiştirmek için tıkla</value>
+  </data>
+  <data name="exprt_Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="exprt_HotKey" xml:space="preserve">
+    <value>Drill düğmelerini değiştirmek için anahtar kombinasyon</value>
+  </data>
+  <data name="exprt_HotKeyText" xml:space="preserve">
+    <value>Sıcak tuş</value>
+  </data>
+  <data name="exprt_Html_Format" xml:space="preserve">
+    <value>Html formatı</value>
+  </data>
+  <data name="exprt_ImageClear" xml:space="preserve">
+    <value>Görüntüyü temizle</value>
+  </data>
+  <data name="exprt_ImagePosition" xml:space="preserve">
+    <value>Görüntü pozisyonu</value>
+  </data>
+  <data name="exprt_Jpg_Format" xml:space="preserve">
+    <value>Jpg formatı</value>
+  </data>
+  <data name="exprt_LineColor" xml:space="preserve">
+    <value>Grid kenarlık rengini değiştirmek için tıkla</value>
+  </data>
+  <data name="exprt_LoadSkin" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="exprt_ManyFileFormat" xml:space="preserve">
+    <value>{0} bölüm {1}</value>
+  </data>
+  <data name="exprt_MeasurePosition" xml:space="preserve">
+    <value>Ölçü paneli pozisyonu</value>
+  </data>
+  <data name="exprt_Member" xml:space="preserve">
+    <value>Üye</value>
+  </data>
+  <data name="exprt_MemberTotal" xml:space="preserve">
+    <value>Üye toplamı</value>
+  </data>
+  <data name="exprt_MoveToCustom" xml:space="preserve">
+    <value>nolu sayfaya git</value>
+  </data>
+  <data name="exprt_MoveToLast" xml:space="preserve">
+    <value>Son sayfa</value>
+  </data>
+  <data name="exprt_MoveToNext" xml:space="preserve">
+    <value>Sonraki sayfa</value>
+  </data>
+  <data name="exprt_MoveToPrior" xml:space="preserve">
+    <value>Önceki sayfa</value>
+  </data>
+  <data name="exprt_MoveToToFirst" xml:space="preserve">
+    <value>İlk sayfa</value>
+  </data>
+  <data name="exprt_OK" xml:space="preserve">
+    <value>Değişiklikleri kabu et ve diyalog penceresini kapat</value>
+  </data>
+  <data name="exprt_OncePage" xml:space="preserve">
+    <value>Tek sayfa</value>
+  </data>
+  <data name="exprt_PageAllView" xml:space="preserve">
+    <value>Sayfaya sığdır</value>
+  </data>
+  <data name="exprt_PageEdges" xml:space="preserve">
+    <value>Sayfa Yapısı</value>
+  </data>
+  <data name="exprt_PageFour" xml:space="preserve">
+    <value>Dört sayfa</value>
+  </data>
+  <data name="exprt_PagesCurrent" xml:space="preserve">
+    <value>Geçerli sayfa ({0})</value>
+  </data>
+  <data name="exprt_PageSegmentFormat" xml:space="preserve">
+    <value>Sayfa {0:D} dan  Sayfa {1:D} </value>
+  </data>
+  <data name="exprt_PageToHeight" xml:space="preserve">
+    <value>Yüksekliğe Sığdır</value>
+  </data>
+  <data name="exprt_PageToWidth" xml:space="preserve">
+    <value>Genişliğe Sığdır</value>
+  </data>
+  <data name="exprt_PageTwo" xml:space="preserve">
+    <value>İki Sayfa</value>
+  </data>
+  <data name="exprt_PagsSegment" xml:space="preserve">
+    <value>Tüm sayfalar ( {0} dan {1} ya )</value>
+  </data>
+  <data name="exprt_Pdf_Format" xml:space="preserve">
+    <value>Taşınabilir doküman</value>
+  </data>
+  <data name="exprt_PivotAndData" xml:space="preserve">
+    <value>Pivot ve veri</value>
+  </data>
+  <data name="exprt_PivotButton" xml:space="preserve">
+    <value>Pivot düğmesi</value>
+  </data>
+  <data name="exprt_PivotColored" xml:space="preserve">
+    <value>Renkli pivot panelleri</value>
+  </data>
+  <data name="exprt_PivotColoredTips" xml:space="preserve">
+    <value>pivot panelini and küp yapı elemanlarını değişik renklere boyamaya izin ver</value>
+  </data>
+  <data name="exprt_PivotPanel" xml:space="preserve">
+    <value>Pivot paneli</value>
+  </data>
+  <data name="exprt_PivotStyle" xml:space="preserve">
+    <value>Pivot panellerinin stili seçmek için tıklayın</value>
+  </data>
+  <data name="exprt_Placed_ColF" xml:space="preserve">
+    <value>İlk Sütun</value>
+  </data>
+  <data name="exprt_Placed_ColL" xml:space="preserve">
+    <value>Son Sütun</value>
+  </data>
+  <data name="exprt_Placed_RowF" xml:space="preserve">
+    <value>İlk Satır</value>
+  </data>
+  <data name="exprt_Placed_RowL" xml:space="preserve">
+    <value>Son Satır</value>
+  </data>
+  <data name="exprt_Png_Format" xml:space="preserve">
+    <value>Png formatı</value>
+  </data>
+  <data name="exprt_PreviewExportSetting" xml:space="preserve">
+    <value>Önizle ve ayarları dışa aktar</value>
+  </data>
+  <data name="exprt_PreviewOptions" xml:space="preserve">
+    <value>Gridde önizleme seçenekleri</value>
+  </data>
+  <data name="exprt_PrintAll" xml:space="preserve">
+    <value>Bütün sayfalar</value>
+  </data>
+  <data name="exprt_PrintCurrent" xml:space="preserve">
+    <value>Geçerli sayfa</value>
+  </data>
+  <data name="exprt_PrintDialog" xml:space="preserve">
+    <value>Yazdır diyalog penceresi</value>
+  </data>
+  <data name="exprt_PrintOK" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="exprt_PrintPreview" xml:space="preserve">
+    <value>Yazdırma Önizlemesi</value>
+  </data>
+  <data name="exprt_PrintToFile" xml:space="preserve">
+    <value>Dosyaya yaz</value>
+  </data>
+  <data name="exprt_RefreshOnScroll" xml:space="preserve">
+    <value>Kaydırırken yenile</value>
+  </data>
+  <data name="exprt_RefreshReWidth" xml:space="preserve">
+    <value>Yeniden boyutlandırırken yenile</value>
+  </data>
+  <data name="exprt_RefreshReWidthTips" xml:space="preserve">
+    <value>Sütun genişiliğini değiştirirken güncelle</value>
+  </data>
+  <data name="exprt_RefreshScroll" xml:space="preserve">
+    <value>Kaydırırken Gridin tazelenmesine izin ver</value>
+  </data>
+  <data name="exprt_SampleText" xml:space="preserve">
+    <value>Örnek metin</value>
+  </data>
+  <data name="exprt_SapmleDraw" xml:space="preserve">
+    <value>Örnek çizim</value>
+  </data>
+  <data name="exprt_SettingsPrint" xml:space="preserve">
+    <value>Yazdırma için ayarlar</value>
+  </data>
+  <data name="exprt_ShowDrill" xml:space="preserve">
+    <value>Her zaman bütün drill düğmelerini göster</value>
+  </data>
+  <data name="exprt_ShowExportPrintPrev" xml:space="preserve">
+    <value>Dışa aktarmada,yazdırmada,önizlemede göster</value>
+  </data>
+  <data name="exprt_ShowScrollBar" xml:space="preserve">
+    <value>Kaydırma çubuklarını otomatik göster</value>
+  </data>
+  <data name="exprt_ShowToolbtn" xml:space="preserve">
+    <value>Düğmeli araç çubuğunu göster</value>
+  </data>
+  <data name="exprt_ShowToolbtnText" xml:space="preserve">
+    <value>Araç düğmelerini göster</value>
+  </data>
+  <data name="exprt_Skin" xml:space="preserve">
+    <value>Kabuk</value>
+  </data>
+  <data name="exprt_Strings" xml:space="preserve">
+    <value>Dizgiler</value>
+  </data>
+  <data name="exprt_StyleAlign" xml:space="preserve">
+    <value>Metni hizala</value>
+  </data>
+  <data name="exprt_StyleBackColor" xml:space="preserve">
+    <value>Geriplan rengi</value>
+  </data>
+  <data name="exprt_Text_Format" xml:space="preserve">
+    <value>Metin formatı</value>
+  </data>
+  <data name="exprt_TextAlign" xml:space="preserve">
+    <value>Metin hizalama</value>
+  </data>
+  <data name="exprt_TextFont" xml:space="preserve">
+    <value>Metin yazı tipi</value>
+  </data>
+  <data name="exprt_TextOnPivot" xml:space="preserve">
+    <value>Pivot panelinde metin göster (sadece klasik görünüm için!)</value>
+  </data>
+  <data name="exprt_TextOnPivotText" xml:space="preserve">
+    <value>Pivot paneli üzerinde metin</value>
+  </data>
+  <data name="exprt_Tiff_Format" xml:space="preserve">
+    <value>Tiff formatı</value>
+  </data>
+  <data name="exprt_Title_document" xml:space="preserve">
+    <value>Başlık dokümanı</value>
+  </data>
+  <data name="exprt_ToolBtn" xml:space="preserve">
+    <value>Araç düğmesi</value>
+  </data>
+  <data name="exprt_TreeWidth" xml:space="preserve">
+    <value>Ağaçın genişliğini ayarla</value>
+  </data>
+  <data name="exprt_TreeWidthText" xml:space="preserve">
+    <value>Ağaç görünümü genişliği</value>
+  </data>
+  <data name="exprt_ViewMode" xml:space="preserve">
+    <value>Görünüm şeklini göstermek için bunu seç</value>
+  </data>
+  <data name="exprt_ViewModeText" xml:space="preserve">
+    <value>Görünüm şekli</value>
+  </data>
+  <data name="exprt_Worksheet" xml:space="preserve">
+    <value>Çalışma sayfası {0}</value>
+  </data>
+  <data name="exprt_Xml_Format" xml:space="preserve">
+    <value>Xml formatı</value>
+  </data>
+  <data name="exprt_ZoomCustom" xml:space="preserve">
+    <value>Özel Yakınlaştırma</value>
+  </data>
+  <data name="MF_CurrentColorChemas" xml:space="preserve">
+    <value>Geçerli renk şeması</value>
+  </data>
+  <data name="MF_MindFormating" xml:space="preserve">
+    <value>Koşullu formatlama</value>
+  </data>
+  <data name="MF_ShowMenuCommand" xml:space="preserve">
+    <value>Eklenmiş emirleri göster</value>
+  </data>
+  <data name="MF_ShowMenuItem" xml:space="preserve">
+    <value>Menü madderlerini göster</value>
+  </data>
+  <data name="MF_ShowMenuLastCommand" xml:space="preserve">
+    <value>Emir kullanarak sonu göster</value>
+  </data>
+  <data name="MF_ShowMenuMode" xml:space="preserve">
+    <value>Seçim şekli menüsünü göster</value>
+  </data>
+  <data name="MF_ShowMenuThemes" xml:space="preserve">
+    <value>Renk temaları menüsünü göster</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>Küp aktif değil</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Eşit</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Etiketlere göre filtrele</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Eşit değil</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>Şu şartları sağlayan elemanları göster:</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Etiket ({0}) filtrele</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Değer ({0}) filtrele</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>İçerir</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>İle biter</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Değere göre filtrele</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Aşan</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Az</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Arasında Değil</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>İçermez</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>İle bitmez</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Daha büyük değil</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>Daha az değil</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>İle başlamaz</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>İle Başlar</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>İlk 10</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Elemanlar</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>içinde</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% eleman sayısının</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="rsTop" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Tarihi filterele</value>
+  </data>
+  <data name="repHierarhyEditorLevel" xml:space="preserve">
+    <value>Filterlelenecek Seviye:</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>Basit filtre</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>Filtreyi Özelleştir</value>
+  </data>
+  <data name="exprt_InputCaption" xml:space="preserve">
+    <value>Giriş değeri</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>( 1 den  {0} a kadar) Sayfa numarasını girin</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>Input value  {0} da {1} kadar değeri girin!</value>
+  </data>
+  <data name="repInputInvalidValue" xml:space="preserve">
+    <value>Geçersiz değer</value>
+  </data>
+  <data name="rsFilterTree" xml:space="preserve">
+    <value>Sadece Hiyerarşi düzenleyici panceresindeki üyeleri filtrele</value>
+  </data>
+  <data name="rsContextFilterSettings" xml:space="preserve">
+    <value>Bağlam Filtre Ayarları</value>
+  </data>
+  <data name="rsAggregatedValues" xml:space="preserve">
+    <value>Agrege edilmiş değerler</value>
+  </data>
+  <data name="rsFactTableValues" xml:space="preserve">
+    <value>Olgu Tablosu değerleri</value>
+  </data>
+  <data name="rsRestricts" xml:space="preserve">
+    <value>Sınırlar:</value>
+  </data>
+  <data name="rsNewChat" xml:space="preserve">
+    <value>&lt;Yeni bir çizelge yaratmak için parçayı buraya sürükleyin&gt;</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="rsMemberFilterSettings" xml:space="preserve">
+    <value>Üye filtre ayarları</value>
+  </data>
+  <data name="rsDockToPivotArea" xml:space="preserve">
+    <value>Pivot Alanı</value>
+  </data>
+  <data name="rsDockAllowLayout" xml:space="preserve">
+    <value>Düzenlemeye izin ver</value>
+  </data>
+  <data name="rsDockToAllArea" xml:space="preserve">
+    <value>Bütün alan</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>Sütunda ilk</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>Sütunda son</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>Satırda ilk</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>Satırda son</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>Değerlere taşı</value>
+  </data>
+  <data name="repHierarhyEditorFilterText" xml:space="preserve">
+    <value>Metni filtrele</value>
+  </data>
+  <data name="repHierarhyEditorFilterTreeHint" xml:space="preserve">
+    <value>Ağaç hiyerarşisi için filtre uygula</value>
+  </data>
+  <data name="rsDockMenuItem" xml:space="preserve">
+    <value>Panelleri düzenlemeye uygula</value>
+  </data>
+  <data name="rsWrongNamedSetPivoting" xml:space="preserve">
+    <value>Raporda “{0}” ve “{1}”  parçaları aynı anda gösterilemez</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Seçimi kopyala</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>Çoklu seçim</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="rep_Search" xml:space="preserve">
+    <value>Ara:</value>
+  </data>
+  <data name="rep_QuickSearch" xml:space="preserve">
+    <value>Buraya Küp Yapı Ağacını filtrelemek için bir metin yazın</value>
+  </data>
+  <data name="rsWrongDateStr" xml:space="preserve">
+    <value> "{0}" i bir tarih olarak çözümleyemiyor. Lütfen  "{1}" formatını kullanın</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>{0} dışında bütün üyelet</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Ölçü</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Filtre açıklaması</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Parça</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>Gösterilecek seviyeler</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>Filtreyi düzenle</value>
+  </data>
+  <data name="repMoveToColorChanger" xml:space="preserve">
+    <value>Renk eksenine taşı</value>
+  </data>
+  <data name="rsDockToDataArea" xml:space="preserve">
+    <value>Veri alanı</value>
+  </data>
+  <data name="repMoveToDetailsChanger" xml:space="preserve">
+    <value>Detaylara taşı</value>
+  </data>
+  <data name="repMoveToShapeChanger" xml:space="preserve">
+    <value>Şekil eksenine taşı</value>
+  </data>
+  <data name="repMoveToSizeChanger" xml:space="preserve">
+    <value>Büyüklük eksenine taşı</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Ön izleme</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>Hızlı filtreleme</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>Formül düzenleyicisi</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>MDX Fonsiyonları</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>MDX Şablonları</value>
+  </data>
+  <data name="rsReset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="exprt_ModificatorContainer" xml:space="preserve">
+    <value>İşaret açıklama kutusu</value>
+  </data>
+  <data name="exprt_ModificatorCustom" xml:space="preserve">
+    <value>Özel işaret açıklaması</value>
+  </data>
+  <data name="exprt_ModificatorHierarchy" xml:space="preserve">
+    <value>İşaret açıklama hiyerarşisi</value>
+  </data>
+  <data name="exprt_ModificatorItem" xml:space="preserve">
+    <value>İşaret açıklama parçası</value>
+  </data>
+  <data name="exprt_ModificatorMeasure" xml:space="preserve">
+    <value>İşaret açıklama ölçüsü</value>
+  </data>
+  <data name="rsCreateCalcMeasure" xml:space="preserve">
+    <value>Hesaplanmış ölçü yarat...</value>
+  </data>
+  <data name="rsCreateCalcMember" xml:space="preserve">
+    <value>Hesaplanmış üye yarat...</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>Ölçü Sil</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>Üye Sil</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>Ölçü düzenle...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>Üye düzenle...</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>Renk ayarları:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>Detaylar:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>Büyüklük:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>Büyüklük ayarları:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>Renk ekseni</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>Detaylar</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>Büyüklük ekseni</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>Şekil:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>Şekil ayarları:</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>Şekil</value>
+  </data>
+  <data name="mnShapeAxis" xml:space="preserve">
+    <value>Şekil ekseni</value>
+  </data>
+  <data name="mdModificators" xml:space="preserve">
+    <value>Modifikatörler</value>
+  </data>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>Açıklama anahtarı</value>
+  </data>
+  <data name="mnFilterSelection" xml:space="preserve">
+    <value>Şeçilmiş parçaları filtrele</value>
+  </data>
+  <data name="mnShowUnderlying" xml:space="preserve">
+    <value>Altta yatan veriyi göster</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>Bağlan</value>
+  </data>
+  <data name="rsDrillthroughResults" xml:space="preserve">
+    <value>Drillthrough sonuçları</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>Saklanmış durumu yükle</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>Paneller</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>Tekrar Yap</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>Hepsini Kaydet</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>Görünüşü kaydet</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>Sadece veriyi kaydet</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>Pivotu ve veriyi kaydet</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>Sadece pivotu kaydet</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>Durumu kaydet</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>Bütün Panelleri göster</value>
+  </data>
+  <data name="rsShowExceptTree" xml:space="preserve">
+    <value>Yapı Ağacı dışında Hepsini göster</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>Olarak {0} Göster</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>Sütun ve satırların yerini değiştir</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>Geri Al</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>Renk paletini uygula</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>Kabuğu uygula</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>Büyütmeyi %100'e döndür</value>
+  </data>
+  <data name="rsShowDataOnly" xml:space="preserve">
+    <value>Sadece veri panelini göster</value>
+  </data>
+  <data name="rsShowDefault" xml:space="preserve">
+    <value>Varsayılan düzenlenlemeye dön</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>Büyüt</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>Küçült</value>
+  </data>
+  <data name="repShowPages" xml:space="preserve">
+    <value>Sayfaları gsöter</value>
+  </data>
+  <data name="repVisibleOnly" xml:space="preserve">
+    <value>Sadece görünen üyeleri göster</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>Filtre modunu seçin</value>
+  </data>
+  <data name="rsFilterRescale" xml:space="preserve">
+    <value>Yeniden oranla</value>
+  </data>
+  <data name="rsFilterRescaleHint" xml:space="preserve">
+    <value>Sadece yeniden oranlanan seçilmiş dilimin verisini göster</value>
+  </data>
+  <data name="rsFilterShowSegmentData" xml:space="preserve">
+    <value>Dilim verisini göster</value>
+  </data>
+  <data name="rsFilterShowSegmentDataHint" xml:space="preserve">
+    <value>Sadece  seçilmiş dilimin verisini göster</value>
+  </data>
+  <data name="rsTrendAdd" xml:space="preserve">
+    <value>Eğilim çizgisi ekle</value>
+  </data>
+  <data name="rsTrendRemove" xml:space="preserve">
+    <value>Eğilimi sil</value>
+  </data>
+  <data name="rsTrendCubic" xml:space="preserve">
+    <value>Kübik</value>
+  </data>
+  <data name="rsTrendLine" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="rsTrendQuadratic" xml:space="preserve">
+    <value>Kuadratik</value>
+  </data>
+  <data name="rsTrendColor" xml:space="preserve">
+    <value>Eğilim Rengi...</value>
+  </data>
+  <data name="rsTrendType" xml:space="preserve">
+    <value>Eğilim Tip...</value>
+  </data>
+  <data name="label_CCSettingsSetupControl_Advanced" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="hint_ClickChangeColor" xml:space="preserve">
+    <value>Parça rengini değiştirmek için Tıkla</value>
+  </data>
+  <data name="hint_ClickChangeShape" xml:space="preserve">
+    <value>Parça şeklini değiştirmek için Tıkla</value>
+  </data>
+  <data name="hint_ClickExpandCollapse" xml:space="preserve">
+    <value>Açmak veya Kapatmak için Tıkla</value>
+  </data>
+  <data name="hint_ClickToEditHierFilter" xml:space="preserve">
+    <value>Hiyerarşi Filterisini Düzenlemek için Tıkla</value>
+  </data>
+  <data name="hint_ClickTopEditMeasFilter" xml:space="preserve">
+    <value>Ölçü Filtresini Düzenlemek için Tıkla</value>
+  </data>
+  <data name="hint_ClickToSort" xml:space="preserve">
+    <value>Sütun sıralamak için Tıkla</value>
+  </data>
+  <data name="hint_CollapseCell" xml:space="preserve">
+    <value>Hücreyi Kapat</value>
+  </data>
+  <data name="hint_CollapseLevel" xml:space="preserve">
+    <value>Bu seviyeyi Kapat</value>
+  </data>
+  <data name="hint_DragPanelToPivot" xml:space="preserve">
+    <value>Kübü Pivotlamak için sürükle</value>
+  </data>
+  <data name="hint_DragToFilter" xml:space="preserve">
+    <value>Filtre uygulamak için Parçayı buraya süürkle</value>
+  </data>
+  <data name="hint_DragToPivot" xml:space="preserve">
+    <value>Kübü Pivotlamak için bu parçayı sürükle</value>
+  </data>
+  <data name="hint_DrillNextHierarchy" xml:space="preserve">
+    <value>Bir sonraki hiyerarşi üyelerine in</value>
+  </data>
+  <data name="hint_DrillNextLevel" xml:space="preserve">
+    <value>Bir sonraki seviye üyelerine in</value>
+  </data>
+  <data name="hint_DrillParentChild" xml:space="preserve">
+    <value>Üyeyi Açmak için in</value>
+  </data>
+  <data name="hint_ExpandThisLevel" xml:space="preserve">
+    <value>Bu seviyeyi aç</value>
+  </data>
+  <data name="hint_PressCtrlOrShift" xml:space="preserve">
+    <value>Seçim modunu değiştirmek için Ctrl veya Shift 'e bas</value>
+  </data>
+  <data name="hint_RightClickTheCell" xml:space="preserve">
+    <value>Menüyü göstermek için sağ tıkla veya seçmeye başlamak için sol tıkla</value>
+  </data>
+  <data name="hint_RightClickTheCell2" xml:space="preserve">
+    <value>Menüyü göstermek için sağ tıkla</value>
+  </data>
+  <data name="hint_RightClickToContext" xml:space="preserve">
+    <value>Menüyü göstermek için sağ tıkla</value>
+  </data>
+  <data name="rsItemToFilter" xml:space="preserve">
+    <value>Filtrelenecek parça</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="rsChangeColor" xml:space="preserve">
+    <value>Rengi değiştir...</value>
+  </data>
+  <data name="rsChooseColor" xml:space="preserve">
+    <value>Renk seç</value>
+  </data>
+  <data name="rsSteppedColors" xml:space="preserve">
+    <value>Basamaklı renkler</value>
+  </data>
+  <data name="rsEmailError" xml:space="preserve">
+    <value>Lütfen yukarıdaki hata detaylarını kopyalayın ve destek departmanına eposta olarak gönderin.</value>
+  </data>
+  <data name="rsErrorMessage" xml:space="preserve">
+    <value>Hata mesajı</value>
+  </data>
+  <data name="rsServerError" xml:space="preserve">
+    <value>Sunucu bir hata raporu verdi:</value>
+  </data>
+  <data name="rsColorArea" xml:space="preserve">
+    <value>Renk Alanı</value>
+  </data>
+  <data name="rsDetailsArea" xml:space="preserve">
+    <value>Detay Alanı</value>
+  </data>
+  <data name="rsDragMeasure" xml:space="preserve">
+    <value>Seri yaratmat için bir ölçü sürükle</value>
+  </data>
+  <data name="rsDragMeasure2" xml:space="preserve">
+    <value>Grafik yaratmak için bir ölçü sürükle</value>
+  </data>
+  <data name="rsEnablePaging" xml:space="preserve">
+    <value>Sayfalamaya izin ver:</value>
+  </data>
+  <data name="rsMatchFilter" xml:space="preserve">
+    <value>Eşleme Filteri:</value>
+  </data>
+  <data name="rsShapeArea" xml:space="preserve">
+    <value>Şekil Alanı:</value>
+  </data>
+  <data name="rsSizeArea" xml:space="preserve">
+    <value>Büyüklük Alanı:</value>
+  </data>
+  <data name="rsTreeFilterSettings" xml:space="preserve">
+    <value>Üyelerin ağaçlarının filtre ayarları</value>
+  </data>
+  <data name="hint_ConnectTo" xml:space="preserve">
+    <value>Sunucuya Bağlan</value>
+  </data>
+  <data name="hint_ExportTo" xml:space="preserve">
+    <value>{0}'a Veri ver</value>
+  </data>
+  <data name="hint_LoadReport" xml:space="preserve">
+    <value>Kaydedilmiş raporu yükle</value>
+  </data>
+  <data name="hint_SaveReport" xml:space="preserve">
+    <value>Şu andaki raporu Sakla</value>
+  </data>
+  <data name="rsCatalog" xml:space="preserve">
+    <value>Katalog:</value>
+  </data>
+  <data name="rsConnectionSettings" xml:space="preserve">
+    <value>Bağlantı Ayarları:</value>
+  </data>
+  <data name="rsCube" xml:space="preserve">
+    <value>Küp:</value>
+  </data>
+  <data name="rsPleaseWait" xml:space="preserve">
+    <value>Lütfen bekleyin. Sunucuda talebi işliyor...</value>
+  </data>
+  <data name="rsServer" xml:space="preserve">
+    <value>Sunucu:</value>
+  </data>
+  <data name="rsAllMembersHidden" xml:space="preserve">
+    <value>Bütün üyeler saklı</value>
+  </data>
+  <data name="exprt_Settings_FontAndColorGroup" xml:space="preserve">
+    <value>Hücrelerin yazı tipi ve rengi dışarı aktarılıyor</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_BackColor" xml:space="preserve">
+    <value>Geriplan rengi</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_FontColor" xml:space="preserve">
+    <value>Yazı rengi</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_PageBack" xml:space="preserve">
+    <value>Bir önceki sayfa</value>
+  </data>
+  <data name="exprt_Settings_FontAndColor_Skins" xml:space="preserve">
+    <value>Kabuklar</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByColumns" xml:space="preserve">
+    <value>Sütunlara göre</value>
+  </data>
+  <data name="exprt_Settings_Grid_ByRows" xml:space="preserve">
+    <value>Satırlara göre</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintColumnHeader" xml:space="preserve">
+    <value>Sütun başlığını yazdır</value>
+  </data>
+  <data name="exprt_Settings_Grid_PrintRowHeader" xml:space="preserve">
+    <value>Satır başlığını yazdır</value>
+  </data>
+  <data name="exprt_Settings_PrintPage" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="rsFor_Hierarchy" xml:space="preserve">
+    <value>hiyerarşi {0} için</value>
+  </data>
+  <data name="rsInfoAttributesEditor" xml:space="preserve">
+    <value>Bilgi özellikleri düzenleyicisi</value>
+  </data>
+  <data name="rsCopyCellText" xml:space="preserve">
+    <value>Hücre metnini kopyala</value>
+  </data>
+  <data name="rsReady" xml:space="preserve">
+    <value>Hazır</value>
+  </data>
+  <data name="rsHideAllProperties" xml:space="preserve">
+    <value>Bütün özellikleri gizle</value>
+  </data>
+  <data name="rsShowAllProperties" xml:space="preserve">
+    <value>Bütün özellikleri göster</value>
+  </data>
+  <data name="rsShowPropertiesReport" xml:space="preserve">
+    <value>Bütün özellikleri raporda göster</value>
+  </data>
+  <data name="rsShowPropertiesTooltip" xml:space="preserve">
+    <value>Bütün özellikleri ipuçlarında göster</value>
+  </data>
+  <data name="rsDeferLayoutUpdateCheckBoxCaption" xml:space="preserve">
+    <value>Düzeni güncellemeyi ertele</value>
+  </data>
+  <data name="hint_ShowHidePanels" xml:space="preserve">
+    <value>Göster/gizle geçerli panel</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageNumber" xml:space="preserve">
+    <value>Sayfa sayısını özelleştir</value>
+  </data>
+  <data name="exprt_Settings_Colontitles_CustomizePageTitle" xml:space="preserve">
+    <value>Sayfa başlığını özelleştir</value>
+  </data>
+  <data name="exprt_Settings_ColorAndFontPage" xml:space="preserve">
+    <value>Renk ve yazı tipi</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_MeasureUnit" xml:space="preserve">
+    <value>Ölçü birimi</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PageOrientation" xml:space="preserve">
+    <value>Sayfa yönü</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PaperSize" xml:space="preserve">
+    <value>Sayfa büyüklüğü</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_PreviewEdge" xml:space="preserve">
+    <value>Önizleme kenarı</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_ResetEdges" xml:space="preserve">
+    <value>Kenarları sıfırla</value>
+  </data>
+  <data name="exprt_Settings_PageAndEdge_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="exprt_Settings_Print_From" xml:space="preserve">
+    <value>dan</value>
+  </data>
+  <data name="exprt_Settings_Print_GridOptions" xml:space="preserve">
+    <value>Grid seçenekleri</value>
+  </data>
+  <data name="exprt_Settings_Print_PageForPrint" xml:space="preserve">
+    <value>Yazdırma için sayfa</value>
+  </data>
+  <data name="exprt_Settings_Print_PrinterSelect" xml:space="preserve">
+    <value>Yazıcı seç</value>
+  </data>
+  <data name="exprt_Settings_Print_To" xml:space="preserve">
+    <value>ya kadar</value>
+  </data>
+  <data name="preview_Statis_TotalPages" xml:space="preserve">
+    <value>Toplam sayfa</value>
+  </data>
+  <data name="rsDockAllowSplitting" xml:space="preserve">
+    <value>Kullanıcı bölmesine izin ver</value>
+  </data>
+  <data name="toolbox_Export_ExportDataTo" xml:space="preserve">
+    <value>Veriyi dışarya aktar ...</value>
+  </data>
+  <data name="rsCommentEdit" xml:space="preserve">
+    <value>Yorumu düzenle</value>
+  </data>
+  <data name="rsCommentCell" xml:space="preserve">
+    <value>Hücreye Yorum Ekle...</value>
+  </data>
+  <data name="rsCommentCellPrompt" xml:space="preserve">
+    <value>Yorum:</value>
+  </data>
+  <data name="rsAverage" xml:space="preserve">
+    <value>Ortalama</value>
+  </data>
+  <data name="rsCount" xml:space="preserve">
+    <value>Say</value>
+  </data>
+  <data name="rsMax" xml:space="preserve">
+    <value>EnÇok</value>
+  </data>
+  <data name="rsMin" xml:space="preserve">
+    <value>EnAz</value>
+  </data>
+</root>

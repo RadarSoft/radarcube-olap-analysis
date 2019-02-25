@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="d_edAddNewDimention" xml:space="preserve">
+    <value>Kreiraj novu dimenziju</value>
+  </data>
+  <data name="d_edAddNewUDhier" xml:space="preserve">
+    <value>Kreiraj novu hijerarhiju sa više nivoa</value>
+  </data>
+  <data name="d_edCreateInNewDim" xml:space="preserve">
+    <value>Kreiraj zajedno sa novom dimenzijom</value>
+  </data>
+  <data name="d_edDayOfMonth" xml:space="preserve">
+    <value>Dan u mjesecu</value>
+  </data>
+  <data name="d_edDayOfWeekLong" xml:space="preserve">
+    <value>Dan u tjednu (puni naziv)</value>
+  </data>
+  <data name="d_edDayOfWeekShort" xml:space="preserve">
+    <value>Dan u tjednu (kratki naziv)</value>
+  </data>
+  <data name="d_edDayOfYear" xml:space="preserve">
+    <value>Dan u godini</value>
+  </data>
+  <data name="d_edHalfYear" xml:space="preserve">
+    <value>Polugodište</value>
+  </data>
+  <data name="d_edHour" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="d_edMarkHierarchyIn" xml:space="preserve">
+    <value>Označi kao hijerarhiju - Mark as hierarchy into</value>
+  </data>
+  <data name="d_edMarkMeasure" xml:space="preserve">
+    <value>Označi kao mjeru</value>
+  </data>
+  <data name="d_edMinute" xml:space="preserve">
+    <value>Minuta</value>
+  </data>
+  <data name="d_edMonthLong" xml:space="preserve">
+    <value>Mjesec (puni naziv)</value>
+  </data>
+  <data name="d_edMonthNumber" xml:space="preserve">
+    <value>Mjesec (broj)</value>
+  </data>
+  <data name="d_edMonthShort" xml:space="preserve">
+    <value>Mjesec (kratki naziv)</value>
+  </data>
+  <data name="d_edNewCalculatedHier" xml:space="preserve">
+    <value>Kreiraj novu računajuću hijerarhiju</value>
+  </data>
+  <data name="d_edNewCalculatedMeas" xml:space="preserve">
+    <value>Kreiraj novu računajuću mjeru</value>
+  </data>
+  <data name="d_edNewDimension" xml:space="preserve">
+    <value>Nova dimenzija</value>
+  </data>
+  <data name="d_edNewDimensionName" xml:space="preserve">
+    <value>Ime nove dimenzije</value>
+  </data>
+  <data name="d_edNewHierarchyName" xml:space="preserve">
+    <value>Ime nove hijerarhije</value>
+  </data>
+  <data name="d_edNewUDHierarchy" xml:space="preserve">
+    <value>Nova višedimenzionalna hijerarhija</value>
+  </data>
+  <data name="d_edProperties" xml:space="preserve">
+    <value>Obilježje</value>
+  </data>
+  <data name="d_edQuarter" xml:space="preserve">
+    <value>Kvartal</value>
+  </data>
+  <data name="d_edRemoveDimension" xml:space="preserve">
+    <value>Ukloni dimenziju</value>
+  </data>
+  <data name="d_edRemoveHierarchy" xml:space="preserve">
+    <value>Ukloni hijerarhiju</value>
+  </data>
+  <data name="d_edRemoveMeasure" xml:space="preserve">
+    <value>Ukloni mjeru</value>
+  </data>
+  <data name="d_edSecond" xml:space="preserve">
+    <value>Sekunda</value>
+  </data>
+  <data name="d_edUnmarkField" xml:space="preserve">
+    <value>Skini oznaku s polja</value>
+  </data>
+  <data name="d_edWeekOfYear" xml:space="preserve">
+    <value>Tjedan u godini</value>
+  </data>
+  <data name="d_edYear" xml:space="preserve">
+    <value>Godina</value>
+  </data>
+  <data name="d_rsBackgroundEditor" xml:space="preserve">
+    <value>Editor za pozadinu</value>
+  </data>
+  <data name="mdColor" xml:space="preserve">
+    <value>Boja:</value>
+  </data>
+  <data name="mdColorSettings" xml:space="preserve">
+    <value>Postavke boje:</value>
+  </data>
+  <data name="mdDetails" xml:space="preserve">
+    <value>Detalji:</value>
+  </data>
+  <data name="mdModificators" xml:space="preserve">
+    <value>Modifikatori</value>
+  </data>
+  <data name="mdModificatorsSettings" xml:space="preserve">
+    <value>Legende</value>
+  </data>
+  <data name="mdShape" xml:space="preserve">
+    <value>Oblik:</value>
+  </data>
+  <data name="mdShapeSettings" xml:space="preserve">
+    <value>Postavke oblika:</value>
+  </data>
+  <data name="mdSize" xml:space="preserve">
+    <value>Veličina:</value>
+  </data>
+  <data name="mdSizeSettings" xml:space="preserve">
+    <value>Postavke veličine:</value>
+  </data>
+  <data name="mnColorAxis" xml:space="preserve">
+    <value>Oboji os</value>
+  </data>
+  <data name="mnDetails" xml:space="preserve">
+    <value>Detalji</value>
+  </data>
+  <data name="mnFilterSelection" xml:space="preserve">
+    <value>Filtriraj izabrane stavke</value>
+  </data>
+  <data name="mnShape" xml:space="preserve">
+    <value>Oblik</value>
+  </data>
+  <data name="mnShapeAxis" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="mnShowUnderlying" xml:space="preserve">
+    <value>Prikaži podatke ispod</value>
+  </data>
+  <data name="mnSizeAxis" xml:space="preserve">
+    <value>Dimenzioniraj os</value>
+  </data>
+  <data name="rep_Clear" xml:space="preserve">
+    <value>Očisti</value>
+  </data>
+  <data name="rep_MoveMeasureToColFirst" xml:space="preserve">
+    <value>Prvi na koloni</value>
+  </data>
+  <data name="rep_MoveMeasureToColLast" xml:space="preserve">
+    <value>Zadnji na koloni</value>
+  </data>
+  <data name="rep_MoveMeasureToRowFirst" xml:space="preserve">
+    <value>Zadnji na retku</value>
+  </data>
+  <data name="rep_MoveMeasureToRowLast" xml:space="preserve">
+    <value>Prvi na retku</value>
+  </data>
+  <data name="rep_MoveMeasureToValues" xml:space="preserve">
+    <value>Pomakni se na vrijednosti</value>
+  </data>
+  <data name="repClearGroup" xml:space="preserve">
+    <value>Isprazni grupu</value>
+  </data>
+  <data name="repCreateNewGroup" xml:space="preserve">
+    <value>Kreiraj novu grupu...</value>
+  </data>
+  <data name="repDeleteGroup" xml:space="preserve">
+    <value>Obriši grupu</value>
+  </data>
+  <data name="repDrillAll" xml:space="preserve">
+    <value>Otvori sve razine</value>
+  </data>
+  <data name="repDrillAllChildren" xml:space="preserve">
+    <value>do članova na istoj razini</value>
+  </data>
+  <data name="repDrillAllHierarchy" xml:space="preserve">
+    <value>do sljedeće hijerarhije</value>
+  </data>
+  <data name="repDrillAllLevel" xml:space="preserve">
+    <value>do sljedeće razine</value>
+  </data>
+  <data name="repDrillAllUp" xml:space="preserve">
+    <value>Idi na početak</value>
+  </data>
+  <data name="repDrillChildren" xml:space="preserve">
+    <value>Otvori do članova na istoj razini</value>
+  </data>
+  <data name="repDrillHierarchy" xml:space="preserve">
+    <value>Otvori do sljedeće hijerarhije</value>
+  </data>
+  <data name="repDrillLevel" xml:space="preserve">
+    <value>Otvori do sljedeće razine</value>
+  </data>
+  <data name="repDrillUp" xml:space="preserve">
+    <value>Idi gore</value>
+  </data>
+  <data name="repEnterGroupName" xml:space="preserve">
+    <value>Unesi ime za novu grupu</value>
+  </data>
+  <data name="repHideExcept" xml:space="preserve">
+    <value>Sakrij sve članove osim ovog</value>
+  </data>
+  <data name="repHideMeasure" xml:space="preserve">
+    <value>Sakrij ovu mjeru</value>
+  </data>
+  <data name="repHideMember" xml:space="preserve">
+    <value>Sakrij ovog člana</value>
+  </data>
+  <data name="repHideMembersAbove" xml:space="preserve">
+    <value>Sakrij sve članove iznad ovog</value>
+  </data>
+  <data name="repHideMembersBelow" xml:space="preserve">
+    <value>Sakrij sve članove ispod ovog</value>
+  </data>
+  <data name="repHierarhyEditor" xml:space="preserve">
+    <value>Editor za hijerarhije</value>
+  </data>
+  <data name="repHierarhyEditorFilterHint" xml:space="preserve">
+    <value>Kliknite kako bi podesili filter</value>
+  </data>
+  <data name="repHierarhyEditorInputValue" xml:space="preserve">
+    <value>Unesite broj stranice (od 1 to {0})</value>
+  </data>
+  <data name="repHierarhyEditorSimple" xml:space="preserve">
+    <value>Jednostavan filter</value>
+  </data>
+  <data name="repInputInvalidRange" xml:space="preserve">
+    <value>Unesite vrijednost od {0} do {1}!</value>
+  </data>
+  <data name="repMoveAllToGroup" xml:space="preserve">
+    <value>Premjesti sve članove u grupu</value>
+  </data>
+  <data name="repMoveBelowToGroup" xml:space="preserve">
+    <value>Premjesti sve članove ispod ove grupe</value>
+  </data>
+  <data name="repMoveExceptToGroup" xml:space="preserve">
+    <value>Premjesti sve članove osim ovog u grupu</value>
+  </data>
+  <data name="repMoveFromGroup" xml:space="preserve">
+    <value>Premjesti člana izvan grupe</value>
+  </data>
+  <data name="repMoveMemberToGroup" xml:space="preserve">
+    <value>Premjesti člana u grupu</value>
+  </data>
+  <data name="repMoveToCol" xml:space="preserve">
+    <value>Premjesti u područje za Kolone</value>
+  </data>
+  <data name="repMoveToPage" xml:space="preserve">
+    <value>Premjesti u područje za Stranice</value>
+  </data>
+  <data name="repMoveToRow" xml:space="preserve">
+    <value>Premjesti u područje za Retke</value>
+  </data>
+  <data name="repMultiselect" xml:space="preserve">
+    <value>Višestruki izbor</value>
+  </data>
+  <data name="repNewGroupName" xml:space="preserve">
+    <value>Ime nove grupe</value>
+  </data>
+  <data name="repOther" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="repOtherPrompt" xml:space="preserve">
+    <value>Unesi vrijednost granice ili postotak</value>
+  </data>
+  <data name="repRemoveToTree" xml:space="preserve">
+    <value>Premjesti u drvo</value>
+  </data>
+  <data name="repRenameGroup" xml:space="preserve">
+    <value>Preimenuj grupu</value>
+  </data>
+  <data name="repResetFilter" xml:space="preserve">
+    <value>Poništi filter</value>
+  </data>
+  <data name="repShowAs" xml:space="preserve">
+    <value>Prikaži kao</value>
+  </data>
+  <data name="repShowEmpty" xml:space="preserve">
+    <value>Prikazuj prazne kučice</value>
+  </data>
+  <data name="repShowOnlyBottom" xml:space="preserve">
+    <value>Prikaži samo podnožje</value>
+  </data>
+  <data name="repShowOnlyTop" xml:space="preserve">
+    <value>Prikaži samo zaglavlje</value>
+  </data>
+  <data name="repShowPages" xml:space="preserve">
+    <value>Prikaži stranice</value>
+  </data>
+  <data name="repVisibleOnly" xml:space="preserve">
+    <value>Prikaži samo vidljive članove</value>
+  </data>
+  <data name="repWrongDataToFilter" xml:space="preserve">
+    <value>Filter se može postaviti samo za numeričke podatke</value>
+  </data>
+  <data name="rsActions" xml:space="preserve">
+    <value>Akcije</value>
+  </data>
+  <data name="rsAfterAll" xml:space="preserve">
+    <value>Nakon svega</value>
+  </data>
+  <data name="rsAllExcept" xml:space="preserve">
+    <value>Svi ćlanovi osim {0}</value>
+  </data>
+  <data name="rsAllMembersCaption" xml:space="preserve">
+    <value>Sve članove</value>
+  </data>
+  <data name="rsAnd" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="rsApply" xml:space="preserve">
+    <value>Primjeni</value>
+  </data>
+  <data name="rsApplyPalette" xml:space="preserve">
+    <value>Primjeni paletu</value>
+  </data>
+  <data name="rsApplySkin" xml:space="preserve">
+    <value>Primjeni skin</value>
+  </data>
+  <data name="rsBeforeAll" xml:space="preserve">
+    <value>Prije svega</value>
+  </data>
+  <data name="rsCancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="rsCellOutOfBounds" xml:space="preserve">
+    <value>Koordinate čelije su izvan gabarita. Row: {0}. Column: {1}</value>
+  </data>
+  <data name="rsChangeColor" xml:space="preserve">
+    <value>Promijeni boju...</value>
+  </data>
+  <data name="rsChooseColor" xml:space="preserve">
+    <value>Izaberi boju</value>
+  </data>
+  <data name="rsClose" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="rsColumnArea" xml:space="preserve">
+    <value>Područje za Kolone</value>
+  </data>
+  <data name="rsConnect" xml:space="preserve">
+    <value>Spajanje</value>
+  </data>
+  <data name="rsCopy" xml:space="preserve">
+    <value>Kopiraj izbor</value>
+  </data>
+  <data name="rsCubeTree" xml:space="preserve">
+    <value>Struktura kocke</value>
+  </data>
+  <data name="rsDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="rsDefaultBucketFormat" xml:space="preserve">
+    <value>%{Prvi} - %{Zadnji}</value>
+  </data>
+  <data name="rsDefaultUnknownMemberName" xml:space="preserve">
+    <value>Nepoznat</value>
+  </data>
+  <data name="rsDeleteCalcMeasure" xml:space="preserve">
+    <value>Obriši mjeru</value>
+  </data>
+  <data name="rsDeleteCalcMember" xml:space="preserve">
+    <value>Obriši člana</value>
+  </data>
+  <data name="rsDimensionNotFound" xml:space="preserve">
+    <value>"{0}" dimenzija nije pronađena.</value>
+  </data>
+  <data name="rsDrillAction0" xml:space="preserve">
+    <value>skupi</value>
+  </data>
+  <data name="rsDrillAction1" xml:space="preserve">
+    <value>spusti se na - drill into in-level children</value>
+  </data>
+  <data name="rsDrillAction2" xml:space="preserve">
+    <value>spusti se na idući nivo</value>
+  </data>
+  <data name="rsDrillAction3" xml:space="preserve">
+    <value>spusti se na iduću hijerarhiju</value>
+  </data>
+  <data name="rsEditCalcMeasure" xml:space="preserve">
+    <value>Uredi mjeru...</value>
+  </data>
+  <data name="rsEditCalcMember" xml:space="preserve">
+    <value>Uredi člana...</value>
+  </data>
+  <data name="rsEditFilter" xml:space="preserve">
+    <value>Uredi filter</value>
+  </data>
+  <data name="rsEditValue" xml:space="preserve">
+    <value>Promjeni ovu vrijednost</value>
+  </data>
+  <data name="rsEnterPageNumber" xml:space="preserve">
+    <value>Unesi broj stanice</value>
+  </data>
+  <data name="rsErrorMessage" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="rsExpression" xml:space="preserve">
+    <value>Izraz</value>
+  </data>
+  <data name="rsfcBetween" xml:space="preserve">
+    <value>Između</value>
+  </data>
+  <data name="rsfcContains" xml:space="preserve">
+    <value>Sadrži</value>
+  </data>
+  <data name="rsfcEndsWith" xml:space="preserve">
+    <value>Završava</value>
+  </data>
+  <data name="rsfcEqual" xml:space="preserve">
+    <value>Jednako</value>
+  </data>
+  <data name="rsfcFiltersOnCaption" xml:space="preserve">
+    <value>Filter na zaglavljima</value>
+  </data>
+  <data name="rsfcFiltersOnDate" xml:space="preserve">
+    <value>Filter na datum</value>
+  </data>
+  <data name="rsfcFiltersOnValue" xml:space="preserve">
+    <value>Filter na vrijednosti</value>
+  </data>
+  <data name="rsfcFirstTen" xml:space="preserve">
+    <value>Prvih 10</value>
+  </data>
+  <data name="rsfcGreater" xml:space="preserve">
+    <value>Veće</value>
+  </data>
+  <data name="rsfcLess" xml:space="preserve">
+    <value>Manje</value>
+  </data>
+  <data name="rsfcNotBetween" xml:space="preserve">
+    <value>Nije između</value>
+  </data>
+  <data name="rsfcNotContains" xml:space="preserve">
+    <value>Ne sadrži</value>
+  </data>
+  <data name="rsfcNotEndsWith" xml:space="preserve">
+    <value>Ne završava sa</value>
+  </data>
+  <data name="rsfcNotEqual" xml:space="preserve">
+    <value>Nije jednako</value>
+  </data>
+  <data name="rsfcNotGreater" xml:space="preserve">
+    <value>Ne veće</value>
+  </data>
+  <data name="rsfcNotLess" xml:space="preserve">
+    <value>ne manje</value>
+  </data>
+  <data name="rsfcNotStartsWith" xml:space="preserve">
+    <value>Ne počinje sa</value>
+  </data>
+  <data name="rsfcPrompt" xml:space="preserve">
+    <value>Prikaži stavke koje zadovoljavaju sljedeći uvjet:</value>
+  </data>
+  <data name="rsfcStartsWith" xml:space="preserve">
+    <value>Počinje sa</value>
+  </data>
+  <data name="rsfcTitleCaption" xml:space="preserve">
+    <value>Filter na zaglavlju ({0})</value>
+  </data>
+  <data name="rsfcTitleValue" xml:space="preserve">
+    <value>Filter na vrijednosti ({0})</value>
+  </data>
+  <data name="rsFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="rsFilterArea" xml:space="preserve">
+    <value>Područje za Filter</value>
+  </data>
+  <data name="rsFilterDescription" xml:space="preserve">
+    <value>Opis filtera</value>
+  </data>
+  <data name="rsFilterMode" xml:space="preserve">
+    <value>Izaberi način filtriranja</value>
+  </data>
+  <data name="rsFilterRescale" xml:space="preserve">
+    <value>Poravnaj</value>
+  </data>
+  <data name="rsFind" xml:space="preserve">
+    <value>Traži</value>
+  </data>
+  <data name="rsFormulaEditor" xml:space="preserve">
+    <value>Uređivač formula</value>
+  </data>
+  <data name="rsHierarchyNotFlat" xml:space="preserve">
+    <value>Ne mogu kreirati hijerarhiju jer ne može biti pretvorena u jednodimenzionalnu. Nadređeni: {0}</value>
+  </data>
+  <data name="rsHierarchyNotFound" xml:space="preserve">
+    <value>"{0}" hijerarhija nije pronađena.</value>
+  </data>
+  <data name="rsHierarchyNotInit" xml:space="preserve">
+    <value>"{0}" hijerarhija nije inicijalizirana</value>
+  </data>
+  <data name="rsHYString" xml:space="preserve">
+    <value>{0} HY</value>
+  </data>
+  <data name="rsIllegalGrouping_Levels" xml:space="preserve">
+    <value>Grupa i član grupe moraju pripadati istoj razini</value>
+  </data>
+  <data name="rsIllegalGrouping_Parents" xml:space="preserve">
+    <value>Grupa i član grupe moraju imati istog nadređenog</value>
+  </data>
+  <data name="rsIn" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="rsInactiveCube" xml:space="preserve">
+    <value>Kocka treba biti aktivna za poziv te akcije.</value>
+  </data>
+  <data name="rsInactiveCubeWarning" xml:space="preserve">
+    <value>Kocka nije aktivna.</value>
+  </data>
+  <data name="rsInadmissibleDrillAction" xml:space="preserve">
+    <value>Nemoguća akcija ({0})  za člana: {1}</value>
+  </data>
+  <data name="rsItem" xml:space="preserve">
+    <value>Stavka</value>
+  </data>
+  <data name="rsItems" xml:space="preserve">
+    <value>Stavke</value>
+  </data>
+  <data name="rsKPIs" xml:space="preserve">
+    <value>KPIs</value>
+  </data>
+  <data name="rsLevelsToShow" xml:space="preserve">
+    <value>Razine za prikaz</value>
+  </data>
+  <data name="rsLoading" xml:space="preserve">
+    <value>Učitavam...</value>
+  </data>
+  <data name="rsLoadSavedState" xml:space="preserve">
+    <value>Učitaj spremljeno stanje</value>
+  </data>
+  <data name="rsMDXFunctions" xml:space="preserve">
+    <value>MDX funkcije</value>
+  </data>
+  <data name="rsMDXTemplates" xml:space="preserve">
+    <value>MDX predlošci</value>
+  </data>
+  <data name="rsMeasure" xml:space="preserve">
+    <value>Mjera</value>
+  </data>
+  <data name="rsMeasures" xml:space="preserve">
+    <value>Mjere</value>
+  </data>
+  <data name="rsMeasuresPosition" xml:space="preserve">
+    <value>Položaj mjera</value>
+  </data>
+  <data name="rsNewChat" xml:space="preserve">
+    <value>Odvucite stavku ovdje kako bi napravili novi graf</value>
+  </data>
+  <data name="rsNoLevelsInHierarchy" xml:space="preserve">
+    <value>Hijerarhija "{0}" ne sadrži razine.</value>
+  </data>
+  <data name="rsNoParentMember" xml:space="preserve">
+    <value>Član hijerarhije ({0}), koji nije korijenski nit na nultoj razini, treba imati nadređenog člana.</value>
+  </data>
+  <data name="rsOk" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="rsPages" xml:space="preserve">
+    <value>Stranice:</value>
+  </data>
+  <data name="rspAggAllMembers" xml:space="preserve">
+    <value>Zbroji sve članove u hijerarhiji</value>
+  </data>
+  <data name="rspAggVisibleMembers" xml:space="preserve">
+    <value>Zbroji samo vidljive članove</value>
+  </data>
+  <data name="rsPanels" xml:space="preserve">
+    <value>Paneli</value>
+  </data>
+  <data name="rsPercentFromItemsCount" xml:space="preserve">
+    <value>% od broja stavaka</value>
+  </data>
+  <data name="rspHideMeasuresIfPossible" xml:space="preserve">
+    <value>Sakrij nazive mjera ako je moguće</value>
+  </data>
+  <data name="rsPopupLoading" xml:space="preserve">
+    <value>Kontekst meni se učitava. Pričekajte molim... </value>
+  </data>
+  <data name="rsPreview" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="rspSbtDontShow" xml:space="preserve">
+    <value>Ne prikazuj zbrojeve</value>
+  </data>
+  <data name="rspSbtShowFirst" xml:space="preserve">
+    <value>Prvo prikaži zbrojeve</value>
+  </data>
+  <data name="rspSbtShowLast" xml:space="preserve">
+    <value>Zbrojeve pokaži zadnje</value>
+  </data>
+  <data name="rspSortAbsence" xml:space="preserve">
+    <value>Nesortirano</value>
+  </data>
+  <data name="rspSortAscending" xml:space="preserve">
+    <value>Složi u rastućem redosljedu</value>
+  </data>
+  <data name="rspSortByDefault" xml:space="preserve">
+    <value>Složi prema postavkama</value>
+  </data>
+  <data name="rspSortDescending" xml:space="preserve">
+    <value>Složi u opadajućem redosljedu</value>
+  </data>
+  <data name="rsQuarterString" xml:space="preserve">
+    <value>{0} kvartal</value>
+  </data>
+  <data name="rsQuickFilter" xml:space="preserve">
+    <value>Brzi filter</value>
+  </data>
+  <data name="rsRedo" xml:space="preserve">
+    <value>Ponovi</value>
+  </data>
+  <data name="rsResetZoom" xml:space="preserve">
+    <value>Resetiraj zum na 100%</value>
+  </data>
+  <data name="rsRowArea" xml:space="preserve">
+    <value>Područje za retke</value>
+  </data>
+  <data name="rsSaveAll" xml:space="preserve">
+    <value>Spremi sve</value>
+  </data>
+  <data name="rsSaveAppearance" xml:space="preserve">
+    <value>Spremi izgled</value>
+  </data>
+  <data name="rsSaveData" xml:space="preserve">
+    <value>Spremi samo podatke</value>
+  </data>
+  <data name="rsSavePivotAndData" xml:space="preserve">
+    <value>Spremi pivot i podatke</value>
+  </data>
+  <data name="rsSavePivotOnly" xml:space="preserve">
+    <value>Spremi samo pivot</value>
+  </data>
+  <data name="rsSaveState" xml:space="preserve">
+    <value>Spremi stanje</value>
+  </data>
+  <data name="rsServerError" xml:space="preserve">
+    <value>Server je prijavio grešku:</value>
+  </data>
+  <data name="rsShowAllPanels" xml:space="preserve">
+    <value>Prikaži sve panele</value>
+  </data>
+  <data name="rsShowDataOnly" xml:space="preserve">
+    <value>Prikaži samo panel s podacima</value>
+  </data>
+  <data name="rsShowDefault" xml:space="preserve">
+    <value>Vrati na početni izgled</value>
+  </data>
+  <data name="rsShowMeasureAs" xml:space="preserve">
+    <value>Prikaži {0} kao</value>
+  </data>
+  <data name="rssmError" xml:space="preserve">
+    <value>Mjera "{0}" ne može biti prikazana u modu "{1}" jer OnShowMeasure event nije obrađen</value>
+  </data>
+  <data name="rssmKPIGoal" xml:space="preserve">
+    <value>Cilj</value>
+  </data>
+  <data name="rssmKPIStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="rssmKPITrend" xml:space="preserve">
+    <value>Trend</value>
+  </data>
+  <data name="rssmKPIValue" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="rssmKPIWeight" xml:space="preserve">
+    <value>Težina</value>
+  </data>
+  <data name="rssmNormal" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="rssmPercentColTotal" xml:space="preserve">
+    <value>% od Zbroja kolone</value>
+  </data>
+  <data name="rssmPercentGrandTotal" xml:space="preserve">
+    <value>% od Ukupnog zbroja</value>
+  </data>
+  <data name="rssmPercentParentColItem" xml:space="preserve">
+    <value>% od nadređene kolone</value>
+  </data>
+  <data name="rssmPercentParentRowItem" xml:space="preserve">
+    <value>% od nadređenog reda</value>
+  </data>
+  <data name="rssmPercentRowTotal" xml:space="preserve">
+    <value>% od Zbroja reda</value>
+  </data>
+  <data name="rsSumma" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="rsToggle" xml:space="preserve">
+    <value>Zamijeni retke i stupce</value>
+  </data>
+  <data name="rsTotalCaption" xml:space="preserve">
+    <value>Zbroj</value>
+  </data>
+  <data name="rsTryToDeleteWrongMeasure" xml:space="preserve">
+    <value>"{0}" mjera nije računajuća pa ne može biti obrisana.</value>
+  </data>
+  <data name="rsUndo" xml:space="preserve">
+    <value>Poništi</value>
+  </data>
+  <data name="rsValues" xml:space="preserve">
+    <value>Vrijednosti</value>
+  </data>
+  <data name="rsWrongDateStr" xml:space="preserve">
+    <value>Nije moguće pročitati "{0}" kao datum. Koristite sljedeći format: "{1}"</value>
+  </data>
+  <data name="rsZoomIn" xml:space="preserve">
+    <value>Približi</value>
+  </data>
+  <data name="rsZoomOut" xml:space="preserve">
+    <value>Udalji</value>
+  </data>
+</root>
